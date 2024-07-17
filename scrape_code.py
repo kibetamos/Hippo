@@ -1,0 +1,107 @@
+from selenium import webdriver
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
+
+# Path to GeckoDriver
+driver_path = '/usr/bin/geckodriver'
+service = Service(driver_path)
+
+# Initialize the Firefox WebDriver
+driver = webdriver.Firefox(service=service)
+
+# URL of the site to scrape
+base_url = "https://www.hippostores.com/k-/productlist?sort=relevance"
+driver.get(base_url)
+
+# Wait for the product cards to load
+wait = WebDriverWait(driver, 10)
+product_cards = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'productCardRevamped_container__aJ6lA')))
+
+# Parse the page with BeautifulSoup
+soup = BeautifulSoup(driver.page_source, 'html.parser')
+
+# Extract product information
+products = []
+
+# Check the structure of the product card divs
+product_cards = soup.find_all('div', class_='productCardRevamped_container__aJ6lA')
+
+if not product_cards:
+    print("No product cards found. Please check the class name or HTML structure.")
+else:
+    for product in product_cards:
+        name_tag = product.find('div', class_='productCardRevamped_productName__aEF8u')
+        price_tag = product.find('div', class_='productCardRevamped_price__cWkdn')
+        mrp_tag = product.find('span', class_='productCardRevamped_mrpPrice__Yz_Yd')
+        discount_tag = product.find('div', class_='productCardRevamped_discount__GSjgY')
+        link_tag = product.find_parent('a', href=True)  # Assuming the link is in a parent 'a' tag
+        brand_tag = product.find('div', class_='productCardRevamped_brandContainer__1mgym')  # Brand tag
+
+        if name_tag and price_tag and link_tag and brand_tag:
+            name = name_tag.text.strip()
+            price = price_tag.text.strip()
+            mrp = mrp_tag.text.strip() if mrp_tag else "N/A"
+            discount = discount_tag.text.strip() if discount_tag else "N/A"
+            brand = brand_tag.text.strip()  # Extract brand
+            link = link_tag['href']
+
+            # Check if the link has a scheme, if not prepend the base URL
+            if not link.startswith('https://'):
+                full_link = urljoin(base_url, link)
+            else:
+                full_link = link
+
+            # Navigate to the product page
+            driver.get(full_link)
+
+            # Wait for the specifications to load
+            wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'pdp_specsKey__5LWXC')))
+
+            # Parse the product page with BeautifulSoup
+            product_soup = BeautifulSoup(driver.page_source, 'html.parser')
+
+            # Find all specification keys and values
+            spec_keys = product_soup.find_all('div', class_='pdp_specsKey__5LWXC')
+            spec_values = product_soup.find_all('div', class_='pdp_specsValue__fDPie')
+
+            # Create a dictionary to store specifications
+            specifications = {}
+            for key, value in zip(spec_keys, spec_values):
+                key_text = key.find('p').text.strip()
+                value_text = value.find('p').text.strip()
+                specifications[key_text] = value_text
+
+            # Extract SKU code from the URL
+            sku_code = full_link.split('/')[-1]
+
+            products.append({
+                'name': name,
+                'price': price,
+                'mrp': mrp,
+                'discount': discount,
+                'brand': brand,  # Add brand to the product details
+                'link': full_link,
+                'sku_code': sku_code,
+                'specifications': specifications
+            })
+        else:
+            print("Product title, price tag, link, or brand not found. Please check the class names.")
+
+    # Print the products
+    for product in products:
+        print(f"Name: {product['name']}")
+        print(f"Price: {product['price']}, MRP: {product['mrp']}, Discount: {product['discount']}")
+        print(f"Brand: {product['brand']}")
+        print(f"SKU Code: {product['sku_code']}")
+        print("Specifications:")
+        for key, value in product['specifications'].items():
+            print(f"{key}: {value}")
+        print(f"Link: {product['link']}")
+        print("-----------------------------")
+
+# Close the driver
+driver.quit()
