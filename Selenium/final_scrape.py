@@ -38,6 +38,7 @@ print(f"Number of results on the page: {num_results_on_page}")
 if not product_cards:
     print("No product cards found. Please check the class name or HTML structure.")
 else:
+    
     for product in product_cards:
         name_tag = product.find('div', class_='productCardRevamped_productName__aEF8u')
         price_tag = product.find('div', class_='productCardRevamped_price__cWkdn')
