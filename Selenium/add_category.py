@@ -143,7 +143,8 @@ writer = pd.ExcelWriter('products_by_category.xlsx', engine='xlsxwriter')
 
 # Group by 'Category 1' and write each group to a separate sheet
 for category, group in df.groupby('Category 1'):
-    sheet_name = category if category else 'Uncategorized'
+    # Truncate the category name to 31 characters if necessary
+    sheet_name = (category[:28] + '...') if category and len(category) > 31 else (category if category else 'Uncategorized')
     group.to_excel(writer, sheet_name=sheet_name, index=False)
 
 # Save the DataFrame with the grouped sheets to an Excel file
