@@ -6,7 +6,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import pandas as pd
-import xlsxwriter
 
 # Path to GeckoDriver
 driver_path = '/usr/bin/geckodriver'
@@ -148,6 +147,6 @@ for category, group in df.groupby('Category 1'):
     group.to_excel(writer, sheet_name=sheet_name, index=False)
 
 # Save the DataFrame with the grouped sheets to an Excel file
-writer.save()
+writer.close()
 
 print("Product details saved to products_by_category.xlsx")
