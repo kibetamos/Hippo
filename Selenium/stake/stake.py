@@ -15,6 +15,9 @@ try:
     # Navigate to Stake.com
     driver.get("https://stake.com/")
 
+    # Wait for the user to manually complete the human verification
+    input("Please complete the human verification and press Enter to continue...")
+
     # Wait for the table to be visible
     table = WebDriverWait(driver, 90).until(
         EC.presence_of_element_located((By.CLASS_NAME, 'table-content'))
