@@ -16,7 +16,7 @@ try:
     driver.get("https://stake.com/")
 
     # Wait for the table to be visible
-    table = WebDriverWait(driver, 40).until(
+    table = WebDriverWait(driver, 90).until(
         EC.presence_of_element_located((By.CLASS_NAME, 'table-content'))
     )
 

@@ -31,6 +31,10 @@ products = []
 # Check the structure of the product card divs
 product_cards = soup.find_all('div', class_='productCardRevamped_container__aJ6lA')
 
+# Number of results on the page
+num_results_on_page = len(product_cards)
+print(f"Number of results on the page: {num_results_on_page}")
+
 if not product_cards:
     print("No product cards found. Please check the class name or HTML structure.")
 else:
@@ -46,7 +50,7 @@ else:
             name = name_tag.text.strip()
             price = price_tag.text.strip()
             mrp = mrp_tag.text.strip() if mrp_tag else "N/A"
-            discount = discount_tag.text.strip().replace(" Off", "") if discount_tag else "N/A"  # Remove " off" from discount
+            discount = discount_tag.text.strip().replace(" off", "") if discount_tag else "N/A"  # Remove " off" from discount
             brand = brand_tag.text.strip()  # Extract brand
             link = link_tag['href']
 
@@ -118,6 +122,10 @@ else:
 
     # Close the driver
     driver.quit()
+
+    # Number of items downloaded
+    num_items_downloaded = len(products)
+    print(f"Number of items downloaded: {num_items_downloaded}")
 
     # Create a DataFrame from the product details
     df = pd.DataFrame(products)
