@@ -114,7 +114,7 @@ products = []
 wait = WebDriverWait(driver, 10)
 
 # Iterate through 4 pages
-for page in range(1, 5):
+for page in range(1, 3):
     url = f"{base_url}&page={page}"
     driver.get(url)
 

@@ -36,7 +36,7 @@ def extract_product_details(soup):
             name = name_tag.text.strip()
             price = price_tag.text.strip()
             mrp = mrp_tag.text.strip() if mrp_tag else "N/A"
-            discount = discount_tag.text.strip().replace(" off", "") if discount_tag else "N/A"  # Remove " off" from discount
+            discount = discount_tag.text.strip().replace(" Off", "") if discount_tag else "N/A"  # Remove " off" from discount
             brand = brand_tag.text.strip()  # Extract brand
             link = link_tag['href']
 
@@ -114,7 +114,7 @@ products = []
 wait = WebDriverWait(driver, 10)
 
 # Iterate through 4 pages
-for page in range(1, 5):
+for page in range(1, 309):
     url = f"{base_url}&page={page}"
     driver.get(url)
 
@@ -138,7 +138,7 @@ print(f"Number of items downloaded: {num_items_downloaded}")
 df = pd.DataFrame(products)
 
 # Create a Pandas Excel writer using XlsxWriter as the engine
-writer = pd.ExcelWriter('products_by_category.xlsx', engine='xlsxwriter')
+writer = pd.ExcelWriter('products_by_cate.xlsx', engine='xlsxwriter')
 
 # Group by 'Category 1' and write each group to a separate sheet
 for category, group in df.groupby('Category 1'):
@@ -149,4 +149,4 @@ for category, group in df.groupby('Category 1'):
 # Save the DataFrame with the grouped sheets to an Excel file
 writer.close()
 
-print("Product details saved to products_by_category.xlsx")
+print("Final_product_details.xlsx")
