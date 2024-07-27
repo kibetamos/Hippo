@@ -1,0 +1,1930 @@
+2024-07-26 21:37:30,504 - ERROR - Error processing product: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-26 23:46:00,034 - ERROR - Error processing product: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-27 00:11:58,254 - ERROR - Error processing product: Message: Navigation timed out after 300000 ms
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+TimeoutError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:740:5
+bail@chrome://remote/content/marionette/sync.sys.mjs:211:19
+
+2024-07-27 06:47:51,955 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/cera-ruby-single-lever-basin-mexer-mb-model-f1005451bm/product/2000006993&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:52,307 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/cera-ruby-expo-part-of-conc-stop-cock-mb-model-f1005351bm/product/2000006997&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:52,676 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/cera-chelsea-exp-part-of-wm-sl-basinmixer-rg-model-f1016473rg/product/2000007004&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:52,727 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/cera-chelsea-sl-basin-mixer-extd-height-rg-model-f1016452rg/product/2000007003&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:52,776 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/cera-ruby-bib-cock-short-body-mb-model-f1005151bm/product/2000006996&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:52,830 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/cera-curve-exp-high-flow-diverter-model-f1023721ch/product/2000007690&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:52,884 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/cera-curve-bath-spout-model-f1023661ch/product/2000007691&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:52,940 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/cera-square-shower-arm-380-mm-ss-model-f7040207ss/product/2000007692&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:52,990 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/cera-campa-l-table-top-wash-basin-french-gold-model-s2020102fg/product/2000007083&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,044 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/cera-chelsea-sl-basin-mixer-extd-height-fg-model-f1016452fg/product/2000007696&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,093 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/cera-chelsea-expo-part-high-flow-sl-divr-fg-model-f1016721fg/product/2000007697&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,147 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/cera-chelsea-bath-tub-spout-fg-model-f1016661fg/product/2000007695&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,199 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/cera-campa-s-glitz-select-tt-wb-french-gold-model-s2020175fg/product/2000007693&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,259 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/cera-campa-l-table-top-wash-basin-rose-gold-model-s2020102rg/product/2000006549&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,309 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/kohler-aleo-tall-lav-faucet-w-o-drain-model-72337in-4nd-rgd/product/2000006800&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,363 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/cera-conc-body-of-conc-stop-cock-20mm-qt-model-f4050502ch/product/2000006986&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,414 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/stenna-edition-catalogue/product/4000005638&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,468 - ERROR - Error processing page 174: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D174&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,517 - ERROR - Error processing page 175: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D175&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,573 - ERROR - Error processing page 176: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D176&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,627 - ERROR - Error processing page 177: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D177&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,690 - ERROR - Error processing page 178: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D178&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,747 - ERROR - Error processing page 179: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D179&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,809 - ERROR - Error processing page 180: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D180&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,856 - ERROR - Error processing page 181: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D181&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,909 - ERROR - Error processing page 182: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D182&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:53,957 - ERROR - Error processing page 183: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D183&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,010 - ERROR - Error processing page 184: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D184&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,062 - ERROR - Error processing page 185: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D185&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,115 - ERROR - Error processing page 186: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D186&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,168 - ERROR - Error processing page 187: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D187&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,219 - ERROR - Error processing page 188: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D188&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,269 - ERROR - Error processing page 189: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D189&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,321 - ERROR - Error processing page 190: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D190&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,370 - ERROR - Error processing page 191: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D191&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,431 - ERROR - Error processing page 192: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D192&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,483 - ERROR - Error processing page 193: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D193&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,534 - ERROR - Error processing page 194: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D194&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,581 - ERROR - Error processing page 195: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D195&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,635 - ERROR - Error processing page 196: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D196&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,683 - ERROR - Error processing page 197: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D197&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,732 - ERROR - Error processing page 198: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D198&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,781 - ERROR - Error processing page 199: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D199&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,830 - ERROR - Error processing page 200: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D200&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,879 - ERROR - Error processing page 201: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D201&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,930 - ERROR - Error processing page 202: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D202&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:54,984 - ERROR - Error processing page 203: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D203&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,041 - ERROR - Error processing page 204: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D204&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,091 - ERROR - Error processing page 205: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D205&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,143 - ERROR - Error processing page 206: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D206&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,197 - ERROR - Error processing page 207: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D207&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,253 - ERROR - Error processing page 208: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D208&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,304 - ERROR - Error processing page 209: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D209&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,360 - ERROR - Error processing page 210: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D210&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,417 - ERROR - Error processing page 211: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D211&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,477 - ERROR - Error processing page 212: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D212&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,532 - ERROR - Error processing page 213: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D213&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,590 - ERROR - Error processing page 214: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D214&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,641 - ERROR - Error processing page 215: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D215&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,693 - ERROR - Error processing page 216: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D216&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,751 - ERROR - Error processing page 217: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D217&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,809 - ERROR - Error processing page 218: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D218&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,855 - ERROR - Error processing page 219: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D219&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,908 - ERROR - Error processing page 220: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D220&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:55,959 - ERROR - Error processing page 221: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D221&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:56,013 - ERROR - Error processing page 222: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D222&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:56,066 - ERROR - Error processing page 223: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D223&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:56,117 - ERROR - Error processing page 224: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D224&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:56,167 - ERROR - Error processing page 225: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D225&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:56,220 - ERROR - Error processing page 226: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D226&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:56,274 - ERROR - Error processing page 227: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D227&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:56,327 - ERROR - Error processing page 228: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D228&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:56,379 - ERROR - Error processing page 229: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D229&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:56,435 - ERROR - Error processing page 230: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D230&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 06:47:56,486 - ERROR - Error processing page 231: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D231&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 07:13:27,002 - ERROR - Error processing product: Message: Navigation timed out after 300000 ms
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+TimeoutError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:740:5
+bail@chrome://remote/content/marionette/sync.sys.mjs:211:19
+
+2024-07-27 08:03:43,679 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/hafele-wastebin-deluxe-bright-steel-15l-model-503-78-115/product/6000016776&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:43,740 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/hafele-free-fold-k6fo-960-1010mm-8-6-17-3kg-model-372-38-118/product/6000016774&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:43,802 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/hafele-pantry-unit-1900-2200mm-5-sets-of-solid-base-chrome-baskets-cabinet-width-600mm-model-546-81-753/product/6000016777&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:43,857 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/hafele-gas-sp-for-3-5mm-1500n-bed-fitt-84-kg-model-274-52-102/product/6000016514&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:43,915 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/hafele-gas-sp-for-3-5mm-1250n-bed-fitt-72-kg-model-274-52-046/product/6000016513&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:43,971 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/hafele-skirting-100mm-silver-3000mm-model-713-55-923/product/6000016771&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:44,041 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/hafele-gas-sp-for-3-5mm-750n-bed-fitt-32-kg-model-274-52-100/product/6000016511&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:44,093 - ERROR - Error processing product: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/hafele-gas-sp-for-3-5mm-1000n-bed-fitt-49-kg-model-274-52-101/product/6000016512&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:44,147 - ERROR - Error processing page 267: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D267&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:44,209 - ERROR - Error processing page 268: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D268&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:44,272 - ERROR - Error processing page 269: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D269&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:44,337 - ERROR - Error processing page 270: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D270&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:44,402 - ERROR - Error processing page 271: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D271&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:44,618 - ERROR - Error processing page 272: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D272&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:44,929 - ERROR - Error processing page 273: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D273&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:45,168 - ERROR - Error processing page 274: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D274&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:45,480 - ERROR - Error processing page 275: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D275&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:45,861 - ERROR - Error processing page 276: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D276&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:46,140 - ERROR - Error processing page 277: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D277&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:46,469 - ERROR - Error processing page 278: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D278&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:47,133 - ERROR - Error processing page 279: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D279&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:47,185 - ERROR - Error processing page 280: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D280&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:47,234 - ERROR - Error processing page 281: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D281&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:47,283 - ERROR - Error processing page 282: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D282&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:47,335 - ERROR - Error processing page 283: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D283&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:47,388 - ERROR - Error processing page 284: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D284&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:47,440 - ERROR - Error processing page 285: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D285&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:47,491 - ERROR - Error processing page 286: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D286&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:47,544 - ERROR - Error processing page 287: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D287&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:47,599 - ERROR - Error processing page 288: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D288&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:47,651 - ERROR - Error processing page 289: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D289&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:47,703 - ERROR - Error processing page 290: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D290&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:47,756 - ERROR - Error processing page 291: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D291&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:47,818 - ERROR - Error processing page 292: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D292&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:48,391 - ERROR - Error processing page 293: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D293&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:48,442 - ERROR - Error processing page 294: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D294&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:48,499 - ERROR - Error processing page 295: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D295&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:48,550 - ERROR - Error processing page 296: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D296&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:48,601 - ERROR - Error processing page 297: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D297&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:48,651 - ERROR - Error processing page 298: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D298&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:48,702 - ERROR - Error processing page 299: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D299&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:48,751 - ERROR - Error processing page 300: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D300&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:48,801 - ERROR - Error processing page 301: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D301&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:48,846 - ERROR - Error processing page 302: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D302&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:48,894 - ERROR - Error processing page 303: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D303&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:48,946 - ERROR - Error processing page 304: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D304&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:48,996 - ERROR - Error processing page 305: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D305&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:49,051 - ERROR - Error processing page 306: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D306&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:49,100 - ERROR - Error processing page 307: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D307&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:49,156 - ERROR - Error processing page 308: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.hippostores.com/k-/productlist%3Fsort%3Drelevance%26page%3D308&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.hippostores.com.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:330:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2024-07-27 08:03:50,782 - ERROR - Error writing to Excel: Sheetname 'hardware, kitchen and tools ...', with case ignored, is already in use.
+2024-07-27 08:12:39,555 - ERROR - Error processing page 1: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.sys.mjs:1614:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-07-27 08:12:39,558 - ERROR - Error processing page 2: Message: WebDriver session does not exist, or is not active
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:448:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-07-27 08:12:39,560 - ERROR - Error processing page 3: Message: WebDriver session does not exist, or is not active
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:448:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-07-27 08:12:39,564 - ERROR - Error processing page 4: Message: Failed to decode response from marionette
+
+2024-07-27 08:12:39,565 - ERROR - Error processing page 5: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,566 - ERROR - Error processing page 6: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,567 - ERROR - Error processing page 7: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,567 - ERROR - Error processing page 8: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,568 - ERROR - Error processing page 9: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,569 - ERROR - Error processing page 10: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,570 - ERROR - Error processing page 11: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,570 - ERROR - Error processing page 12: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,571 - ERROR - Error processing page 13: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,572 - ERROR - Error processing page 14: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,573 - ERROR - Error processing page 15: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,573 - ERROR - Error processing page 16: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,574 - ERROR - Error processing page 17: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,575 - ERROR - Error processing page 18: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,575 - ERROR - Error processing page 19: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,576 - ERROR - Error processing page 20: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,577 - ERROR - Error processing page 21: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,577 - ERROR - Error processing page 22: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,578 - ERROR - Error processing page 23: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,578 - ERROR - Error processing page 24: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,579 - ERROR - Error processing page 25: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,579 - ERROR - Error processing page 26: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,580 - ERROR - Error processing page 27: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,580 - ERROR - Error processing page 28: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,581 - ERROR - Error processing page 29: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,581 - ERROR - Error processing page 30: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,582 - ERROR - Error processing page 31: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,582 - ERROR - Error processing page 32: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,583 - ERROR - Error processing page 33: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,583 - ERROR - Error processing page 34: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,584 - ERROR - Error processing page 35: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,585 - ERROR - Error processing page 36: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,585 - ERROR - Error processing page 37: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,586 - ERROR - Error processing page 38: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,586 - ERROR - Error processing page 39: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,587 - ERROR - Error processing page 40: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,587 - ERROR - Error processing page 41: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,588 - ERROR - Error processing page 42: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,588 - ERROR - Error processing page 43: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,589 - ERROR - Error processing page 44: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,589 - ERROR - Error processing page 45: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,590 - ERROR - Error processing page 46: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,590 - ERROR - Error processing page 47: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,591 - ERROR - Error processing page 48: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,591 - ERROR - Error processing page 49: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,592 - ERROR - Error processing page 50: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,592 - ERROR - Error processing page 51: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,593 - ERROR - Error processing page 52: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,594 - ERROR - Error processing page 53: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,594 - ERROR - Error processing page 54: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,595 - ERROR - Error processing page 55: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,595 - ERROR - Error processing page 56: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,596 - ERROR - Error processing page 57: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,596 - ERROR - Error processing page 58: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,597 - ERROR - Error processing page 59: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,597 - ERROR - Error processing page 60: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,598 - ERROR - Error processing page 61: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,598 - ERROR - Error processing page 62: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,599 - ERROR - Error processing page 63: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,599 - ERROR - Error processing page 64: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,600 - ERROR - Error processing page 65: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,600 - ERROR - Error processing page 66: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,601 - ERROR - Error processing page 67: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,602 - ERROR - Error processing page 68: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,602 - ERROR - Error processing page 69: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,603 - ERROR - Error processing page 70: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,604 - ERROR - Error processing page 71: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,604 - ERROR - Error processing page 72: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,605 - ERROR - Error processing page 73: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,605 - ERROR - Error processing page 74: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,606 - ERROR - Error processing page 75: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,606 - ERROR - Error processing page 76: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,607 - ERROR - Error processing page 77: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,608 - ERROR - Error processing page 78: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,608 - ERROR - Error processing page 79: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,609 - ERROR - Error processing page 80: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,610 - ERROR - Error processing page 81: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,610 - ERROR - Error processing page 82: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,611 - ERROR - Error processing page 83: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,612 - ERROR - Error processing page 84: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,612 - ERROR - Error processing page 85: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,613 - ERROR - Error processing page 86: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,613 - ERROR - Error processing page 87: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,614 - ERROR - Error processing page 88: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,615 - ERROR - Error processing page 89: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,615 - ERROR - Error processing page 90: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,616 - ERROR - Error processing page 91: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,616 - ERROR - Error processing page 92: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,617 - ERROR - Error processing page 93: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,618 - ERROR - Error processing page 94: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,618 - ERROR - Error processing page 95: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,619 - ERROR - Error processing page 96: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,620 - ERROR - Error processing page 97: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,620 - ERROR - Error processing page 98: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,621 - ERROR - Error processing page 99: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,622 - ERROR - Error processing page 100: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,622 - ERROR - Error processing page 101: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,623 - ERROR - Error processing page 102: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,624 - ERROR - Error processing page 103: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,624 - ERROR - Error processing page 104: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,625 - ERROR - Error processing page 105: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,626 - ERROR - Error processing page 106: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,626 - ERROR - Error processing page 107: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,627 - ERROR - Error processing page 108: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,627 - ERROR - Error processing page 109: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,628 - ERROR - Error processing page 110: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,628 - ERROR - Error processing page 111: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,629 - ERROR - Error processing page 112: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,630 - ERROR - Error processing page 113: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,630 - ERROR - Error processing page 114: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,631 - ERROR - Error processing page 115: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,632 - ERROR - Error processing page 116: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,632 - ERROR - Error processing page 117: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,633 - ERROR - Error processing page 118: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,633 - ERROR - Error processing page 119: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,634 - ERROR - Error processing page 120: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,635 - ERROR - Error processing page 121: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,635 - ERROR - Error processing page 122: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,636 - ERROR - Error processing page 123: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,636 - ERROR - Error processing page 124: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,637 - ERROR - Error processing page 125: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,637 - ERROR - Error processing page 126: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,638 - ERROR - Error processing page 127: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,639 - ERROR - Error processing page 128: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,639 - ERROR - Error processing page 129: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,640 - ERROR - Error processing page 130: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,640 - ERROR - Error processing page 131: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,641 - ERROR - Error processing page 132: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,642 - ERROR - Error processing page 133: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,643 - ERROR - Error processing page 134: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,643 - ERROR - Error processing page 135: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,644 - ERROR - Error processing page 136: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,644 - ERROR - Error processing page 137: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,645 - ERROR - Error processing page 138: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,646 - ERROR - Error processing page 139: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,646 - ERROR - Error processing page 140: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,647 - ERROR - Error processing page 141: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,647 - ERROR - Error processing page 142: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,648 - ERROR - Error processing page 143: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,649 - ERROR - Error processing page 144: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,649 - ERROR - Error processing page 145: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,650 - ERROR - Error processing page 146: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,650 - ERROR - Error processing page 147: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,651 - ERROR - Error processing page 148: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,651 - ERROR - Error processing page 149: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,652 - ERROR - Error processing page 150: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,652 - ERROR - Error processing page 151: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,653 - ERROR - Error processing page 152: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,653 - ERROR - Error processing page 153: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,654 - ERROR - Error processing page 154: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,654 - ERROR - Error processing page 155: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,655 - ERROR - Error processing page 156: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,656 - ERROR - Error processing page 157: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,656 - ERROR - Error processing page 158: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,657 - ERROR - Error processing page 159: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,658 - ERROR - Error processing page 160: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,658 - ERROR - Error processing page 161: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,659 - ERROR - Error processing page 162: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,660 - ERROR - Error processing page 163: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,661 - ERROR - Error processing page 164: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,661 - ERROR - Error processing page 165: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,662 - ERROR - Error processing page 166: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,663 - ERROR - Error processing page 167: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,663 - ERROR - Error processing page 168: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,664 - ERROR - Error processing page 169: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,665 - ERROR - Error processing page 170: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,666 - ERROR - Error processing page 171: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,666 - ERROR - Error processing page 172: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,667 - ERROR - Error processing page 173: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,668 - ERROR - Error processing page 174: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,668 - ERROR - Error processing page 175: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,669 - ERROR - Error processing page 176: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,670 - ERROR - Error processing page 177: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,671 - ERROR - Error processing page 178: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,671 - ERROR - Error processing page 179: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,672 - ERROR - Error processing page 180: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,673 - ERROR - Error processing page 181: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,674 - ERROR - Error processing page 182: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,674 - ERROR - Error processing page 183: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,675 - ERROR - Error processing page 184: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,676 - ERROR - Error processing page 185: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,676 - ERROR - Error processing page 186: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,677 - ERROR - Error processing page 187: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,678 - ERROR - Error processing page 188: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,678 - ERROR - Error processing page 189: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,679 - ERROR - Error processing page 190: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,680 - ERROR - Error processing page 191: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,680 - ERROR - Error processing page 192: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,681 - ERROR - Error processing page 193: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,681 - ERROR - Error processing page 194: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,682 - ERROR - Error processing page 195: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,683 - ERROR - Error processing page 196: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,683 - ERROR - Error processing page 197: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,684 - ERROR - Error processing page 198: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,685 - ERROR - Error processing page 199: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,685 - ERROR - Error processing page 200: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,686 - ERROR - Error processing page 201: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,686 - ERROR - Error processing page 202: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,687 - ERROR - Error processing page 203: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,688 - ERROR - Error processing page 204: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,688 - ERROR - Error processing page 205: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,689 - ERROR - Error processing page 206: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,689 - ERROR - Error processing page 207: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,690 - ERROR - Error processing page 208: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,691 - ERROR - Error processing page 209: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,691 - ERROR - Error processing page 210: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,692 - ERROR - Error processing page 211: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,692 - ERROR - Error processing page 212: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,693 - ERROR - Error processing page 213: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,694 - ERROR - Error processing page 214: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,694 - ERROR - Error processing page 215: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,695 - ERROR - Error processing page 216: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,695 - ERROR - Error processing page 217: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,696 - ERROR - Error processing page 218: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,697 - ERROR - Error processing page 219: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,697 - ERROR - Error processing page 220: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,698 - ERROR - Error processing page 221: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,699 - ERROR - Error processing page 222: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,700 - ERROR - Error processing page 223: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,701 - ERROR - Error processing page 224: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,701 - ERROR - Error processing page 225: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,702 - ERROR - Error processing page 226: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,702 - ERROR - Error processing page 227: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,703 - ERROR - Error processing page 228: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,703 - ERROR - Error processing page 229: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,704 - ERROR - Error processing page 230: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,705 - ERROR - Error processing page 231: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,705 - ERROR - Error processing page 232: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,706 - ERROR - Error processing page 233: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,707 - ERROR - Error processing page 234: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,707 - ERROR - Error processing page 235: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,708 - ERROR - Error processing page 236: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,709 - ERROR - Error processing page 237: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,709 - ERROR - Error processing page 238: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,710 - ERROR - Error processing page 239: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,711 - ERROR - Error processing page 240: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,711 - ERROR - Error processing page 241: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,712 - ERROR - Error processing page 242: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,713 - ERROR - Error processing page 243: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,713 - ERROR - Error processing page 244: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,714 - ERROR - Error processing page 245: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,715 - ERROR - Error processing page 246: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,715 - ERROR - Error processing page 247: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,716 - ERROR - Error processing page 248: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,716 - ERROR - Error processing page 249: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,717 - ERROR - Error processing page 250: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,718 - ERROR - Error processing page 251: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,718 - ERROR - Error processing page 252: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,719 - ERROR - Error processing page 253: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,720 - ERROR - Error processing page 254: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,720 - ERROR - Error processing page 255: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,721 - ERROR - Error processing page 256: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,722 - ERROR - Error processing page 257: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,722 - ERROR - Error processing page 258: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,723 - ERROR - Error processing page 259: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,723 - ERROR - Error processing page 260: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,724 - ERROR - Error processing page 261: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,725 - ERROR - Error processing page 262: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,726 - ERROR - Error processing page 263: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,727 - ERROR - Error processing page 264: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,728 - ERROR - Error processing page 265: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,728 - ERROR - Error processing page 266: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,729 - ERROR - Error processing page 267: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,729 - ERROR - Error processing page 268: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,730 - ERROR - Error processing page 269: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,731 - ERROR - Error processing page 270: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,731 - ERROR - Error processing page 271: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,732 - ERROR - Error processing page 272: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,732 - ERROR - Error processing page 273: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,733 - ERROR - Error processing page 274: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,734 - ERROR - Error processing page 275: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,734 - ERROR - Error processing page 276: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,735 - ERROR - Error processing page 277: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,735 - ERROR - Error processing page 278: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,736 - ERROR - Error processing page 279: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,736 - ERROR - Error processing page 280: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,737 - ERROR - Error processing page 281: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,738 - ERROR - Error processing page 282: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,739 - ERROR - Error processing page 283: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,739 - ERROR - Error processing page 284: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,740 - ERROR - Error processing page 285: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,740 - ERROR - Error processing page 286: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,741 - ERROR - Error processing page 287: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,741 - ERROR - Error processing page 288: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,742 - ERROR - Error processing page 289: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,742 - ERROR - Error processing page 290: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,743 - ERROR - Error processing page 291: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,744 - ERROR - Error processing page 292: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,744 - ERROR - Error processing page 293: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,745 - ERROR - Error processing page 294: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,746 - ERROR - Error processing page 295: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,746 - ERROR - Error processing page 296: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,747 - ERROR - Error processing page 297: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,748 - ERROR - Error processing page 298: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,748 - ERROR - Error processing page 299: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,749 - ERROR - Error processing page 300: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,749 - ERROR - Error processing page 301: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,750 - ERROR - Error processing page 302: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,751 - ERROR - Error processing page 303: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,751 - ERROR - Error processing page 304: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,752 - ERROR - Error processing page 305: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,752 - ERROR - Error processing page 306: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,753 - ERROR - Error processing page 307: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,754 - ERROR - Error processing page 308: Message: Tried to run command without establishing a connection
+
+2024-07-27 08:12:39,786 - ERROR - Error writing to Excel: 'Category 1'

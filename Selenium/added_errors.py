@@ -125,7 +125,7 @@ products = []
 wait = WebDriverWait(driver, 10)
 
 try:
-    # Iterate through 4 pages
+    # Iterate through pages
     for page in range(1, 309):
         try:
             url = f"{base_url}&page={page}"
@@ -167,4 +167,4 @@ try:
 except Exception as e:
     logging.error(f"Error writing to Excel: {e}")
 
-print("products_by_cate.xlsx")
+print("finals_products.xlsx")
