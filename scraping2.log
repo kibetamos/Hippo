@@ -1,0 +1,488 @@
+2024-07-28 20:08:59,220 - ERROR - Error processing product: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1515:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-07-28 20:08:59,226 - ERROR - Error processing product: Message: WebDriver session does not exist, or is not active
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:448:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-07-28 20:08:59,228 - ERROR - Error processing product: Message: WebDriver session does not exist, or is not active
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:448:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-07-28 20:08:59,238 - ERROR - Error processing product: Message: Failed to decode response from marionette
+
+2024-07-28 20:08:59,239 - ERROR - Error processing product: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,240 - ERROR - Error processing product: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,242 - ERROR - Error processing product: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,243 - ERROR - Error processing product: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,244 - ERROR - Error processing product: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,245 - ERROR - Error processing product: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,246 - ERROR - Error processing product: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,247 - ERROR - Error processing product: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,247 - ERROR - Error processing product: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,249 - ERROR - Error processing product: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,250 - ERROR - Error processing product: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,252 - ERROR - Error processing product: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,252 - ERROR - Error processing page 101: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,253 - ERROR - Error processing page 102: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,254 - ERROR - Error processing page 103: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,254 - ERROR - Error processing page 104: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,255 - ERROR - Error processing page 105: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,256 - ERROR - Error processing page 106: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,256 - ERROR - Error processing page 107: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,257 - ERROR - Error processing page 108: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,257 - ERROR - Error processing page 109: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,258 - ERROR - Error processing page 110: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,258 - ERROR - Error processing page 111: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,259 - ERROR - Error processing page 112: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,260 - ERROR - Error processing page 113: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,260 - ERROR - Error processing page 114: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,261 - ERROR - Error processing page 115: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,262 - ERROR - Error processing page 116: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,262 - ERROR - Error processing page 117: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,263 - ERROR - Error processing page 118: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,264 - ERROR - Error processing page 119: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,264 - ERROR - Error processing page 120: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,265 - ERROR - Error processing page 121: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,266 - ERROR - Error processing page 122: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,266 - ERROR - Error processing page 123: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,267 - ERROR - Error processing page 124: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,268 - ERROR - Error processing page 125: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,268 - ERROR - Error processing page 126: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,269 - ERROR - Error processing page 127: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,270 - ERROR - Error processing page 128: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,271 - ERROR - Error processing page 129: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,271 - ERROR - Error processing page 130: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,272 - ERROR - Error processing page 131: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,273 - ERROR - Error processing page 132: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,273 - ERROR - Error processing page 133: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,274 - ERROR - Error processing page 134: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,274 - ERROR - Error processing page 135: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,275 - ERROR - Error processing page 136: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,275 - ERROR - Error processing page 137: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,276 - ERROR - Error processing page 138: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,277 - ERROR - Error processing page 139: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,278 - ERROR - Error processing page 140: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,278 - ERROR - Error processing page 141: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,279 - ERROR - Error processing page 142: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,279 - ERROR - Error processing page 143: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,280 - ERROR - Error processing page 144: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,281 - ERROR - Error processing page 145: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,282 - ERROR - Error processing page 146: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,283 - ERROR - Error processing page 147: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,284 - ERROR - Error processing page 148: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,285 - ERROR - Error processing page 149: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,285 - ERROR - Error processing page 150: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,286 - ERROR - Error processing page 151: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,287 - ERROR - Error processing page 152: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,287 - ERROR - Error processing page 153: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,288 - ERROR - Error processing page 154: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,289 - ERROR - Error processing page 155: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,289 - ERROR - Error processing page 156: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,290 - ERROR - Error processing page 157: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,291 - ERROR - Error processing page 158: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,292 - ERROR - Error processing page 159: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,292 - ERROR - Error processing page 160: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,293 - ERROR - Error processing page 161: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,294 - ERROR - Error processing page 162: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,294 - ERROR - Error processing page 163: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,295 - ERROR - Error processing page 164: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,296 - ERROR - Error processing page 165: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,296 - ERROR - Error processing page 166: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,297 - ERROR - Error processing page 167: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,298 - ERROR - Error processing page 168: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,299 - ERROR - Error processing page 169: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,299 - ERROR - Error processing page 170: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,300 - ERROR - Error processing page 171: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,301 - ERROR - Error processing page 172: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,301 - ERROR - Error processing page 173: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,302 - ERROR - Error processing page 174: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,302 - ERROR - Error processing page 175: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,303 - ERROR - Error processing page 176: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,304 - ERROR - Error processing page 177: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,305 - ERROR - Error processing page 178: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,306 - ERROR - Error processing page 179: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,306 - ERROR - Error processing page 180: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,307 - ERROR - Error processing page 181: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,308 - ERROR - Error processing page 182: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,308 - ERROR - Error processing page 183: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,309 - ERROR - Error processing page 184: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,309 - ERROR - Error processing page 185: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,310 - ERROR - Error processing page 186: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,310 - ERROR - Error processing page 187: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,311 - ERROR - Error processing page 188: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,312 - ERROR - Error processing page 189: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,313 - ERROR - Error processing page 190: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,313 - ERROR - Error processing page 191: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,314 - ERROR - Error processing page 192: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,315 - ERROR - Error processing page 193: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,315 - ERROR - Error processing page 194: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,316 - ERROR - Error processing page 195: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,316 - ERROR - Error processing page 196: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,317 - ERROR - Error processing page 197: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,317 - ERROR - Error processing page 198: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:08:59,318 - ERROR - Error processing page 199: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,052 - ERROR - Error processing page 100: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.sys.mjs:1614:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-07-28 20:09:07,055 - ERROR - Error processing page 101: Message: WebDriver session does not exist, or is not active
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:448:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-07-28 20:09:07,057 - ERROR - Error processing page 102: Message: Failed to decode response from marionette
+
+2024-07-28 20:09:07,058 - ERROR - Error processing page 103: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,059 - ERROR - Error processing page 104: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,059 - ERROR - Error processing page 105: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,060 - ERROR - Error processing page 106: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,060 - ERROR - Error processing page 107: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,061 - ERROR - Error processing page 108: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,062 - ERROR - Error processing page 109: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,062 - ERROR - Error processing page 110: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,063 - ERROR - Error processing page 111: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,063 - ERROR - Error processing page 112: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,064 - ERROR - Error processing page 113: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,065 - ERROR - Error processing page 114: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,066 - ERROR - Error processing page 115: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,066 - ERROR - Error processing page 116: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,067 - ERROR - Error processing page 117: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,067 - ERROR - Error processing page 118: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,068 - ERROR - Error processing page 119: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,068 - ERROR - Error processing page 120: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,069 - ERROR - Error processing page 121: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,070 - ERROR - Error processing page 122: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,070 - ERROR - Error processing page 123: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,071 - ERROR - Error processing page 124: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,071 - ERROR - Error processing page 125: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,072 - ERROR - Error processing page 126: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,072 - ERROR - Error processing page 127: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,073 - ERROR - Error processing page 128: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,073 - ERROR - Error processing page 129: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,074 - ERROR - Error processing page 130: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,075 - ERROR - Error processing page 131: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,075 - ERROR - Error processing page 132: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,076 - ERROR - Error processing page 133: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,076 - ERROR - Error processing page 134: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,077 - ERROR - Error processing page 135: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,077 - ERROR - Error processing page 136: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,078 - ERROR - Error processing page 137: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,079 - ERROR - Error processing page 138: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,079 - ERROR - Error processing page 139: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,080 - ERROR - Error processing page 140: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,080 - ERROR - Error processing page 141: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,081 - ERROR - Error processing page 142: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,081 - ERROR - Error processing page 143: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,082 - ERROR - Error processing page 144: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,082 - ERROR - Error processing page 145: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,083 - ERROR - Error processing page 146: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,083 - ERROR - Error processing page 147: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,084 - ERROR - Error processing page 148: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,084 - ERROR - Error processing page 149: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,085 - ERROR - Error processing page 150: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,086 - ERROR - Error processing page 151: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,086 - ERROR - Error processing page 152: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,087 - ERROR - Error processing page 153: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,088 - ERROR - Error processing page 154: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,088 - ERROR - Error processing page 155: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,089 - ERROR - Error processing page 156: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,089 - ERROR - Error processing page 157: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,090 - ERROR - Error processing page 158: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,091 - ERROR - Error processing page 159: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,091 - ERROR - Error processing page 160: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,092 - ERROR - Error processing page 161: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,092 - ERROR - Error processing page 162: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,093 - ERROR - Error processing page 163: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,094 - ERROR - Error processing page 164: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,094 - ERROR - Error processing page 165: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,095 - ERROR - Error processing page 166: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,095 - ERROR - Error processing page 167: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,096 - ERROR - Error processing page 168: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,097 - ERROR - Error processing page 169: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,097 - ERROR - Error processing page 170: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,098 - ERROR - Error processing page 171: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,098 - ERROR - Error processing page 172: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,099 - ERROR - Error processing page 173: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,099 - ERROR - Error processing page 174: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,100 - ERROR - Error processing page 175: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,100 - ERROR - Error processing page 176: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,101 - ERROR - Error processing page 177: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,102 - ERROR - Error processing page 178: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,103 - ERROR - Error processing page 179: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,103 - ERROR - Error processing page 180: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,104 - ERROR - Error processing page 181: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,105 - ERROR - Error processing page 182: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,105 - ERROR - Error processing page 183: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,106 - ERROR - Error processing page 184: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,106 - ERROR - Error processing page 185: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,107 - ERROR - Error processing page 186: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,107 - ERROR - Error processing page 187: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,108 - ERROR - Error processing page 188: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,108 - ERROR - Error processing page 189: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,109 - ERROR - Error processing page 190: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,109 - ERROR - Error processing page 191: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,110 - ERROR - Error processing page 192: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,111 - ERROR - Error processing page 193: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,111 - ERROR - Error processing page 194: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,112 - ERROR - Error processing page 195: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,112 - ERROR - Error processing page 196: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,113 - ERROR - Error processing page 197: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,114 - ERROR - Error processing page 198: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,114 - ERROR - Error processing page 199: Message: Tried to run command without establishing a connection
+
+2024-07-28 20:09:07,142 - ERROR - Error writing to Excel: 'Category 1'
