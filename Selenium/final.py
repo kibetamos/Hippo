@@ -7,22 +7,23 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import pandas as pd
 import logging
+import gc
 
 # Setup logging
-logging.basicConfig(filename='scraping_0_200.log', level=logging.ERROR, 
+logging.basicConfig(filename='scraping_last.log', level=logging.ERROR, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Path to GeckoDriver
 driver_path = '/usr/bin/geckodriver'
 service = Service(driver_path)
 
-# Initialize the Firefox WebDriver
-driver = webdriver.Firefox(service=service)
+# Function to initialize WebDriver
+def init_driver():
+    return webdriver.Firefox(service=service)
 
 # Function to extract product details from a page
-def extract_product_details(soup):
+def extract_product_details(soup, base_url, driver, wait):
     products = []
-
     try:
         product_cards = soup.find_all('div', class_='productCardRevamped_container__aJ6lA')
 
@@ -36,18 +37,17 @@ def extract_product_details(soup):
                 price_tag = product.find('div', class_='productCardRevamped_price__cWkdn')
                 mrp_tag = product.find('span', class_='productCardRevamped_mrpPrice__Yz_Yd')
                 discount_tag = product.find('div', class_='productCardRevamped_discount__GSjgY')
-                link_tag = product.find_parent('a', href=True)  # Assuming the link is in a parent 'a' tag
-                brand_tag = product.find('div', class_='productCardRevamped_brandContainer__1mgym')  # Brand tag
+                link_tag = product.find_parent('a', href=True)
+                brand_tag = product.find('div', class_='productCardRevamped_brandContainer__1mgym')
 
                 if name_tag and price_tag and link_tag and brand_tag:
                     name = name_tag.text.strip()
                     price = price_tag.text.strip()
                     mrp = mrp_tag.text.strip() if mrp_tag else "N/A"
-                    discount = discount_tag.text.strip().replace(" Off", "") if discount_tag else "N/A"  # Remove " off" from discount
-                    brand = brand_tag.text.strip()  # Extract brand
+                    discount = discount_tag.text.strip().replace(" Off", "") if discount_tag else "N/A"
+                    brand = brand_tag.text.strip()
                     link = link_tag['href']
 
-                    # Check if the link has a scheme, if not prepend the base URL
                     if not link.startswith('https://'):
                         full_link = urljoin(base_url, link)
                     else:
@@ -83,11 +83,11 @@ def extract_product_details(soup):
                         breadcrumb_items = breadcrumb_container.find_all('li', class_='breadcrumbs_breadcrumbItem__TEokw')
                         for item in breadcrumb_items:
                             breadcrumb_text = item.get_text(strip=True)
-                            if breadcrumb_text.lower() != "home":  # Exclude "home" from breadcrumbs
+                            if breadcrumb_text.lower() != "home":
                                 breadcrumbs.append(breadcrumb_text)
 
                     # Create categories based on breadcrumb path
-                    categories = ['Category 1', 'Category 2', 'Category 3', 'Category 4', 'Category 5']  # Adjust as needed
+                    categories = ['Category 1', 'Category 2', 'Category 3', 'Category 4', 'Category 5']
                     breadcrumb_categories = {}
                     for i, category in enumerate(categories):
                         if i < len(breadcrumbs):
@@ -122,27 +122,42 @@ def extract_product_details(soup):
 # URL of the site to scrape
 base_url = "https://www.hippostores.com/k-/productlist?sort=relevance"
 products = []
+
+# Initialize WebDriver
+driver = init_driver()
+
+# Create the WebDriverWait instance after the driver is initialized
 wait = WebDriverWait(driver, 10)
 
 try:
-    # Iterate through pages
-    for page in range(1, 200):
-        try:
-            url = f"{base_url}&page={page}"
-            driver.get(url)
+    # Iterate through pages in batches
+    for batch_start in range(1, 309, 50):
+        batch_end = min(batch_start + 50, 309)
+        for page in range(batch_start, batch_end):
+            try:
+                url = f"{base_url}&page={page}"
+                driver.get(url)
 
-            # Wait for the product cards to load
-            wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'productCardRevamped_container__aJ6lA')))
+                # Wait for the product cards to load
+                wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'productCardRevamped_container__aJ6lA')))
 
-            # Parse the page with BeautifulSoup
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
+                # Parse the page with BeautifulSoup
+                soup = BeautifulSoup(driver.page_source, 'html.parser')
 
-            # Extract product details
-            products.extend(extract_product_details(soup))
-        except Exception as e:
-            logging.error(f"Error processing page {page}: {e}")
+                # Extract product details
+                products.extend(extract_product_details(soup, base_url, driver, wait))
+            except Exception as e:
+                logging.error(f"Error processing page {page}: {e}")
+
+        # Close and restart the WebDriver to free memory
+        driver.quit()
+        driver = init_driver()
+        wait = WebDriverWait(driver, 10)  # Reinitialize the WebDriverWait
+
+        # Force garbage collection
+        gc.collect()
 finally:
-    # Close the driver
+    # Ensure the driver is closed
     driver.quit()
 
 # Number of items downloaded
@@ -157,13 +172,12 @@ if 'Category 1' not in df.columns:
     logging.error("'Category 1' column is missing from the DataFrame.")
 else:
     # Create a Pandas Excel writer using XlsxWriter as the engine
-    writer = pd.ExcelWriter('products_0_200.xlsx', engine='xlsxwriter')
+    writer = pd.ExcelWriter('Final_scraper.xlsx', engine='xlsxwriter')
 
     try:
         # Group by 'Category 1' and write each group to a separate sheet
         sheet_names = {}
         for category, group in df.groupby('Category 1'):
-            # Truncate the category name to 31 characters if necessary
             base_sheet_name = (category[:28] + '...') if category and len(category) > 31 else (category if category else 'Uncategorized')
             sheet_name = base_sheet_name
             count = 1
@@ -179,4 +193,4 @@ else:
     except Exception as e:
         logging.error(f"Error writing to Excel: {e}")
 
-print("products_0_200.xlsx")
+print("Final_scraper.xlsx")
