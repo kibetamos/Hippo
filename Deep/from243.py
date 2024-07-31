@@ -7,11 +7,10 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import pandas as pd
 import logging
-import gc
 import os
 
 # Setup logging
-logging.basicConfig(filename='scraping_hippo_last.log', level=logging.INFO, 
+logging.basicConfig(filename='Hippo_dataset_from_243.log', level=logging.INFO, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Path to GeckoDriver
@@ -20,7 +19,9 @@ service = Service(driver_path)
 
 # Function to initialize WebDriver
 def init_driver():
-    return webdriver.Firefox(service=service)
+    options = webdriver.FirefoxOptions()
+    options.add_argument('--headless')  # Run in headless mode
+    return webdriver.Firefox(service=service, options=options)
 
 # Function to extract product details from a page
 def extract_product_details(soup, base_url, driver, wait):
@@ -121,6 +122,10 @@ def extract_product_details(soup, base_url, driver, wait):
     
     return products
 
+# Start scraping from page 243
+start_page = 243
+end_page = 311  # Define the end page as needed
+
 # URL of the site to scrape
 base_url = "https://www.hippostores.com/k-/productlist?sort=relevance"
 products = []
@@ -129,7 +134,7 @@ products = []
 driver = init_driver()
 
 # Create the WebDriverWait instance after the driver is initialized
-wait = WebDriverWait(driver, 10)
+wait = WebDriverWait(driver, 5)  # Reduced wait time
 
 # Directory to save the batches
 batch_dir = 'batches'
@@ -140,9 +145,9 @@ save_interval = 50
 batch_number = 0
 
 try:
-    # Iterate through pages in batches
-    for batch_start in range(1, 101, save_interval):
-        batch_end = min(batch_start + save_interval, 101)
+    # Iterate through pages in batches starting from page 243
+    for batch_start in range(start_page, end_page, save_interval):
+        batch_end = min(batch_start + save_interval, end_page)
         logging.info(f"Processing batch from page {batch_start} to {batch_end}")
         for page in range(batch_start, batch_end):
             try:
@@ -169,21 +174,17 @@ try:
         batch_number += 1
         products = []  # Reset products list
 
-        # Close and restart the WebDriver to free memory
-        driver.quit()
-        driver = init_driver()
-        wait = WebDriverWait(driver, 10)  # Reinitialize the WebDriverWait
-        logging.info("WebDriver restarted")
-
-        # Force garbage collection
-        gc.collect()
-        logging.info("Garbage collection executed")
+        # Reinitialize the WebDriver if necessary
+        logging.info("Continuing with the current WebDriver instance")
 
 finally:
     # Ensure the driver is closed
     driver.quit()
     logging.info("Finalized and closed WebDriver")
 
+# Load all batches and concatenate them into a single DataFrame
+# all_products = []
+# for batch_file in sorted(os
 # Load all batches and concatenate them into a single DataFrame
 all_products = []
 for batch_file in sorted(os.listdir(batch_dir)):
@@ -202,7 +203,7 @@ if 'Category 1' not in df.columns:
     logging.error("'Category 1' column is missing from the DataFrame.")
 else:
     # Create a Pandas Excel writer using XlsxWriter as the engine
-    writer = pd.ExcelWriter('Final_hippo_scraper.xlsx', engine='xlsxwriter')
+    writer = pd.ExcelWriter('Hippo_scraper_from_243.xlsx', engine='xlsxwriter')
 
     try:
         # Group by 'Category 1' and write each group to a separate sheet
@@ -220,8 +221,8 @@ else:
         
         # Save the DataFrame with the grouped sheets to an Excel file
         writer.close()
-        logging.info("Final Excel file saved as 'Final_scraper.xlsx'")
+        logging.info("Final Excel file saved as 'Hippo_scraper.xlsx'")
     except Exception as e:
         logging.error(f"Error writing to Excel: {e}")
 
-print("Final_hippo_scraper.xlsx")
+print("Hippo_scraper_from_243.xlsx")
