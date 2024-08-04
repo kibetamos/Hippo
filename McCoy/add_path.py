@@ -19,12 +19,11 @@ driver = webdriver.Firefox(service=service, options=firefox_options)
 # Function to extract specifications and description from the product detail page
 def get_specifications_and_description(url):
     driver.get(url)
-    
     # Wait for the page to be fully loaded by allowing extra time
     time.sleep(10)  # Wait for 10 seconds to ensure the page is fully loaded
 
     specs = {}
-    description = None
+    description = ""
     
     try:
         # Wait until the description heading is present
@@ -34,7 +33,10 @@ def get_specifications_and_description(url):
         
         # Locate the description text
         description_element = driver.find_element(By.CSS_SELECTOR, '.products-description-pdp')
-        description = description_element.text.strip()
+        paragraphs = description_element.find_elements(By.TAG_NAME, 'p')
+        
+        for para in paragraphs:
+            description += para.text + "\n"
     except Exception as e:
         print(f"Error extracting description: {e}")
 
@@ -157,6 +159,6 @@ driver.quit()
 
 # Convert the data to a DataFrame and save to Excel
 df = pd.DataFrame(products)
-df.to_excel('products1.xlsx', index=False)
+df.to_excel('products_with_brands_specs_description_and_path.xlsx', index=False)
 
-print("Data has been saved to products_with_brands_specs_description_and_path.xlsx")
+print("path.xlsx")
