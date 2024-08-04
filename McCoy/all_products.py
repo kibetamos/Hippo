@@ -10,7 +10,7 @@ import time
 
 # Setup Firefox options
 firefox_options = Options()
-firefox_options.add_argument("--headless")  # Run in headless mode
+# firefox_options.add_argument("--headless")  # Run in headless mode
 
 # Initialize the WebDriver for Firefox
 service = Service(GeckoDriverManager().install())
@@ -84,51 +84,46 @@ driver.get('https://mccoymart.com/buy/aac-blocks/')
 # Scroll the page to load all products
 scroll_to_bottom()
 
-# Extract product details and links
-products = []
+# Extract product links
 product_elements = driver.find_elements(By.CSS_SELECTOR, '.item.global-card-list.brands-mccoy-cards')
+product_links = []
 
 for product_item in product_elements:
     try:
-        title = product_item.find_element(By.CSS_SELECTOR, '.item_title_global h4').text.strip()
+        link = product_item.find_element(By.CSS_SELECTOR, 'a').get_attribute('href')
+        product_links.append(link)
+    except Exception as e:
+        print(f"Error extracting link: {e}")
+
+# Extract product details and links
+products = []
+
+for link in product_links:
+    driver.get(link)
+    time.sleep(10)  # Wait for the page to be fully loaded
+    
+    try:
+        title = driver.find_element(By.CSS_SELECTOR, '.item_title_global h4').text.strip()
     except:
         title = None
 
     try:
-        price = product_item.find_element(By.CSS_SELECTOR, '.price_discountarea .price').text.strip()
+        price = driver.find_element(By.CSS_SELECTOR, '.price_discountarea .price').text.strip()
     except:
         price = None
 
     try:
-        old_price = product_item.find_element(By.CSS_SELECTOR, '.cross_price').text.strip()
+        old_price = driver.find_element(By.CSS_SELECTOR, '.cross_price').text.strip()
     except:
         old_price = None
 
     try:
-        discount = product_item.find_element(By.CSS_SELECTOR, '.discount-tittle').text.strip()
+        discount = driver.find_element(By.CSS_SELECTOR, '.discount-tittle').text.strip()
     except:
         discount = None
 
-    try:
-        link = product_item.find_element(By.CSS_SELECTOR, 'a').get_attribute('href')
-    except:
-        link = None
-
-    # Extract brand information
-    try:
-        brand_element = product_item.find_element(By.CSS_SELECTOR, '.yale-wrapper a')
-        brand_name = brand_element.text.strip()
-        brand_url = brand_element.get_attribute('href')
-    except:
-        brand_name = None
-        brand_url = None
-
-    # Extract specifications and description by visiting the product link
-    if link:
-        specifications, description = get_specifications_and_description(link)
-    else:
-        specifications = {}
-        description = None
+    # Extract specifications and description
+    specifications, description = get_specifications_and_description(link)
 
     # Combine all extracted data into a single dictionary
     product_info = {
@@ -137,8 +132,6 @@ for product_item in product_elements:
         'Old Price': old_price,
         'Discount': discount,
         'Link': link,
-        'Brand Name': brand_name,
-        'Brand URL': brand_url,
         'Description': description
     }
     
