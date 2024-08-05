@@ -1,0 +1,39 @@
+2024-08-05 10:21:41,656 - INFO - ====== WebDriver manager ======
+2024-08-05 10:21:41,777 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-05 10:21:42,410 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-05 10:21:42,678 - INFO - Driver [/home/amos/.wdm/drivers/geckodriver/linux64/v0.34.0/geckodriver] found in cache
+2024-08-05 10:23:48,347 - ERROR - Error extracting pack price: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-05 10:23:48,350 - ERROR - Error extracting quantity: Message: Unable to locate element: .price-dtls-pay-values .packQuantityPcs; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-05 10:24:02,577 - ERROR - Error extracting price per piece: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-05 10:24:17,058 - ERROR - Error extracting pack price: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-05 10:24:17,062 - ERROR - Error extracting quantity: Message: Unable to locate element: .price-dtls-pay-values .packQuantityPcs; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
