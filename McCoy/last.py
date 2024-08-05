@@ -163,7 +163,7 @@ product_links = [product.get_attribute('href') for product in driver.find_elemen
 products = []
 
 # Limit to the first 5 products
-for i, link in enumerate(product_links[:2]):
+for i, link in enumerate(product_links[:5]):
     driver.get(link)
     time.sleep(10)  # Wait for the page to be fully loaded
     
@@ -213,7 +213,7 @@ for i, link in enumerate(product_links[:2]):
         product_info.update(breadcrumb_path)
     except Exception as e:
         logging.error(f"Error extracting product details: {e}")
-
+    
     products.append(product_info)
 
 # Close the driver
@@ -222,12 +222,12 @@ driver.quit()
 # Create a DataFrame from the list of products
 df = pd.DataFrame(products)
 
-# Group by the third category
+# Group by the third category (Category 3)
 grouped_df = df.groupby('Category 3')
 
 # Create an Excel writer object and save each group to a separate sheet
 try:
-    with pd.ExcelWriter('products_grouped_by_category.xlsx', engine='openpyxl') as writer:
+    with pd.ExcelWriter('ry.xlsx', engine='xlsxwriter') as writer:
         for category, group in grouped_df:
             # Replace invalid characters for sheet names
             safe_category = str(category).replace('/', '_').replace('\\', '_')

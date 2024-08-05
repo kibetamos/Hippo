@@ -147,7 +147,7 @@ def get_breadcrumb_path():
     return path_dict
 
 # Navigate to the main page
-driver.get('https://mccoymart.com/buy/white-cement/')
+driver.get('https://mccoymart.com/buy/paver-tiles/')
 
 # Scroll the page to load all products
 scroll_to_bottom()
@@ -163,7 +163,7 @@ product_links = [product.get_attribute('href') for product in driver.find_elemen
 products = []
 
 # Limit to the first 5 products
-for i, link in enumerate(product_links[:2]):
+for i, link in enumerate(product_links[:1]):
     driver.get(link)
     time.sleep(10)  # Wait for the page to be fully loaded
     
@@ -219,22 +219,6 @@ for i, link in enumerate(product_links[:2]):
 # Close the driver
 driver.quit()
 
-# Create a DataFrame from the list of products
-df = pd.DataFrame(products)
-
-# Group by the third category
-grouped_df = df.groupby('Category 3')
-
-# Create an Excel writer object and save each group to a separate sheet
-try:
-    with pd.ExcelWriter('products_grouped_by_category.xlsx', engine='openpyxl') as writer:
-        for category, group in grouped_df:
-            # Replace invalid characters for sheet names
-            safe_category = str(category).replace('/', '_').replace('\\', '_')
-            group.to_excel(writer, index=False, sheet_name=safe_category[:31])  # Sheet name must be <= 31 characters
-    logging.info("Data successfully saved to 'products_grouped_by_category.xlsx'")
-except Exception as e:
-    logging.error(f"Error saving to Excel: {e}")
-
 # Print the results to console
-print(df)
+for product in products:
+    print(product)
