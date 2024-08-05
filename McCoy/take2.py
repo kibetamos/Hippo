@@ -63,8 +63,6 @@ def get_specifications_and_description(url):
         'Applications': ''
     }
     price_per_piece = None
-    mrp = None
-    discount = None
 
     try:
         # Extract specifications
@@ -116,21 +114,7 @@ def get_specifications_and_description(url):
     except Exception as e:
         logging.error(f"Error extracting price per piece: {e}")
 
-    try:
-        # Extract MRP
-        mrp_element = driver.find_element(By.CSS_SELECTOR, '.discount-price-pdp strike')
-        mrp = mrp_element.text.strip()
-    except Exception as e:
-        logging.error(f"Error extracting MRP: {e}")
-
-    try:
-        # Extract discount percentage
-        discount_element = driver.find_element(By.CSS_SELECTOR, '.off-price-pdp')
-        discount = discount_element.text.strip()
-    except Exception as e:
-        logging.error(f"Error extracting discount: {e}")
-
-    return specs, description, price_per_piece, mrp, discount
+    return specs, description, price_per_piece
 
 # Function to extract the breadcrumb path and split into categories
 def get_breadcrumb_path():
@@ -163,7 +147,7 @@ product_links = [product.get_attribute('href') for product in driver.find_elemen
 products = []
 
 # Limit to the first 5 products
-for i, link in enumerate(product_links[:5]):
+for i, link in enumerate(product_links[:1]):
     driver.get(link)
     time.sleep(10)  # Wait for the page to be fully loaded
     
@@ -179,6 +163,25 @@ for i, link in enumerate(product_links[:5]):
         logging.error(f"Error extracting title: {e}")
     
     try:
+        price = driver.find_element(By.CSS_SELECTOR, '.price_discountarea .price').text.strip()
+        product_info['Price'] = price
+    except Exception as e:
+        logging.error(f"Error extracting price: {e}")
+
+    try:
+        old_price = driver.find_element(By.CSS_SELECTOR, '.cross_price').text.strip()
+        product_info['Old Price'] = old_price
+    except Exception as e:
+        logging.error(f"Error extracting old price: {e}")
+
+    try:
+        discount_element = driver.find_element(By.CSS_SELECTOR, '.discount-tittle').text.strip()
+        discount = discount_element.replace(' OFF', '').strip()
+        product_info['Discount'] = discount
+    except Exception as e:
+        logging.error(f"Error extracting discount: {e}")
+    
+    try:
         pack_price_element = driver.find_element(By.CSS_SELECTOR, '.price-dtls-pay-values .packQuantityAmount')
         pack_price = pack_price_element.text.strip()
         product_info['Pack Price'] = pack_price
@@ -192,21 +195,17 @@ for i, link in enumerate(product_links[:5]):
     except Exception as e:
         logging.error(f"Error extracting quantity: {e}")
 
-    # Extract specifications, description, price per piece, MRP, discount, and breadcrumb path
+    # Extract specifications, description, price per piece, and breadcrumb path
     try:
-        specifications, description, price_per_piece, mrp, discount = get_specifications_and_description(link)
+        specifications, description, price_per_piece = get_specifications_and_description(link)
         breadcrumb_path = get_breadcrumb_path()
         product_info.update({
-            'MRP': mrp,
-            'Pack Price': pack_price,
-            'Discount': discount,
-            'Price Per Piece': price_per_piece,
-            'Quantity': quantity,
             'Product Description': description.get('Product Description', '').strip(),
             'Key Features': description.get('Key Features', '').strip(),
             'Benefit & Advantages': description.get('Benefit & Advantages', '').strip(),
             'Surface Preparation': description.get('Surface Preparation', '').strip(),
             'Applications': description.get('Applications', '').strip(),
+            'Price Per Piece': price_per_piece,
             'Status': 'Success'
         })
         product_info.update(specifications)
@@ -221,6 +220,6 @@ driver.quit()
 
 # Convert the data to a DataFrame and save it to Excel
 df = pd.DataFrame(products)
-df.to_excel('5Ds.xlsx', index=False)
+df.to_excel('Ds.xlsx', index=False)
 
 print("Ds.xlsx")
