@@ -173,20 +173,20 @@ for i, link in enumerate(product_links[:2]):
     product_info = {'Link': link, 'Status': 'Failed'}
 
     try:
-        title = driver.find_element(By.CSS_SELECTOR, '.item_title_global h4').text.strip()
+        title = driver.find_element(By.CSS_SELECTOR, '.products-content-details').text.strip()
         product_info['Title'] = title
     except Exception as e:
         logging.error(f"Error extracting title: {e}")
     
     try:
-        pack_price_element = driver.find_element(By.CSS_SELECTOR, '.price-dtls-pay-values .packQuantityAmount')
+        pack_price_element = driver.find_element(By.CSS_SELECTOR, '.price-pdp-wrapper .price-dtls-pdp .main-price-pdp')
         pack_price = pack_price_element.text.strip()
         product_info['Pack Price'] = pack_price
     except Exception as e:
         logging.error(f"Error extracting pack price: {e}")
 
     try:
-        quantity_element = driver.find_element(By.CSS_SELECTOR, '.price-dtls-pay-values .packQuantityPcs')
+        quantity_element = driver.find_element(By.CSS_SELECTOR, '.key-Features-cnt li')
         quantity = quantity_element.text.strip()
         product_info['Quantity'] = quantity
     except Exception as e:
@@ -227,12 +227,12 @@ grouped_df = df.groupby('Category 3')
 
 # Create an Excel writer object and save each group to a separate sheet
 try:
-    with pd.ExcelWriter('products_grouped_by_category.xlsx', engine='openpyxl') as writer:
+    with pd.ExcelWriter('sample2.xlsx', engine='openpyxl') as writer:
         for category, group in grouped_df:
             # Replace invalid characters for sheet names
             safe_category = str(category).replace('/', '_').replace('\\', '_')
             group.to_excel(writer, index=False, sheet_name=safe_category[:31])  # Sheet name must be <= 31 characters
-    logging.info("Data successfully saved to 'products_grouped_by_category.xlsx'")
+    logging.info("Data successfully saved to 'sample2.xlsx'")
 except Exception as e:
     logging.error(f"Error saving to Excel: {e}")
 

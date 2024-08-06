@@ -1,0 +1,48 @@
+2024-08-06 08:46:00,013 - INFO - ====== WebDriver manager ======
+2024-08-06 08:46:00,127 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-06 08:46:00,956 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-06 08:46:01,218 - INFO - Driver [/home/amos/.wdm/drivers/geckodriver/linux64/v0.34.0/geckodriver] found in cache
+2024-08-06 08:46:15,677 - ERROR - Error extracting pack price: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-06 08:46:15,680 - ERROR - Error extracting quantity: Message: Unable to locate element: .price-dtls-pay-values .packQuantityPcs; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-06 08:46:39,003 - ERROR - Timeout waiting for description section on URL: https://mccoymart.com/buy/block-board/
+2024-08-06 08:46:49,928 - ERROR - Error extracting pack price: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-06 08:46:49,932 - ERROR - Error extracting quantity: Message: Unable to locate element: .price-dtls-pay-values .packQuantityPcs; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-06 08:46:51,562 - ERROR - Error extracting product details: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.execute_@chrome://remote/content/marionette/driver.sys.mjs:778:15
+GeckoDriver.prototype.executeScript@chrome://remote/content/marionette/driver.sys.mjs:690:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
