@@ -1,0 +1,286 @@
+2024-08-07 14:32:22,913 - INFO - ====== WebDriver manager ======
+2024-08-07 14:32:23,111 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-07 14:32:23,682 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-07 14:32:23,950 - INFO - Driver [/home/amos/.wdm/drivers/geckodriver/linux64/v0.35.0/geckodriver] found in cache
+2024-08-07 14:32:56,916 - INFO - Reached the end of the page or no more content to load.
+2024-08-07 14:32:57,419 - INFO - Total number of unique products found: 29
+2024-08-07 14:47:44,833 - INFO - Reached the end of the page or no more content to load.
+2024-08-07 14:47:45,010 - INFO - Total number of unique products found: 11
+2024-08-07 14:48:02,025 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/jk-super-cement-ppc-50-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:48:02,029 - ERROR - Error extracting quantity for product https://mccoymart.com/buy/jk-super-cement-ppc-50-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityPcs; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:48:32,790 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/trimurti-decorative-white-cement-1-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:48:32,793 - ERROR - Error extracting quantity for product https://mccoymart.com/buy/trimurti-decorative-white-cement-1-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityPcs; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:49:03,244 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/ultratech-ppc-43-grade-cement-50-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:49:03,248 - ERROR - Error extracting quantity for product https://mccoymart.com/buy/ultratech-ppc-43-grade-cement-50-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityPcs; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:49:17,710 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/ultratech-ppc-43-grade-cement-50-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:49:45,908 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/bangur-cement-ppc/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:50:01,076 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/jk-super-cement-opc-43-grade-cement-50-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:50:01,083 - ERROR - Error extracting quantity for product https://mccoymart.com/buy/jk-super-cement-opc-43-grade-cement-50-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityPcs; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:50:15,702 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/jk-super-cement-opc-43-grade-cement-50-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:50:25,997 - ERROR - Error extracting pack price for product javascript:void(0): Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:50:26,011 - ERROR - Error extracting quantity for product javascript:void(0): Message: Unable to locate element: .price-dtls-pay-values .packQuantityPcs; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:50:36,353 - ERROR - Error extracting price per piece for product javascript:void(0): Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:51:03,905 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/bangur-jung-rodhak-cement-50-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:51:19,588 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/trimurti-decorative-white-cement-25-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:51:19,596 - ERROR - Error extracting quantity for product https://mccoymart.com/buy/trimurti-decorative-white-cement-25-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityPcs; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:51:35,213 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/trimurti-decorative-white-cement-25-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:51:49,582 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/ambuja-cement-ppc-53-grade/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:51:49,588 - ERROR - Error extracting quantity for product https://mccoymart.com/buy/ambuja-cement-ppc-53-grade/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityPcs; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:52:03,684 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/ambuja-cement-ppc-53-grade/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:52:19,944 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/trimurti-decorative-white-cement-5-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:52:19,948 - ERROR - Error extracting quantity for product https://mccoymart.com/buy/trimurti-decorative-white-cement-5-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityPcs; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:52:50,201 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/acc-ppc-cement-50-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:52:50,206 - ERROR - Error extracting quantity for product https://mccoymart.com/buy/acc-ppc-cement-50-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityPcs; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 14:53:04,264 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/acc-ppc-cement-50-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 15:06:23,899 - INFO - ====== WebDriver manager ======
+2024-08-07 15:06:24,052 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-07 15:06:24,643 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-07 15:06:24,903 - INFO - Driver [/home/amos/.wdm/drivers/geckodriver/linux64/v0.35.0/geckodriver] found in cache
+2024-08-07 15:06:35,276 - ERROR - Error processing URL https://mccoymart.com/buy/block-board/: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.execute_@chrome://remote/content/marionette/driver.sys.mjs:778:15
+GeckoDriver.prototype.executeScript@chrome://remote/content/marionette/driver.sys.mjs:690:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-08-07 15:06:35,286 - ERROR - Error processing URL https://mccoymart.com/buy/white-cement/: Message: WebDriver session does not exist, or is not active
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:448:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-08-07 15:07:07,746 - INFO - ====== WebDriver manager ======
+2024-08-07 15:07:07,843 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-07 15:07:08,378 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-07 15:07:08,642 - INFO - Driver [/home/amos/.wdm/drivers/geckodriver/linux64/v0.35.0/geckodriver] found in cache
+2024-08-07 15:07:44,941 - INFO - Reached the end of the page or no more content to load.
+2024-08-07 15:07:45,445 - INFO - Total number of unique products found: 29
+2024-08-07 15:22:14,405 - INFO - Reached the end of the page or no more content to load.
+2024-08-07 15:22:14,594 - INFO - Total number of unique products found: 11
+2024-08-07 15:22:46,428 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/bangur-jung-rodhak-cement-50-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 15:23:00,748 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/jk-super-cement-opc-43-grade-cement-50-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 15:23:00,750 - ERROR - Error extracting quantity for product https://mccoymart.com/buy/jk-super-cement-opc-43-grade-cement-50-kg/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityPcs; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 15:23:16,504 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/jk-super-cement-opc-43-grade-cement-50-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 15:23:30,383 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/ambuja-cement-ppc-53-grade/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 15:23:30,389 - ERROR - Error extracting quantity for product https://mccoymart.com/buy/ambuja-cement-ppc-53-grade/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityPcs; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 15:23:46,059 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/ambuja-cement-ppc-53-grade/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-07 15:24:15,987 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/bangur-cement-ppc/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+

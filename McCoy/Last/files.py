@@ -123,7 +123,7 @@ urls = read_urls_from_file('extracted_data.txt')
 products = []
 
 # Limit to 5 items for testing
-for i, (name, link) in enumerate(urls[:5]):
+for i, (name, link) in enumerate(urls):
     driver.get(link)
     time.sleep(10)  # Wait for the page to be fully loaded
     

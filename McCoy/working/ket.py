@@ -10,7 +10,7 @@ import pandas as pd
 import time
 
 # Setup logging
-logging.basicConfig(filename='scra.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='scraping.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Setup Firefox options
 firefox_options = Options()
@@ -20,39 +20,54 @@ firefox_options = Options()
 service = Service(GeckoDriverManager().install())
 driver = webdriver.Firefox(service=service, options=firefox_options)
 
-# Function to scroll to the bottom of the page
-def scroll_to_bottom():
+def load_all_products():
+    """Scrolls to the bottom of the page to ensure all products are loaded and returns the number of products."""
     last_height = driver.execute_script("return document.body.scrollHeight")
     while True:
-        # Scroll down to bottom
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        # Wait for page to load
-        time.sleep(3)
-        # Calculate new scroll height and compare with last height
-        new_height = driver.execute_script("return document.body.scrollHeight")
-        if new_height == last_height:
+        try:
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(5)  # Wait for additional content to load
+            new_height = driver.execute_script("return document.body.scrollHeight")
+            if new_height == last_height:
+                logging.info("Reached the end of the page or no more content to load.")
+                break
+            last_height = new_height
+        except Exception as e:
+            logging.error(f"Error during scrolling: {e}")
             break
-        last_height = new_height
 
-# Function to scroll until the product description section is in view
+    # Count the number of product elements, filtering out duplicates
+    try:
+        product_elements = driver.find_elements(By.CSS_SELECTOR, '.item.global-card-list.brands-mccoy-cards a')
+        product_links = set()
+        for product in product_elements:
+            link = product.get_attribute('href')
+            if link:
+                product_links.add(link)
+        product_count = len(product_links)
+        logging.info(f"Total number of unique products found: {product_count}")
+    except Exception as e:
+        logging.error(f"Error counting products: {e}")
+        product_count = 0
+
+    return product_count
+
+
+
 def scroll_until_description_in_view(description_selector):
+    """Scrolls until the product description section is in view."""
     while True:
         try:
-            # Scroll down to bottom to ensure the page is fully loaded
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            time.sleep(3)  # Wait for the page to load
-            
-            # Check if the description section is in view
-            description_element = driver.find_element(By.CSS_SELECTOR, description_selector)
-            if description_element.is_displayed():
-                break
+            WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CSS_SELECTOR, description_selector)))
+            break
         except Exception as e:
             logging.error(f"Error checking description visibility: {e}")
 
-# Function to extract specifications and description from the product detail page
 def get_specifications_and_description(url):
+    """Extracts specifications and descriptions from the product detail page."""
     driver.get(url)
-    time.sleep(10)  # Wait for the page to be fully loaded
+    time.sleep(10)
 
     specs = {}
     description = {
@@ -62,28 +77,22 @@ def get_specifications_and_description(url):
         'Surface Preparation': '',
         'Applications': ''
     }
-    price_per_piece = None
-    mrp = None
-    discount = None
+    price_per_piece, mrp, discount, tax = None, None, None, None
 
     try:
-        # Extract specifications
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, '.table-Specifications'))
-        )
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.table-Specifications')))
         spec_elements = driver.find_elements(By.CSS_SELECTOR, '.table-Specifications tr')
         for spec in spec_elements:
             key_element = spec.find_element(By.CSS_SELECTOR, 'td b')
             key = key_element.text.strip() if key_element else None
             value_elements = spec.find_elements(By.CSS_SELECTOR, 'td')
-            value = value_elements[1].text.strip() if len(value_elements) > 1 else ''
+            value = value_elements[1].text if len(value_elements) > 1 else ''
             if key:
                 specs[key] = value
     except Exception as e:
-        logging.error(f"Error extracting specifications: {e}")
+        logging.error(f"Error extracting specifications for product {url}: {e}")
 
     try:
-        # Extract product description sections
         description_div = driver.find_element(By.CSS_SELECTOR, '#description')
         description_elements = description_div.find_elements(By.XPATH, './/*')
         current_heading = None
@@ -105,136 +114,117 @@ def get_specifications_and_description(url):
 
         if current_heading:
             description[current_heading] = '\n'.join(content).strip()
-    
     except Exception as e:
-        logging.error(f"Error extracting description: {e}")
+        logging.error(f"Error extracting description for product {url}: {e}")
 
     try:
-        # Extract price per piece
         price_per_piece_element = driver.find_element(By.CSS_SELECTOR, '.price-pcs-pdp')
         price_per_piece = price_per_piece_element.text.strip()
     except Exception as e:
-        logging.error(f"Error extracting price per piece: {e}")
+        logging.error(f"Error extracting price per piece for product {url}: {e}")
 
     try:
-        # Extract MRP
         mrp_element = driver.find_element(By.CSS_SELECTOR, '.discount-price-pdp strike')
         mrp = mrp_element.text.strip()
     except Exception as e:
-        logging.error(f"Error extracting MRP: {e}")
+        logging.error(f"Error extracting MRP for product {url}: {e}")
 
     try:
-        # Extract discount percentage
         discount_element = driver.find_element(By.CSS_SELECTOR, '.off-price-pdp')
         discount = discount_element.text.strip().replace('off', '').strip()
     except Exception as e:
-        logging.error(f"Error extracting discount: {e}")
+        logging.error(f"Error extracting discount for product {url}: {e}")
 
-    return specs, description, price_per_piece, mrp, discount
+    try:
+        tax_element = driver.find_element(By.CSS_SELECTOR, '.included-texes-pdp')
+        tax = tax_element.text.strip()
+    except Exception as e:
+        logging.error(f"Error extracting tax for product {url}: {e}")
 
-# Function to extract the breadcrumb path and split into categories
+    return specs, description, price_per_piece, mrp, discount, tax
+
 def get_breadcrumb_path():
+    """Extracts the breadcrumb path and splits it into categories."""
     try:
         breadcrumb_elements = driver.find_elements(By.CSS_SELECTOR, 'ol.d-flex li')
-        # Extract the text from each breadcrumb element except the last one (product name)
-        path_list = [element.text.strip() for element in breadcrumb_elements[:-1] if element.text.strip()]
+        path_list = [element.text.strip() for element in breadcrumb_elements if element.text.strip()]
+        path_list_reduced = path_list[2:-1]  # Remove the first two and last elements
     except Exception as e:
         logging.error(f"Error extracting breadcrumb path: {e}")
-        path_list = []
+        path_list_reduced = []
 
-    # Create a dictionary to store categories with dynamic column names
-    path_dict = {f'Category {i+1}': path_list[i] for i in range(len(path_list))}
+    path_dict = {f'Category {i+1}': path_list_reduced[i] for i in range(len(path_list_reduced))}
+    full_path = ' > '.join(path_list_reduced)
+    path_dict['Path'] = full_path
+
     return path_dict
 
-# Navigate to the main page
-driver.get('https://mccoymart.com/buy/kitchen-fitting-hardware/')
+# Main scraping process
+driver.get('https://mccoymart.com/buy/block-board/')
+load_all_products()
 
-# Scroll the page to load all products
-scroll_to_bottom()
+product_elements = driver.find_elements(By.CSS_SELECTOR, '.item.global-card-list.brands-mccoy-cards a')
+product_links = [product.get_attribute('href') for product in product_elements]
+unique_links = set(product_links)
 
-# Count number of items on the page
-num_items = len(driver.find_elements(By.CSS_SELECTOR, '.item.global-card-list.brands-mccoy-cards'))
-logging.info(f'Number of items found on the page: {num_items}')
-
-# Extract product links
-product_links = [product.get_attribute('href') for product in driver.find_elements(By.CSS_SELECTOR, '.item.global-card-list.brands-mccoy-cards a')]
-
-# Extract product details and links
 products = []
 
-# Limit to the first 5 products
-for i, link in enumerate(product_links[:5]):
+for i, link in enumerate(list(unique_links)[:2]):
     driver.get(link)
-    time.sleep(10)  # Wait for the page to be fully loaded
-    
-    # Scroll until the product description section is in view
+    time.sleep(10)
     scroll_until_description_in_view('#description')
-    
+
     product_info = {'Link': link, 'Status': 'Failed'}
 
     try:
-        title = driver.find_element(By.CSS_SELECTOR, '.item_title_global h4').text.strip()
+        title = driver.find_element(By.CSS_SELECTOR, '.products-content-details').text.strip()
         product_info['Title'] = title
     except Exception as e:
-        logging.error(f"Error extracting title: {e}")
-    
+        logging.error(f"Error extracting title for product {link}: {e}")
+
     try:
         pack_price_element = driver.find_element(By.CSS_SELECTOR, '.price-dtls-pay-values .packQuantityAmount')
         pack_price = pack_price_element.text.strip()
         product_info['Pack Price'] = pack_price
     except Exception as e:
-        logging.error(f"Error extracting pack price: {e}")
+        logging.error(f"Error extracting pack price for product {link}: {e}")
 
     try:
         quantity_element = driver.find_element(By.CSS_SELECTOR, '.price-dtls-pay-values .packQuantityPcs')
         quantity = quantity_element.text.strip()
         product_info['Quantity'] = quantity
     except Exception as e:
-        logging.error(f"Error extracting quantity: {e}")
+        logging.error(f"Error extracting quantity for product {link}: {e}")
 
-    # Extract specifications, description, price per piece, MRP, discount, and breadcrumb path
     try:
-        specifications, description, price_per_piece, mrp, discount = get_specifications_and_description(link)
+        specifications, description, price_per_piece, mrp, discount, tax = get_specifications_and_description(link)
         breadcrumb_path = get_breadcrumb_path()
         product_info.update({
             'MRP': mrp,
             'Pack Price': pack_price,
             'Discount': discount,
+            'Tax': tax,
             'Price Per Piece': price_per_piece,
             'Quantity': quantity,
-            'Product Description': description.get('Product Description', '').strip(),
-            'Key Features': description.get('Key Features', '').strip(),
-            'Benefit & Advantages': description.get('Benefit & Advantages', '').strip(),
-            'Surface Preparation': description.get('Surface Preparation', '').strip(),
-            'Applications': description.get('Applications', '').strip(),
+            'Product Description': description.get('Product Description', ''),
             'Status': 'Success'
         })
         product_info.update(specifications)
         product_info.update(breadcrumb_path)
     except Exception as e:
-        logging.error(f"Error extracting product details: {e}")
+        logging.error(f"Error extracting product details for product {link}: {e}")
 
     products.append(product_info)
 
-# Close the driver
 driver.quit()
 
-# Create a DataFrame from the list of products
 df = pd.DataFrame(products)
 
-# Group by the third category
-grouped_df = df.groupby('Category 3')
-
-# Create an Excel writer object and save each group to a separate sheet
+# Group by 'Category 1' and save to Excel
 try:
-    with pd.ExcelWriter('sample4.xlsx', engine='openpyxl') as writer:
-        for category, group in grouped_df:
-            # Replace invalid characters for sheet names
+    with pd.ExcelWriter('sample5.xlsx', engine='openpyxl') as writer:
+        for category, group in df.groupby('Category 1'):
             safe_category = str(category).replace('/', '_').replace('\\', '_')
-            group.to_excel(writer, index=False, sheet_name=safe_category[:31])  # Sheet name must be <= 31 characters
-    logging.info("Data successfully saved to 'sample4.xlsx'")
+            group.to_excel(writer, sheet_name=safe_category, index=False)
 except Exception as e:
     logging.error(f"Error saving to Excel: {e}")
-
-# Print the results to console
-print(df)
