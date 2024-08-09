@@ -32,7 +32,7 @@ def load_all_products():
         last_height = driver.execute_script("return document.body.scrollHeight")
         while True:
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            time.sleep(22)  # Wait for additional content to load
+            time.sleep(20)  # Wait for additional content to load
             new_height = driver.execute_script("return document.body.scrollHeight")
             if new_height == last_height:
                 logging.info("Reached the end of the page or no more content to load.")
@@ -207,7 +207,7 @@ def get_breadcrumb_path():
 
 # List of URLs to scrape
 urls = [
-    'https://mccoymart.com/buy/aac-blocks/',
+    'https://mccoymart.com/buy/shuttering-plywood/',
 ]
 
 products = []
