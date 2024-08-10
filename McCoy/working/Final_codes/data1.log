@@ -3187,3 +3187,11 @@ WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
 NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
 dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 
+2024-08-09 21:43:14,262 - INFO - ====== WebDriver manager ======
+2024-08-09 21:43:14,376 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-09 21:43:15,003 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-09 21:43:15,553 - INFO - Driver [/home/amos/.wdm/drivers/geckodriver/linux64/v0.35.0/geckodriver] found in cache
+2024-08-09 21:48:24,279 - INFO - ====== WebDriver manager ======
+2024-08-09 21:48:24,382 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-09 21:48:25,379 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-09 21:48:25,713 - INFO - Driver [/home/amos/.wdm/drivers/geckodriver/linux64/v0.35.0/geckodriver] found in cache

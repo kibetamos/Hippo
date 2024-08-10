@@ -10,15 +10,21 @@ import pandas as pd
 import time
 
 # Setup logging
-logging.basicConfig(filename='scraping_data1.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='scraping_data2.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Setup Firefox options
 firefox_options = Options()
 # firefox_options.add_argument("--headless")  # Uncomment to run in headless mode
 
 # Initialize the WebDriver for Firefox
-service = Service(GeckoDriverManager().install())
+# service = Service(GeckoDriverManager().install())
+# driver = webdriver.Firefox(service=service, options=firefox_options)
+service = Service('/usr/bin/geckodriver')
+firefox_options = Options()
+firefox_options.headless = True
+
 driver = webdriver.Firefox(service=service, options=firefox_options)
+
 
 def load_urls_from_file(file_path):
     """Load URLs from a text file."""
@@ -214,6 +220,13 @@ for list_page_link in list_page_links:
                     logging.error(f"Error extracting title for product {link}: {e}")
 
                 try:
+                    quantity_element = driver.find_element(By.CSS_SELECTOR, '.price-dtls-pay-values .packQuantityPcs')
+                    quantity = quantity_element.text.strip()
+                    product_info['Quantity'] = quantity
+                except Exception as e:
+                    logging.error(f"Error extracting quantity for product {link}: {e}")
+
+                try:
                     pack_price_element = driver.find_element(By.CSS_SELECTOR, '.price-dtls-pay-values .packQuantityAmount')
                     pack_price = pack_price_element.text.strip()
                     product_info['Pack Price'] = pack_price
@@ -232,9 +245,11 @@ for list_page_link in list_page_links:
                         'Specifications': specs,
                         'Description': description,
                         'Price Per Piece': price_per_piece,
+                        'Quantity': quantity,
                         'MRP': mrp,
                         'Discount': discount,
-                        'Tax': tax
+                        'Tax': tax,
+                        'Status': 'Success'
                     })
                     product_info['Status'] = 'Success'
                 except Exception as e:
@@ -254,7 +269,7 @@ for list_page_link in list_page_links:
 # Save data to Excel
 df = pd.DataFrame(products)
 try:
-    with pd.ExcelWriter('Data1.xlsx', engine='openpyxl') as writer:
+    with pd.ExcelWriter('Data2.xlsx', engine='openpyxl') as writer:
         for category, group in df.groupby('Category 1'):
             safe_category = str(category).replace('/', '_').replace('\\', '_')
             group.to_excel(writer, sheet_name=safe_category, index=False)

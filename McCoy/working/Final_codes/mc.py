@@ -82,10 +82,10 @@ def get_specifications_and_description(url):
     specs = {}
     description = {
         'Product Description': '',
-        'Key Features': '',
-        'Benefit & Advantages': '',
-        'Surface Preparation': '',
-        'Applications': ''
+        # 'Key Features': '',
+        # 'Benefit & Advantages': '',
+        # 'Surface Preparation': '',
+        # 'Applications': ''
     }
     price_per_piece, mrp, discount, tax = None, None, None, None
 
@@ -231,35 +231,38 @@ def save_data_to_excel(data, filename):
     """Saves grouped data to an Excel file."""
     df = pd.DataFrame(data)
 
-    # Assuming 'Category 4' is one of the keys in the data dict
+    # Assuming 'Category 1' is one of the keys in the data dict
     if 'Category 1' in df.columns:
-        df.sort_values(by=['Category 1'], inplace=True)
-    
-    # Saving to Excel
-    df.to_excel(filename, index=False)
+        grouped = df.groupby('Category 1')
+        with pd.ExcelWriter(filename, engine='xlsxwriter') as writer:
+            for category, group in grouped:
+                sanitized_category = category.replace('/', '_').replace('\\', '_')  # Handle special characters in category names
+                group.to_excel(writer, sheet_name=sanitized_category[:31], index=False)  # Excel sheet names must be <= 31 chars
+    else:
+        df.to_excel(filename, index=False)
 
+    logging.info(f"Data saved to {filename}")
 
-
-def main(input_file, output_file):
-    """Main execution function."""
-    urls = load_urls_from_file(input_file)
+def main(file_path):
+    urls = load_urls_from_file(file_path)
     all_data = []
+    total_links = 0
 
     for url in urls:
+        total_links += 1
         try:
+            logging.info(f"Processing URL {total_links}/{len(urls)}: {url}")
             product_links = load_all_products(url)
             for link in product_links:
-                product_data = process_product(link)
-                all_data.append(product_data)
+                product_info = process_product(link)
+                all_data.append(product_info)
         except Exception as e:
-            logging.error(f"Failed to process page {url}: {e}")
+            logging.error(f"Error processing URL {url}: {e}")
 
-    save_data_to_excel(all_data, output_file)
+    save_data_to_excel(all_data, 'mccoymart_products.xlsx')
+    logging.info("Scraping completed.")
 
-# Main execution
 if __name__ == "__main__":
-    input_file = 'shops.txt'  # Replace with your input file
-    output_file = 'products.xlsx'  # Replace with your output file
-    main(input_file, output_file)
-
+    file_path = 'shops.txt'
+    main(file_path)
     driver.quit()
