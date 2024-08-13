@@ -1,0 +1,1491 @@
+2024-08-11 23:02:51,930 - INFO - ====== WebDriver manager ======
+2024-08-11 23:02:52,028 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-11 23:02:52,745 - INFO - Get LATEST geckodriver version for 128.0 firefox
+2024-08-11 23:02:53,062 - INFO - Driver [/home/amos/.wdm/drivers/geckodriver/linux64/v0.35.0/geckodriver] found in cache
+2024-08-11 23:02:56,619 - INFO - Processing URL 1/10: https://mccoymart.com/buy/edge-banding-tape/
+2024-08-11 23:03:29,698 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:03:30,716 - INFO - Found 61 products on page https://mccoymart.com/buy/edge-banding-tape/
+2024-08-11 23:03:30,716 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-prairie-green-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:03:40,662 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:03:59,683 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:04:00,149 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-matt-3004-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:04:10,103 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:04:28,865 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:04:29,228 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-forest-green-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:04:38,078 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:04:56,562 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:04:57,218 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-dark-grey-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:05:07,011 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:05:25,973 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:05:26,456 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-dark-grey-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:05:35,020 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:05:53,735 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:05:54,176 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-dream-green-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:06:02,731 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:06:21,404 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:06:21,898 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-misty-grey-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:06:30,912 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:06:51,146 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:06:51,895 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-island-sky-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:07:00,871 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:07:20,525 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:07:21,029 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-sky-blue-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:07:29,613 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:07:50,076 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:07:50,574 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-super-hi-gloss-3125-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:07:58,879 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:08:18,149 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:08:18,647 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-midnight-blue-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:08:25,718 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:08:42,806 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:08:43,297 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-matt-3002-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:08:51,128 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:09:09,011 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:09:09,538 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-dream-green-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:09:16,742 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:09:34,604 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:09:35,202 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-matt-3106-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:09:42,833 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:10:00,347 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:10:00,756 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-matt-3001-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:10:08,783 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:10:25,849 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:10:26,205 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-super-hi-gloss-3105-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:10:33,330 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:10:50,508 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:10:50,975 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-misty-grey-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:10:58,136 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:11:15,810 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:11:16,565 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-parakeet-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:11:25,741 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:11:44,155 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:11:45,077 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-silky-cream-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:11:55,103 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:12:13,628 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:12:14,118 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-prairie-green-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:12:22,821 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:12:41,974 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:12:42,741 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-matt-3102-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:12:51,308 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:13:09,875 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:13:10,840 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-matt-3005-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:13:17,752 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:13:35,169 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:13:35,604 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-super-hi-gloss-3001-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:13:42,553 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:13:59,588 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:13:59,945 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-matt-3125-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:14:08,597 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:14:26,042 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:14:26,537 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-forest-green-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:14:33,861 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:14:50,994 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:14:51,400 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-irish-cream-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:14:58,253 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:15:15,130 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:15:15,724 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-super-hi-gloss-3005-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:15:23,915 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:15:41,205 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:15:41,721 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-matt-3101-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:15:49,092 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:16:06,308 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:16:06,986 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-pink-salt-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:16:15,761 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:16:35,176 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:16:35,824 - INFO - Processing product link: https://mccoymart.com/buy/rehau-edge-banding-tape-bright-white-i-high-gloss-unique-22x08-mm-50-meter-roll/
+2024-08-11 23:16:46,629 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:17:06,309 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:17:06,937 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-irish-cream-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:17:15,531 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:17:35,189 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:17:35,726 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-warm-grey-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:17:44,067 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:18:03,120 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:18:03,589 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-matt-3201-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:18:11,893 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:18:29,010 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:18:29,392 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-pink-salt-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:18:36,262 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:18:53,642 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:18:54,056 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-warm-grey-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:19:01,271 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:19:18,744 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:19:19,152 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-island-sky-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:19:27,796 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:19:46,368 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:19:46,759 - INFO - Processing product link: https://mccoymart.com/buy/rehau-edge-banding-tape-kaya-mahagony-decor-22x08-mm-50-meter-roll/
+2024-08-11 23:19:56,402 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:20:16,236 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:20:17,044 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-matt-3105-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:20:25,255 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:20:43,576 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:20:44,448 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-dark-silver-grey-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:20:52,804 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:21:11,365 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:21:11,874 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-mocha-brown-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:21:19,111 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:21:36,536 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:21:37,221 - INFO - Processing product link: javascript:void(0)
+2024-08-11 23:21:42,244 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:21:57,413 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:21:57,831 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-midnight-blue-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:22:05,280 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:22:22,397 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:22:22,849 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-super-hi-gloss-3102-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:22:31,060 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:22:51,578 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:22:52,047 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-feather-grey-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:23:00,857 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:23:21,619 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:23:22,014 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-matt-3110-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:23:29,187 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:23:46,536 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:23:46,984 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-super-hi-gloss-3106-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:23:54,424 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:24:11,619 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:24:12,073 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-matt-3112-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:24:19,554 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:24:36,806 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:24:37,292 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-super-hi-gloss-3002-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:24:44,643 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:25:02,892 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:25:03,477 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-dark-silver-grey-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:25:11,195 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:25:29,713 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:25:30,193 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-silky-cream-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:25:38,730 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:25:55,864 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:25:56,247 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-super-hi-gloss-3101-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:26:03,554 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:26:20,906 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:26:21,376 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-feather-grey-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:26:28,637 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:26:48,286 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:26:48,722 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-super-hi-gloss-3201-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:26:56,695 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:27:14,188 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:27:15,695 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-super-hi-gloss-3006-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:27:24,015 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:27:41,450 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:27:41,833 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-mocha-brown-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:27:48,686 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:28:05,959 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:28:06,459 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-super-hi-gloss-3112-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:28:13,737 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:28:32,842 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:28:33,264 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-super-hi-gloss-3004-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:28:41,716 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:28:59,991 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:29:00,477 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-super-hi-gloss-3110-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:29:10,163 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:29:27,464 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:29:27,839 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-matt-sky-blue-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:29:34,836 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:29:52,252 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:29:52,636 - INFO - Processing product link: https://mccoymart.com/buy/e3-solid-super-hi-gloss-parakeet-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:29:59,800 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:30:18,169 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:30:18,708 - INFO - Processing product link: https://mccoymart.com/buy/e3-sparkles-amp-metallic-matt-3006-edge-banding-tape-22-x-08-mm-50-meter-roll/
+2024-08-11 23:30:25,824 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:30:43,512 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:30:44,006 - INFO - Processing URL 2/10: https://mccoymart.com/buy/flush-door/
+2024-08-11 23:31:00,737 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:31:01,397 - INFO - Found 31 products on page https://mccoymart.com/buy/flush-door/
+2024-08-11 23:31:01,397 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-35-mm-thick-boiling-waterproof-flush-door-78-h-x-30-w-inch-gurjan/
+2024-08-11 23:31:09,250 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:31:26,411 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:31:26,986 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-bond-25-mm-thick-boiling-waterproof-flush-door-78-h-x-48-w-inch-gurjan/
+2024-08-11 23:31:34,653 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:31:51,952 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:31:52,343 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-45-mm-thick-boiling-waterproof-flush-door-82-h-x-24-w-inch-gurjan/
+2024-08-11 23:31:59,663 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:32:18,518 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:32:18,886 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-35-mm-thick-boiling-waterproof-flush-door-82-h-x-33-w-inch-gurjan/
+2024-08-11 23:32:26,502 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:32:43,688 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:32:44,065 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-35-mm-thick-boiling-waterproof-flush-door-78-h-x-33-w-inch-gurjan/
+2024-08-11 23:32:51,533 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:33:09,234 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:33:09,564 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-40-mm-thick-boiling-waterproof-flush-door-94-h-x-33-w-inch-gurjan/
+2024-08-11 23:33:16,599 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:33:36,347 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:33:36,827 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-bond-35-mm-thick-boiling-waterproof-flush-door-94-h-x-42-w-inch-gurjan/
+2024-08-11 23:33:46,466 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:34:06,719 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:34:07,097 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-bond-25-mm-thick-boiling-waterproof-flush-door-82-h-x-27-w-inch-gurjan/
+2024-08-11 23:34:16,981 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:34:33,965 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:34:34,583 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-bond-35-mm-thick-boiling-waterproof-flush-door-82-h-x-24-w-inch-gurjan/
+2024-08-11 23:34:42,178 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:34:59,459 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:34:59,874 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-bond-35-mm-thick-boiling-waterproof-flush-door-78-h-x-48-w-inch-gurjan/
+2024-08-11 23:35:08,539 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:35:26,012 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:35:26,493 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-sainik-25-mm-thick-boiling-waterproof-flush-door-82-h-x-36-w-inch-gurjan/
+2024-08-11 23:35:34,174 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:35:51,912 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:35:52,203 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-bond-38-mm-thick-boiling-waterproof-flush-door-94-h-x-36-w-inch-gurjan/
+2024-08-11 23:35:59,339 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:36:17,835 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:36:18,339 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-38-mm-thick-boiling-waterproof-flush-door-78-h-x-27-w-inch-gurjan/
+2024-08-11 23:36:28,325 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:36:48,100 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:36:48,517 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-sainik-40-mm-thick-boiling-waterproof-flush-door-78-h-x-42-w-inch-gurjan/
+2024-08-11 23:36:58,045 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:37:18,144 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:37:18,516 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-sainik-38-mm-thick-boiling-waterproof-flush-door-78-h-x-36-w-inch-gurjan/
+2024-08-11 23:37:25,858 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:37:43,305 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:37:43,679 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-32-mm-thick-boiling-waterproof-flush-door-78-h-x-45-w-inch-gurjan/
+2024-08-11 23:37:51,165 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:38:08,690 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:38:09,114 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-sainik-35-mm-thick-boiling-waterproof-flush-door-82-h-x-24-w-inch-gurjan/
+2024-08-11 23:38:16,563 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:38:36,291 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:38:36,655 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-bond-30-mm-thick-boiling-waterproof-flush-door-94-h-x-27-w-inch-gurjan/
+2024-08-11 23:38:46,440 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:39:06,366 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:39:06,756 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-38-mm-thick-boiling-waterproof-flush-door-82-h-x-39-w-inch-gurjan/
+2024-08-11 23:39:16,386 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:39:36,732 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:39:37,220 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-40-mm-thick-boiling-waterproof-flush-door-82-h-x-48-w-inch-gurjan/
+2024-08-11 23:39:47,436 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:40:07,169 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:40:07,635 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-45-mm-thick-boiling-waterproof-flush-door-82-h-x-42-w-inch-gurjan/
+2024-08-11 23:40:17,758 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:40:35,012 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:40:35,400 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-sainik-35-mm-thick-boiling-waterproof-flush-door-82-h-x-36-w-inch-gurjan/
+2024-08-11 23:40:42,517 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:40:59,988 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:41:00,356 - INFO - Processing product link: javascript:void(0)
+2024-08-11 23:41:05,375 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:41:20,625 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:41:21,009 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-sainik-40-mm-thick-boiling-waterproof-flush-door-94-h-x-30-w-inch-gurjan/
+2024-08-11 23:41:28,287 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:41:45,946 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:41:46,340 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-35-mm-thick-boiling-waterproof-flush-door-94-h-x-42-w-inch-gurjan/
+2024-08-11 23:41:55,144 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:42:12,513 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:42:12,919 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-bond-30-mm-thick-boiling-waterproof-flush-door-78-h-x-27-w-inch-gurjan/
+2024-08-11 23:42:20,177 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:42:37,337 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:42:37,912 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-45-mm-thick-boiling-waterproof-flush-door-82-h-x-39-w-inch-gurjan/
+2024-08-11 23:42:45,064 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:43:04,049 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:43:04,389 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-bond-38-mm-thick-boiling-waterproof-flush-door-94-h-x-48-w-inch-gurjan/
+2024-08-11 23:43:12,130 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:43:29,332 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:43:29,648 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-sainik-38-mm-thick-boiling-waterproof-flush-door-94-h-x-30-w-inch-gurjan/
+2024-08-11 23:43:38,097 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:43:55,500 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:43:55,771 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-sainik-35-mm-thick-boiling-waterproof-flush-door-94-h-x-36-w-inch-gurjan/
+2024-08-11 23:44:03,207 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:44:20,495 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:44:20,891 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-30-mm-thick-boiling-waterproof-flush-door-82-h-x-36-w-inch-gurjan/
+2024-08-11 23:44:28,622 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:44:45,584 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:44:46,054 - INFO - Processing URL 3/10: https://mccoymart.com/buy/laminates/
+2024-08-11 23:45:03,767 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:45:04,657 - INFO - Found 41 products on page https://mccoymart.com/buy/laminates/
+2024-08-11 23:45:04,657 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9018-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-black/
+2024-08-11 23:45:12,131 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:45:31,275 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:45:31,696 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9032-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-brown/
+2024-08-11 23:45:40,729 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:46:00,115 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:46:00,723 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9043-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-elegant-brown/
+2024-08-11 23:46:10,699 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:46:30,231 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:46:30,655 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9021-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-sky-blue/
+2024-08-11 23:46:40,697 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:46:59,674 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:47:00,104 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9010-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-dark-green/
+2024-08-11 23:47:10,473 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:47:28,294 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:47:28,700 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9001-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-off-white/
+2024-08-11 23:47:36,028 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:47:53,288 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:47:53,790 - INFO - Processing product link: https://mccoymart.com/buy/manilam-6936-suede-sf-08-mm-laminate-8-l-x-4-w-feet-arizona-olmo/
+2024-08-11 23:48:00,915 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:48:18,902 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:48:19,286 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9026-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-orange/
+2024-08-11 23:48:28,031 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:48:45,508 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:48:45,902 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9007-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-dark-grey/
+2024-08-11 23:48:53,931 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:49:11,209 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:49:11,596 - INFO - Processing product link: https://mccoymart.com/buy/manilam-6949-suede-sf-08-mm-laminate-8-l-x-4-w-feet-mango-wood/
+2024-08-11 23:49:20,258 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:49:39,067 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:49:39,441 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9023-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-yellow/
+2024-08-11 23:49:48,364 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:50:07,286 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:50:07,666 - INFO - Processing product link: https://mccoymart.com/buy/manilam-6992-suede-sf-08-mm-laminate-8-l-x-4-w-feet-english-walnut/
+2024-08-11 23:50:16,355 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:50:35,151 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:50:35,514 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9015-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-black-currant/
+2024-08-11 23:50:44,667 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:51:05,065 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:51:05,426 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9052-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-rusted-orange/
+2024-08-11 23:51:14,454 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:51:34,873 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:51:35,228 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9053-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-serene-green/
+2024-08-11 23:51:44,071 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:52:03,011 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:52:03,403 - INFO - Processing product link: https://mccoymart.com/buy/century-high-gloss-1-mm-texture-laminate-8-l-x-4-w-feet-frosty-white-111-hg/
+2024-08-11 23:52:12,210 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:52:29,314 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:52:29,625 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9002-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-white/
+2024-08-11 23:52:38,328 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:52:55,881 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:52:56,278 - INFO - Processing product link: https://mccoymart.com/buy/manilam-3023-foil-08-mm-laminate-8-l-x-4-w-feet-bronze/
+2024-08-11 23:53:03,941 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:53:21,262 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:53:21,648 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9045-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-royal-maroon/
+2024-08-11 23:53:29,005 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:53:46,268 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:53:46,653 - INFO - Processing product link: https://mccoymart.com/buy/manilam-6993-suede-sf-08-mm-laminate-8-l-x-4-w-feet-touch-wood/
+2024-08-11 23:53:53,898 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:54:10,692 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:54:11,115 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9017-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-navy-blue/
+2024-08-11 23:54:18,616 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:54:35,847 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:54:36,503 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9031-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-coffee/
+2024-08-11 23:54:43,510 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:55:01,048 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:55:01,468 - INFO - Processing product link: javascript:void(0)
+2024-08-11 23:55:06,486 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:55:21,654 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:55:22,045 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9019-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-beige/
+2024-08-11 23:55:29,620 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:55:48,184 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:55:48,606 - INFO - Processing product link: https://mccoymart.com/buy/manilam-6993-suede-sf-08-mm-laminate-8-l-x-4-w-feet-emerald-wood/
+2024-08-11 23:55:56,007 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:56:13,325 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:56:13,756 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9047-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-amaze-grey/
+2024-08-11 23:56:20,977 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:56:38,513 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:56:38,991 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9046-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-tuskon-ivory/
+2024-08-11 23:56:46,294 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:57:03,720 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:57:04,124 - INFO - Processing product link: https://mccoymart.com/buy/manilam-3010-chalk-board-08-mm-laminate-8-l-x-4-w-feet-chalk-board/
+2024-08-11 23:57:11,489 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:57:28,682 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:57:29,207 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9025-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-stovax-burgundy/
+2024-08-11 23:57:36,549 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:57:54,092 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:57:54,624 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9008-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-light-green/
+2024-08-11 23:58:01,983 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:58:19,274 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:58:19,721 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9024-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-dark-raspberry/
+2024-08-11 23:58:26,716 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:58:44,092 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:58:44,471 - INFO - Processing product link: https://mccoymart.com/buy/manilam-6995-suede-sf-08-mm-laminate-8-l-x-4-w-feet-snowtip/
+2024-08-11 23:58:53,142 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:59:10,347 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:59:10,757 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9005-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-ivory/
+2024-08-11 23:59:17,761 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:59:34,958 - INFO - Reached the end of the page or no more content to load.
+2024-08-11 23:59:35,362 - INFO - Processing product link: https://mccoymart.com/buy/manilam-3011-marker-08-mm-laminate-8-l-x-4-w-feet-marker/
+2024-08-11 23:59:42,981 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:00:00,157 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:00:00,566 - INFO - Processing product link: https://mccoymart.com/buy/manilam-6973-suede-sf-08-mm-laminate-8-l-x-4-w-feet-papua-brown/
+2024-08-12 00:00:08,890 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:00:26,053 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:00:26,478 - INFO - Processing product link: https://mccoymart.com/buy/manilam-3021-foil-08-mm-laminate-8-l-x-4-w-feet-gold/
+2024-08-12 00:00:34,121 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:00:51,248 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:00:51,648 - INFO - Processing product link: https://mccoymart.com/buy/manilam-6994-suede-sf-08-mm-laminate-8-l-x-4-w-feet-white-ash/
+2024-08-12 00:01:00,258 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:01:19,175 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:01:19,585 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9013-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-pink/
+2024-08-12 00:01:28,657 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:01:47,758 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:01:48,161 - INFO - Processing product link: https://mccoymart.com/buy/manilam-3022-foil-08-mm-laminate-8-l-x-4-w-feet-silver/
+2024-08-12 00:01:57,139 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:02:15,729 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:02:16,147 - INFO - Processing product link: https://mccoymart.com/buy/manilam-6986-suede-sf-08-mm-laminate-8-l-x-4-w-feet-wood-saga/
+2024-08-12 00:02:24,252 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:02:41,506 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:02:41,895 - INFO - Processing product link: https://mccoymart.com/buy/manilam-9006-solid-colour-sf-08-mm-laminate-8-l-x-4-w-feet-light-grey/
+2024-08-12 00:02:49,047 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:03:06,336 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:03:06,744 - INFO - Processing URL 4/10: https://mccoymart.com/buy/masking-tapes/
+2024-08-12 00:03:14,593 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:03:14,746 - INFO - Found 8 products on page https://mccoymart.com/buy/masking-tapes/
+2024-08-12 00:03:14,746 - INFO - Processing product link: https://mccoymart.com/buy/abro-roller-masker-tape-360-ft-1100-mm-x15-meter/
+2024-08-12 00:03:23,907 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:03:23,970 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/abro-roller-masker-tape-360-ft-1100-mm-x15-meter/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:03:41,243 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:03:41,644 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/abro-roller-masker-tape-360-ft-1100-mm-x15-meter/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:03:41,647 - ERROR - Error extracting MRP for product https://mccoymart.com/buy/abro-roller-masker-tape-360-ft-1100-mm-x15-meter/: Message: Unable to locate element: .discount-price-pdp strike; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:03:41,650 - ERROR - Error extracting discount for product https://mccoymart.com/buy/abro-roller-masker-tape-360-ft-1100-mm-x15-meter/: Message: Unable to locate element: .off-price-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:03:41,659 - INFO - Processing product link: javascript:void(0)
+2024-08-12 00:03:46,679 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:03:46,708 - ERROR - Error extracting pack price for product javascript:void(0): Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:04:01,799 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:04:02,220 - ERROR - Error extracting price per piece for product javascript:void(0): Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:04:02,223 - ERROR - Error extracting MRP for product javascript:void(0): Message: Unable to locate element: .discount-price-pdp strike; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:04:02,226 - ERROR - Error extracting discount for product javascript:void(0): Message: Unable to locate element: .off-price-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:04:02,234 - INFO - Processing product link: https://mccoymart.com/buy/abro-6123-self-adhesive-masking-tape-40-t-white-48-mm-x-40-meter-/
+2024-08-12 00:04:09,166 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:04:26,244 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:04:26,691 - ERROR - Error extracting MRP for product https://mccoymart.com/buy/abro-6123-self-adhesive-masking-tape-40-t-white-48-mm-x-40-meter-/: Message: Unable to locate element: .discount-price-pdp strike; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:04:26,694 - ERROR - Error extracting discount for product https://mccoymart.com/buy/abro-6123-self-adhesive-masking-tape-40-t-white-48-mm-x-40-meter-/: Message: Unable to locate element: .off-price-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:04:26,702 - INFO - Processing product link: https://mccoymart.com/buy/abro-6123-20-mtr-self-adhesive-tape-40-t-24-mm-x-20-meter/
+2024-08-12 00:04:33,571 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:04:33,656 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/abro-6123-20-mtr-self-adhesive-tape-40-t-24-mm-x-20-meter/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:04:50,722 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:04:51,227 - INFO - Processing product link: https://mccoymart.com/buy/berger-paints-high-adhesion-for-multipurpose-masking-tape-24-mm-x-20-m/
+2024-08-12 00:04:58,511 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:04:58,536 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/berger-paints-high-adhesion-for-multipurpose-masking-tape-24-mm-x-20-m/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:05:15,544 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:05:15,956 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/berger-paints-high-adhesion-for-multipurpose-masking-tape-24-mm-x-20-m/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:05:15,983 - INFO - Processing product link: https://mccoymart.com/buy/abro-6123-20-mtr-self-adhesive-tape-40-t-18-mm-/
+2024-08-12 00:05:23,677 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:05:23,713 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/abro-6123-20-mtr-self-adhesive-tape-40-t-18-mm-/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:05:40,865 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:05:41,360 - INFO - Processing product link: https://mccoymart.com/buy/abro-6123-30-mtr-self-adhesive-tape-40-t-24-mm-/
+2024-08-12 00:05:48,318 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:05:48,389 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/abro-6123-30-mtr-self-adhesive-tape-40-t-24-mm-/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:06:05,478 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:06:05,994 - INFO - Processing product link: https://mccoymart.com/buy/berger-paints-high-adhesion-for-multipurpose-masking-tape-24-mm-x-12-m/
+2024-08-12 00:06:13,000 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:06:13,034 - ERROR - Error extracting pack price for product https://mccoymart.com/buy/berger-paints-high-adhesion-for-multipurpose-masking-tape-24-mm-x-12-m/: Message: Unable to locate element: .price-dtls-pay-values .packQuantityAmount; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:06:30,026 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:06:30,437 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/berger-paints-high-adhesion-for-multipurpose-masking-tape-24-mm-x-12-m/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:06:30,464 - INFO - Processing URL 5/10: https://mccoymart.com/buy/plywood/
+2024-08-12 00:06:49,228 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:06:49,537 - INFO - Found 30 products on page https://mccoymart.com/buy/plywood/
+2024-08-12 00:06:49,537 - INFO - Processing product link: https://mccoymart.com/buy/greenply-ecotec-platinum-710-16-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:06:57,269 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:07:14,625 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:07:14,982 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/greenply-ecotec-platinum-710-16-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:07:15,008 - INFO - Processing product link: https://mccoymart.com/buy/greenply-ecotec-platinum-710-18-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:07:25,233 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:07:44,221 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:07:44,518 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/greenply-ecotec-platinum-710-18-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:07:44,543 - INFO - Processing product link: https://mccoymart.com/buy/greenply-ecotec-platinum-710-9-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:07:53,587 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:08:12,502 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:08:12,811 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/greenply-ecotec-platinum-710-9-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:08:12,837 - INFO - Processing product link: https://mccoymart.com/buy/greenply-optima-g-19-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:08:23,080 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:08:42,063 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:08:42,514 - INFO - Processing product link: https://mccoymart.com/buy/durian-sumo-is-303-12-mm-thick-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:08:51,075 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:09:09,761 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:09:10,132 - INFO - Processing product link: https://mccoymart.com/buy/z-black-12-mm-plywood-commercial/
+2024-08-12 00:09:18,914 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:09:37,410 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:09:47,596 - ERROR - Error extracting specifications for product https://mccoymart.com/buy/z-black-12-mm-plywood-commercial/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:09:47,649 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/z-black-12-mm-plywood-commercial/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:09:47,682 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-12-mm-thick-boiling-waterproof-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:09:57,599 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:10:17,902 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:10:18,284 - INFO - Processing product link: https://mccoymart.com/buy/greenply-green-club-700-6-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:10:25,852 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:10:43,383 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:10:43,832 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-architect-4-mm-thick-boiling-waterproof-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:10:51,325 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:11:08,835 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:11:09,246 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-16-mm-thick-boiling-waterproof-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:11:16,482 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:11:33,936 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:11:34,283 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-bond-710-9-mm-thick-boiling-waterproof-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:11:41,715 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:11:58,931 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:11:59,271 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-avolution-ply-mr-is-303-12-mm-thick-bwr-plywood-8-l-x-4-w-feet/
+2024-08-12 00:12:06,446 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:12:23,630 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:12:24,002 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-avolution-ply-marine-is-710-4-mm-thick-bwp-plywood-8-l-x-4-w-feet-recon-face/
+2024-08-12 00:12:33,160 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:12:51,981 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:12:52,346 - INFO - Processing product link: https://mccoymart.com/buy/z-black-18-mm-plywood-commercial/
+2024-08-12 00:13:00,669 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:13:20,074 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:13:20,161 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/z-black-18-mm-plywood-commercial/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:13:20,195 - INFO - Processing product link: https://mccoymart.com/buy/greenply-ecotec-tmr-18-mm-thick-plain-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:13:27,510 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:13:44,853 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:13:45,238 - INFO - Processing product link: https://mccoymart.com/buy/greenply-green-club-500-4-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:13:53,688 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:14:10,825 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:14:11,273 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-sainik-mr-9-mm-thick-water-resistant-plain-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:14:18,700 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:14:35,807 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:14:36,162 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-club-range-is-710-steel-grade-12-mm-thick-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:14:43,647 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:15:00,802 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:15:01,197 - INFO - Processing product link: https://mccoymart.com/buy/greenply-ecotec-mr-12-mm-thick-plain-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:15:09,096 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:15:26,212 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:15:26,546 - INFO - Processing product link: https://mccoymart.com/buy/greenply-ecotec-710-12-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:15:35,635 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:15:54,609 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:15:54,971 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-avolution-ply-mr-is-303-4-mm-thick-bwr-plywood-8-l-x-4-w-feet/
+2024-08-12 00:16:03,766 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:16:22,701 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:16:23,112 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-elite-mr-is-303-iron-grade-19-mm-thick-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:16:30,403 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:16:48,782 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:16:49,165 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-avolution-ply-mr-is-303-16-mm-thick-bwr-plywood-8-l-x-4-w-feet/
+2024-08-12 00:16:56,814 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:17:14,023 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:17:14,416 - INFO - Processing product link: https://mccoymart.com/buy/z-black-6-mm-plywood-commercial/
+2024-08-12 00:17:21,374 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:17:38,457 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:17:48,652 - ERROR - Error extracting specifications for product https://mccoymart.com/buy/z-black-6-mm-plywood-commercial/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:17:48,741 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/z-black-6-mm-plywood-commercial/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:17:48,771 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-elite-mr-is-303-iron-grade-12-mm-thick-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:17:55,862 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:18:13,040 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:18:13,427 - INFO - Processing product link: https://mccoymart.com/buy/greenply-club-9-mm-flexiply-thick-plain-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:18:21,033 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:18:38,176 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:18:38,464 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/greenply-club-9-mm-flexiply-thick-plain-plywood-8-l-x-4-w-feet-gurjan/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:18:38,489 - INFO - Processing product link: https://mccoymart.com/buy/durian-prime-mr-grade-is-303-12-mm-thick-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:18:45,712 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:19:03,425 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:19:03,781 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-sainik-710-19-mm-thick-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:19:10,650 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:19:27,539 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:19:27,841 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/centuryply-sainik-710-19-mm-thick-bwp-plywood-8-l-x-4-w-feet-gurjan/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:19:27,868 - INFO - Processing product link: https://mccoymart.com/buy/woodlyte-16-mm-thick-calibrated-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:19:34,776 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:19:51,890 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:19:52,188 - INFO - Processing product link: https://mccoymart.com/buy/greenply-optima-g-9-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:19:58,909 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:20:16,010 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:20:16,379 - INFO - Processing URL 6/10: https://mccoymart.com/buy/bwr-plywood/
+2024-08-12 00:20:33,476 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:20:33,912 - INFO - Found 31 products on page https://mccoymart.com/buy/bwr-plywood/
+2024-08-12 00:20:33,912 - INFO - Processing product link: https://mccoymart.com/buy/greenply-green-mr-12-mm-thick-plain-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:20:40,933 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:20:58,005 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:20:58,377 - INFO - Processing product link: https://mccoymart.com/buy/greenply-optima-g-mr-19-mm-thick-plain-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:21:05,685 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:21:22,890 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:21:23,265 - INFO - Processing product link: https://mccoymart.com/buy/durian-sumo-is-303-6-mm-thick-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:21:30,342 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:21:48,575 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:21:48,938 - INFO - Processing product link: https://mccoymart.com/buy/greenply-ecotec-tmr-12-mm-thick-plain-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:21:56,094 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:22:13,100 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:22:13,451 - INFO - Processing product link: https://mccoymart.com/buy/durian-sumo-is-303-12-mm-thick-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:22:22,865 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:22:41,962 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:22:42,317 - INFO - Processing product link: https://mccoymart.com/buy/greenply-green-mr-9-mm-thick-plain-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:22:51,275 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:23:10,140 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:23:10,514 - INFO - Processing product link: https://mccoymart.com/buy/z-black-12-mm-plywood-commercial/
+2024-08-12 00:23:19,303 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:23:36,557 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:23:46,729 - ERROR - Error extracting specifications for product https://mccoymart.com/buy/z-black-12-mm-plywood-commercial/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:23:46,777 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/z-black-12-mm-plywood-commercial/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:23:46,804 - INFO - Processing product link: https://mccoymart.com/buy/durian-prime-is-303-15-mm-thick-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:23:53,997 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:24:11,030 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:24:11,415 - INFO - Processing product link: https://mccoymart.com/buy/greenply-optima-g-mr-25-mm-thick-plain-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:24:20,116 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:24:38,998 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:24:39,367 - INFO - Processing product link: https://mccoymart.com/buy/genericflexible-ply-6-mm-8x4/
+2024-08-12 00:24:48,117 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:25:06,671 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:25:06,836 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/genericflexible-ply-6-mm-8x4/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:25:06,864 - INFO - Processing product link: https://mccoymart.com/buy/duro-tower-mr-16-mm-thick-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:25:15,959 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:25:33,406 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:25:33,758 - INFO - Processing product link: https://mccoymart.com/buy/duro-duroply-mr-18-mm-thick-bwr-plywood-8-l-x-4-w-feet-okume/
+2024-08-12 00:25:41,122 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:25:58,299 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:25:58,604 - INFO - Processing product link: https://mccoymart.com/buy/greenply-ecotec-tmr-18-mm-thick-plain-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:26:05,812 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:26:23,006 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:26:23,534 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-sainik-mr-9-mm-thick-water-resistant-plain-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:26:30,785 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:26:48,774 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:26:49,114 - INFO - Processing product link: https://mccoymart.com/buy/z-black-18-mm-plywood-commercial/
+2024-08-12 00:26:56,048 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:27:13,144 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:27:13,255 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/z-black-18-mm-plywood-commercial/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:27:13,286 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-avolution-ply-mr-is-303-25-mm-thick-bwr-plywood-8-l-x-4-w-feet/
+2024-08-12 00:27:20,034 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:27:37,035 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:27:37,438 - INFO - Processing product link: https://mccoymart.com/buy/greenply-ecotec-mr-12-mm-thick-plain-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:27:44,488 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:28:03,002 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:28:03,343 - INFO - Processing product link: https://mccoymart.com/buy/greenply-jansaathi-18-mm-thick-plain-plywood-8-l-x-4-w-feet/
+2024-08-12 00:28:10,955 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:28:28,327 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:28:28,587 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/greenply-jansaathi-18-mm-thick-plain-plywood-8-l-x-4-w-feet/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:28:28,614 - INFO - Processing product link: https://mccoymart.com/buy/durian-sumo-mr-grade-is-303-6-mm-thick-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:28:35,831 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:28:52,836 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:28:53,144 - INFO - Processing product link: javascript:void(0)
+2024-08-12 00:28:58,163 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:29:13,349 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:29:13,689 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-avolution-ply-mr-is-303-4-mm-thick-bwr-plywood-8-l-x-4-w-feet/
+2024-08-12 00:29:21,096 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:29:39,863 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:29:40,241 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-elite-mr-is-303-iron-grade-19-mm-thick-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:29:49,128 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:30:08,101 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:30:08,488 - INFO - Processing product link: https://mccoymart.com/buy/z-black-6-mm-plywood-commercial/
+2024-08-12 00:30:16,840 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:30:34,128 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:30:44,330 - ERROR - Error extracting specifications for product https://mccoymart.com/buy/z-black-6-mm-plywood-commercial/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:30:44,378 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/z-black-6-mm-plywood-commercial/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:30:44,409 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-avolution-ply-mr-is-303-8-mm-thick-bwr-plywood-8-l-x-4-w-feet/
+2024-08-12 00:30:51,695 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:31:08,727 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:31:09,198 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-elite-mr-is-303-iron-grade-15-mm-thick-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:31:16,332 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:31:33,917 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:31:34,325 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-elite-mr-is-303-iron-grade-12-mm-thick-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:31:41,531 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:31:58,543 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:31:58,951 - INFO - Processing product link: https://mccoymart.com/buy/greenply-club-9-mm-flexiply-thick-plain-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:32:06,581 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:32:23,889 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:32:24,147 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/greenply-club-9-mm-flexiply-thick-plain-plywood-8-l-x-4-w-feet-gurjan/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:32:24,188 - INFO - Processing product link: https://mccoymart.com/buy/greenply-green-mr-25-mm-thick-plain-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:32:32,986 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:32:51,834 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:32:52,223 - INFO - Processing product link: https://mccoymart.com/buy/durian-prime-mr-grade-is-303-12-mm-thick-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:33:00,757 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:33:20,454 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:33:20,802 - INFO - Processing product link: https://mccoymart.com/buy/woodlyte-16-mm-thick-calibrated-bwr-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:33:29,599 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:33:49,936 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:33:50,284 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-avolution-ply-mr-is-303-9-mm-thick-bwr-plywood-8-l-x-4-w-feet/
+2024-08-12 00:33:58,776 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:34:17,936 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:34:18,310 - INFO - Processing URL 7/10: https://mccoymart.com/buy/bwp-plywood/
+2024-08-12 00:34:36,055 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:34:36,477 - INFO - Found 31 products on page https://mccoymart.com/buy/bwp-plywood/
+2024-08-12 00:34:36,477 - INFO - Processing product link: https://mccoymart.com/buy/greenply-ecotec-platinum-710-16-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:34:45,555 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:35:05,438 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:35:05,720 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/greenply-ecotec-platinum-710-16-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:35:05,747 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-marine-is-710-steel-grade-19-mm-thick-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:35:14,995 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:35:35,408 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:35:35,816 - INFO - Processing product link: https://mccoymart.com/buy/greenply-green-club-700-25-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:35:45,936 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:36:06,989 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:36:07,404 - INFO - Processing product link: https://mccoymart.com/buy/greenply-ecotec-platinum-710-18-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:36:16,081 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:36:35,437 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:36:35,705 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/greenply-ecotec-platinum-710-18-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:36:35,731 - INFO - Processing product link: https://mccoymart.com/buy/greenply-ecotec-platinum-710-9-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:36:44,488 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:37:03,707 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:37:04,029 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/greenply-ecotec-platinum-710-9-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:37:04,057 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-elite-marine-is-710-iron-grade-6-mm-thick-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:37:13,037 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:37:32,769 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:37:33,161 - INFO - Processing product link: https://mccoymart.com/buy/greenply-optima-g-19-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:37:41,964 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:38:00,725 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:38:01,106 - INFO - Processing product link: https://mccoymart.com/buy/durian-sumo-is-710-18-mm-thick-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:38:10,240 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:38:28,680 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:38:29,036 - INFO - Processing product link: https://mccoymart.com/buy/greenply-green-club-700-16-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:38:39,208 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:38:59,484 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:38:59,928 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-club-range-is-710-steel-grade-6-mm-thick-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:39:09,905 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:39:28,796 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:39:29,241 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-marine-is-710-steel-grade-9-mm-thick-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:39:36,295 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:39:53,466 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:39:53,848 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-bond-710-19-mm-thick-boiling-waterproof-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:40:00,794 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:40:18,765 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:40:19,154 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-12-mm-thick-boiling-waterproof-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:40:26,375 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:40:43,612 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:40:43,995 - INFO - Processing product link: https://mccoymart.com/buy/greenply-green-club-700-6-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:40:51,345 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:41:08,982 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:41:09,408 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-architect-4-mm-thick-boiling-waterproof-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:41:16,958 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:41:34,460 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:41:34,870 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-bond-710-9-mm-thick-boiling-waterproof-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:41:41,996 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:41:59,223 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:41:59,576 - INFO - Processing product link: https://mccoymart.com/buy/greenply-green-club-flexi-4-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:42:08,148 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:42:25,299 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:42:25,670 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-avolution-ply-marine-is-710-4-mm-thick-bwp-plywood-8-l-x-4-w-feet-recon-face/
+2024-08-12 00:42:34,168 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:42:53,155 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:42:53,565 - INFO - Processing product link: https://mccoymart.com/buy/greenply-green-gold-19-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:43:02,526 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:43:21,323 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:43:21,717 - INFO - Processing product link: https://mccoymart.com/buy/greenply-green-club-500-4-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:43:31,176 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:43:50,713 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:43:51,149 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-marine-is-710-steel-grade-18-mm-thick-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:43:59,822 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:44:20,148 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:44:20,550 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-club-range-is-710-steel-grade-12-mm-thick-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:44:27,626 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:44:44,729 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:44:45,161 - INFO - Processing product link: https://mccoymart.com/buy/greenply-ecotec-710-platinum-12-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:44:53,895 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:45:11,039 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:45:11,431 - INFO - Processing product link: javascript:void(0)
+2024-08-12 00:45:16,455 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:45:31,647 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:45:32,062 - INFO - Processing product link: https://mccoymart.com/buy/greenply-ecotec-710-12-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:45:40,575 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:45:59,539 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:45:59,884 - INFO - Processing product link: https://mccoymart.com/buy/durian-prime-is-710-18-mm-thick-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:46:09,727 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:46:28,229 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:46:28,565 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-sainik-710-19-mm-thick-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:46:35,729 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:46:52,884 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:46:53,219 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/centuryply-sainik-710-19-mm-thick-bwp-plywood-8-l-x-4-w-feet-gurjan/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:46:53,246 - INFO - Processing product link: https://mccoymart.com/buy/centuryply-club-prime-19-mm-thick-boiling-waterproof-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:47:00,276 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:47:18,828 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:47:19,225 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-710-19-mm-thick-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:47:26,485 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:47:43,799 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:47:44,201 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-club-range-is-710-steel-grade-9-mm-thick-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:47:51,426 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:48:08,587 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:48:09,033 - INFO - Processing product link: https://mccoymart.com/buy/greenply-optima-g-9-mm-thick-plain-bwp-plywood-8-l-x-4-w-feet-gurjan/
+2024-08-12 00:48:15,721 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:48:33,782 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:48:34,153 - INFO - Processing URL 8/10: https://mccoymart.com/buy/synthetic-resin-adhesives/
+2024-08-12 00:48:50,747 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:48:51,191 - INFO - Found 29 products on page https://mccoymart.com/buy/synthetic-resin-adhesives/
+2024-08-12 00:48:51,192 - INFO - Processing product link: https://mccoymart.com/buy/jubilant-jivanjor-pvc-xtra-resin-adhesive-1-kg/
+2024-08-12 00:48:58,298 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:49:15,153 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:49:15,470 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/jubilant-jivanjor-pvc-xtra-resin-adhesive-1-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:49:15,496 - INFO - Processing product link: https://mccoymart.com/buy/jubilant-jivanjor-all-rounder-synthetic-resin-adhesive-2-kg/
+2024-08-12 00:49:25,321 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:49:43,904 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:49:44,290 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/jubilant-jivanjor-all-rounder-synthetic-resin-adhesive-2-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:49:44,315 - INFO - Processing product link: https://mccoymart.com/buy/fevicol-heatx-2-ltr/
+2024-08-12 00:49:53,060 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:50:12,248 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:50:12,580 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/fevicol-heatx-2-ltr/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:50:12,606 - INFO - Processing product link: https://mccoymart.com/buy/jubilant-jivanjor-all-rounder-synthetic-resin-adhesive-20-kg/
+2024-08-12 00:50:21,400 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:50:38,503 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:50:38,867 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/jubilant-jivanjor-all-rounder-synthetic-resin-adhesive-20-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:50:38,893 - INFO - Processing product link: https://mccoymart.com/buy/jubilant-jivanjor-pvc-xtra-resin-adhesive-5-kg/
+2024-08-12 00:50:45,749 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:51:04,092 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:51:04,418 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/jubilant-jivanjor-pvc-xtra-resin-adhesive-5-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:51:04,445 - INFO - Processing product link: https://mccoymart.com/buy/-fevicol-hi-per-2-kg/
+2024-08-12 00:51:11,815 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:51:29,061 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:51:29,395 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/-fevicol-hi-per-2-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:51:29,422 - INFO - Processing product link: https://mccoymart.com/buy/-fevicol-marine-20-kg/
+2024-08-12 00:51:36,666 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:51:53,852 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:51:54,278 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/-fevicol-marine-20-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:51:54,281 - ERROR - Error extracting MRP for product https://mccoymart.com/buy/-fevicol-marine-20-kg/: Message: Unable to locate element: .discount-price-pdp strike; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:51:54,283 - ERROR - Error extracting discount for product https://mccoymart.com/buy/-fevicol-marine-20-kg/: Message: Unable to locate element: .off-price-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:51:54,293 - INFO - Processing product link: https://mccoymart.com/buy/-fevicol-hi-per-10-kg/
+2024-08-12 00:52:01,453 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:52:18,907 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:52:19,329 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/-fevicol-hi-per-10-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:52:19,355 - INFO - Processing product link: https://mccoymart.com/buy/-fevicol-sh-2-kg/
+2024-08-12 00:52:26,447 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:52:43,516 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:52:43,883 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/-fevicol-sh-2-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:52:43,909 - INFO - Processing product link: https://mccoymart.com/buy/-fevicol-marine-1-kg/
+2024-08-12 00:52:50,905 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:53:08,143 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:53:08,574 - INFO - Processing product link: https://mccoymart.com/buy/fevicol-heatx-5-ltr/
+2024-08-12 00:53:15,734 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:53:34,081 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:53:34,438 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/fevicol-heatx-5-ltr/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:53:34,440 - ERROR - Error extracting MRP for product https://mccoymart.com/buy/fevicol-heatx-5-ltr/: Message: Unable to locate element: .discount-price-pdp strike; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:53:34,443 - ERROR - Error extracting discount for product https://mccoymart.com/buy/fevicol-heatx-5-ltr/: Message: Unable to locate element: .off-price-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:53:34,453 - INFO - Processing product link: https://mccoymart.com/buy/jubilant-jivanjor-fast-x-5-kg/
+2024-08-12 00:53:41,712 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:53:58,741 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:53:59,058 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/jubilant-jivanjor-fast-x-5-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:53:59,085 - INFO - Processing product link: https://mccoymart.com/buy/-fevicol-marine-2-kg/
+2024-08-12 00:54:06,013 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:54:23,660 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:54:24,069 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/-fevicol-marine-2-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:54:24,095 - INFO - Processing product link: https://mccoymart.com/buy/-fevicol-hi-per-50-kg/
+2024-08-12 00:54:32,735 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:54:51,785 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:54:52,130 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/-fevicol-hi-per-50-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:54:52,132 - ERROR - Error extracting MRP for product https://mccoymart.com/buy/-fevicol-hi-per-50-kg/: Message: Unable to locate element: .discount-price-pdp strike; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:54:52,135 - ERROR - Error extracting discount for product https://mccoymart.com/buy/-fevicol-hi-per-50-kg/: Message: Unable to locate element: .off-price-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:54:52,144 - INFO - Processing product link: javascript:void(0)
+2024-08-12 00:54:57,163 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:55:12,357 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:55:12,682 - ERROR - Error extracting price per piece for product javascript:void(0): Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:55:12,685 - ERROR - Error extracting MRP for product javascript:void(0): Message: Unable to locate element: .discount-price-pdp strike; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:55:12,687 - ERROR - Error extracting discount for product javascript:void(0): Message: Unable to locate element: .off-price-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:55:12,697 - INFO - Processing product link: https://mccoymart.com/buy/-fevicol-sh-5-kg/
+2024-08-12 00:55:21,110 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:55:38,222 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:55:38,576 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/-fevicol-sh-5-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:55:38,603 - INFO - Processing product link: https://mccoymart.com/buy/-fevicol-hi-per-5-kg/
+2024-08-12 00:55:45,596 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:56:04,086 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:56:04,501 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/-fevicol-hi-per-5-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:56:04,527 - INFO - Processing product link: https://mccoymart.com/buy/-fevicol-sh-50-kg/
+2024-08-12 00:56:11,527 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:56:28,578 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:56:28,943 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/-fevicol-sh-50-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:56:28,970 - INFO - Processing product link: https://mccoymart.com/buy/fevicol-probond-1-kg/
+2024-08-12 00:56:36,047 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:56:53,311 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:56:53,620 - INFO - Processing product link: https://mccoymart.com/buy/jubilant-jivanjor-fast-x-1-kg/
+2024-08-12 00:57:01,020 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:57:18,754 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:57:19,073 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/jubilant-jivanjor-fast-x-1-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:57:19,099 - INFO - Processing product link: https://mccoymart.com/buy/-fevicol-hi-per-20-kg/
+2024-08-12 00:57:26,252 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:57:43,461 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:57:43,804 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/-fevicol-hi-per-20-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:57:43,807 - ERROR - Error extracting MRP for product https://mccoymart.com/buy/-fevicol-hi-per-20-kg/: Message: Unable to locate element: .discount-price-pdp strike; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:57:43,810 - ERROR - Error extracting discount for product https://mccoymart.com/buy/-fevicol-hi-per-20-kg/: Message: Unable to locate element: .off-price-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:57:43,818 - INFO - Processing product link: https://mccoymart.com/buy/jubilant-jivanjor-all-rounder-synthetic-resin-adhesive-10-kg/
+2024-08-12 00:57:50,731 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:58:07,461 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:58:07,798 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/jubilant-jivanjor-all-rounder-synthetic-resin-adhesive-10-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:58:07,824 - INFO - Processing product link: https://mccoymart.com/buy/fevicol-heatx-1-ltr/
+2024-08-12 00:58:14,467 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:58:32,767 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:58:33,144 - INFO - Processing product link: https://mccoymart.com/buy/fevicol-probond-5-kg/
+2024-08-12 00:58:40,179 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:58:57,444 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:58:57,778 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/fevicol-probond-5-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:58:57,804 - INFO - Processing product link: https://mccoymart.com/buy/-fevicol-sh-1-kg/
+2024-08-12 00:59:04,988 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:59:21,979 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:59:22,371 - INFO - Processing product link: https://mccoymart.com/buy/-fevicol-marine-5-kg/
+2024-08-12 00:59:29,744 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:59:48,546 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 00:59:48,972 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/-fevicol-marine-5-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 00:59:48,998 - INFO - Processing product link: https://mccoymart.com/buy/-fevicol-sh-20-kg/
+2024-08-12 00:59:56,216 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:00:13,176 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:00:13,580 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/-fevicol-sh-20-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 01:00:13,582 - ERROR - Error extracting MRP for product https://mccoymart.com/buy/-fevicol-sh-20-kg/: Message: Unable to locate element: .discount-price-pdp strike; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 01:00:13,585 - ERROR - Error extracting discount for product https://mccoymart.com/buy/-fevicol-sh-20-kg/: Message: Unable to locate element: .off-price-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 01:00:13,593 - INFO - Processing product link: https://mccoymart.com/buy/-fevicol-sh-10-kg/
+2024-08-12 01:00:20,887 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:00:37,921 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:00:38,248 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/-fevicol-sh-10-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 01:00:38,274 - INFO - Processing product link: https://mccoymart.com/buy/jubilant-jivanjor-all-rounder-synthetic-resin-adhesive-5-kg/
+2024-08-12 01:00:44,922 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:01:03,545 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:01:03,899 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/jubilant-jivanjor-all-rounder-synthetic-resin-adhesive-5-kg/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 01:01:03,925 - INFO - Processing URL 9/10: https://mccoymart.com/buy/veneer/
+2024-08-12 01:01:20,860 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:01:21,401 - INFO - Found 31 products on page https://mccoymart.com/buy/veneer/
+2024-08-12 01:01:21,401 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-8-l-x-4-w-feet-c-81-zambia-wenge/
+2024-08-12 01:01:29,947 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:01:53,182 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:01:53,488 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-8-l-x-4-w-feet-g-10-burma-teak-quarter/
+2024-08-12 01:02:02,141 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:02:20,727 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:02:21,017 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-g-23-dusky-velvet/
+2024-08-12 01:02:28,050 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:02:45,317 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:02:45,666 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-8-l-x-4-w-feet-c-100-black-ebony/
+2024-08-12 01:02:53,857 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:03:10,854 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:03:11,189 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-8-l-x-4-w-feet-c-2-english-ash-quarter/
+2024-08-12 01:03:18,258 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:03:35,538 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:03:35,822 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-8-l-x-4-w-feet-c-98-black-wenge/
+2024-08-12 01:03:44,202 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:04:01,691 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:04:01,999 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-c-72-swiss-rosewood/
+2024-08-12 01:04:09,201 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:04:26,681 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:04:27,011 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-c-22-european-wenge/
+2024-08-12 01:04:34,326 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:04:51,547 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:04:51,890 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-8-l-x-4-w-feet-g-17-beige-velvet/
+2024-08-12 01:04:59,177 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:05:16,257 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:05:16,597 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-c-118-snow-oak-c/
+2024-08-12 01:05:23,862 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:05:40,892 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:05:41,185 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-a-1-nagpur-teak/
+2024-08-12 01:05:48,782 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:06:05,906 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:06:06,272 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-c-17-english-black/
+2024-08-12 01:06:13,335 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:06:30,395 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:06:30,698 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-c-5-english-walnut/
+2024-08-12 01:06:40,326 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:06:59,077 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:06:59,420 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-g-19-mauve-velvet-q/
+2024-08-12 01:07:08,121 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:07:26,567 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:07:26,866 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-i-13-cararra-brown/
+2024-08-12 01:07:34,140 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:07:51,205 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:07:51,530 - INFO - Processing product link: javascript:void(0)
+2024-08-12 01:07:56,548 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:08:11,720 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:08:12,019 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-c-60-stripes-blue-n-grey/
+2024-08-12 01:08:19,665 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:08:36,940 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:08:37,288 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-8-l-x-4-w-feet-c-89-smoked-wenge-crown/
+2024-08-12 01:08:44,583 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:09:02,710 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:09:03,024 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-c-6-english-cherry/
+2024-08-12 01:09:10,064 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:09:27,217 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:09:27,528 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-h-11-marble-chocolate/
+2024-08-12 01:09:36,204 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:09:54,679 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:09:55,007 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-8-l-x-4-w-feet-g-20-grey-velvet/
+2024-08-12 01:10:03,703 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:10:22,316 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:10:22,607 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-g-15-senior-grey/
+2024-08-12 01:10:29,764 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:10:48,250 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:10:48,637 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-a-6-mahagony/
+2024-08-12 01:10:55,911 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:11:13,104 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:11:13,407 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-8-l-x-4-w-feet-c-12-english-tiger/
+2024-08-12 01:11:20,643 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:11:37,744 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:11:38,084 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-8-l-x-4-w-feet-c-38-ice-ipe/
+2024-08-12 01:11:45,079 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:12:03,897 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:12:04,231 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-8-l-x-4-w-feet-c-72-swiss-rosewood/
+2024-08-12 01:12:11,193 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:12:28,192 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:12:28,517 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-c-101-american-verma-teak/
+2024-08-12 01:12:35,619 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:12:52,763 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:12:53,048 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-10-l-x-4-w-feet-i-7-sandy-beech/
+2024-08-12 01:13:00,063 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:13:18,491 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:13:18,820 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-8-l-x-4-w-feet-c-48-smoke-oak/
+2024-08-12 01:13:27,320 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:13:45,834 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:13:46,133 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-8-l-x-4-w-feet-b-16-redica-rose/
+2024-08-12 01:13:55,238 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:14:13,970 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:14:14,275 - INFO - Processing product link: https://mccoymart.com/buy/bhutan-tuff-3-mm-thick-recon-veneer-8-l-x-4-w-feet-a-2-white-ash/
+2024-08-12 01:14:23,072 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:14:40,231 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:14:40,558 - INFO - Processing URL 10/10: https://mccoymart.com/buy/wooden-boards/
+2024-08-12 01:14:52,876 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:14:53,033 - INFO - Found 10 products on page https://mccoymart.com/buy/wooden-boards/
+2024-08-12 01:14:53,033 - INFO - Processing product link: https://mccoymart.com/buy/crossbond-classic-bsl-18-mm-thick-pre-laminated-mdhmr-board-8-l-x-4-w-feet-super-oak-dark-cb-8184/
+2024-08-12 01:15:00,647 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:15:19,275 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:15:19,863 - INFO - Processing product link: https://mccoymart.com/buy/crossbond-classic-bsl-18-mm-thick-pre-laminated-mdhmr-board-8-l-x-4-w-feet-frosty-white-cb-8002/
+2024-08-12 01:15:29,274 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:15:49,898 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:15:50,491 - INFO - Processing product link: https://mccoymart.com/buy/action-tesa-plain-1675-mm-thick-hdhmr-board-8-l-x-4-w-feet/
+2024-08-12 01:16:00,333 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:16:21,561 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:16:22,006 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/action-tesa-plain-1675-mm-thick-hdhmr-board-8-l-x-4-w-feet/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 01:16:22,033 - INFO - Processing product link: https://mccoymart.com/buy/crossbond-classic-bsl-18-mm-thick-pre-laminated-mdhmr-board-8-l-x-4-w-feet-dark-straight-grain-wenge-cb-8181/
+2024-08-12 01:16:29,805 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:16:48,898 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:16:49,518 - INFO - Processing product link: https://mccoymart.com/buy/crossbond-classic-bsl-18-mm-thick-pre-laminated-mdhmr-board-8-l-x-4-w-feet-cold-white-cb-8019/
+2024-08-12 01:16:57,132 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:17:14,537 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:17:15,112 - INFO - Processing product link: https://mccoymart.com/buy/interior-grade-45-mm-thick-both-side-balancing-white-mdf-board-8-l-x-4-w-feet/
+2024-08-12 01:17:24,808 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:17:43,197 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:17:43,547 - ERROR - Error extracting price per piece for product https://mccoymart.com/buy/interior-grade-45-mm-thick-both-side-balancing-white-mdf-board-8-l-x-4-w-feet/: Message: Unable to locate element: .price-pcs-pdp; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-08-12 01:17:43,573 - INFO - Processing product link: https://mccoymart.com/buy/crossbond-classic-bsl-18-mm-thick-pre-laminated-mdhmr-board-8-l-x-4-w-feet-straight-grain-wenge-cb-8132/
+2024-08-12 01:17:51,047 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:18:08,493 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:18:09,105 - INFO - Processing product link: https://mccoymart.com/buy/crossbond-classic-bsl-18-mm-thick-pre-laminated-mdhmr-board-8-l-x-4-w-feet-flowery-wenge-cb-8133/
+2024-08-12 01:18:16,674 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:18:34,321 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:18:34,900 - INFO - Processing product link: https://mccoymart.com/buy/goldstar-plain-1675-mm-thick-hdhmr-board-8-l-x-4-w-feet/
+2024-08-12 01:18:42,478 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:19:00,374 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:19:00,785 - INFO - Processing product link: https://mccoymart.com/buy/crossbond-classic-bsl-18-mm-thick-pre-laminated-mdhmr-board-8-l-x-4-w-feet-dark-flowery-wenge-cb-8182/
+2024-08-12 01:19:09,138 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:19:26,715 - INFO - Reached the end of the page or no more content to load.
+2024-08-12 01:19:27,857 - INFO - Data saved to wood_materials.xlsx
+2024-08-12 01:19:27,859 - INFO - Scraping completed.

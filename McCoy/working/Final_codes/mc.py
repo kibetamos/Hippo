@@ -10,7 +10,7 @@ import pandas as pd
 import time
 
 # Setup logging
-logging.basicConfig(filename='scraping.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='Hardware_kitchen.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Setup Firefox options
 firefox_options = Options()
@@ -50,7 +50,7 @@ def scroll_and_load_page():
     while True:
         try:
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            time.sleep(5)  # Allow time for content to load
+            time.sleep(10)  # Allow time for content to load
             new_height = driver.execute_script("return document.body.scrollHeight")
             if new_height == last_height:
                 logging.info("Reached the end of the page or no more content to load.")
@@ -259,7 +259,7 @@ def main(file_path):
         except Exception as e:
             logging.error(f"Error processing URL {url}: {e}")
 
-    save_data_to_excel(all_data, 'mccoymart_products.xlsx')
+    save_data_to_excel(all_data, 'hardware_kitchen.xlsx')
     logging.info("Scraping completed.")
 
 if __name__ == "__main__":

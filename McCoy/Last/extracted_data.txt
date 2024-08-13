@@ -22,14 +22,21 @@ Name: Marine Plywood, URL: https://mccoymart.com/buy/bwp-plywood/
 Name: Synthetic Resin Adhesives, URL: https://mccoymart.com/buy/synthetic-resin-adhesives/
 Name: Veneer, URL: https://mccoymart.com/buy/veneer/
 Name: Wooden Boards, URL: https://mccoymart.com/buy/wooden-boards/
+
+done///   in the main link
+
 Name: HDMR Board, URL: https://mccoymart.com/buy/hdhmr-board/
-
-
 Name: MDF Board, URL: https://mccoymart.com/buy/mdf-board/
 Name: Particle Board, URL: https://mccoymart.com/buy/particle-board/
 Name: HDF Board, URL: https://mccoymart.com/buy/hdf-board/
 Name: Block Boards, URL: https://mccoymart.com/buy/block-board/
-Name: Lighting & Electrical, URL: https://mccoymart.com/buy/lighting-electrical/
+
+done////
+
+
+Name: Lighting & Electrical, URL: https://mccoymart.com/buy/lighting-electrical/  --main link
+
+
 Name: Electrical Appliances, URL: https://mccoymart.com/buy/home-appliances/
 Name: Air Conditioners, URL: https://mccoymart.com/buy/air-conditioners/
 Name: Fans, URL: https://mccoymart.com/buy/fans/
@@ -83,127 +90,156 @@ Name: Decorative Lights, URL: https://mccoymart.com/buy/decorative-lights/
 Name: Hanging Lights, URL: https://mccoymart.com/buy/hanging-lights/
 Name: LED Strip Light, URL: https://mccoymart.com/buy/led-strip-lights/
 Name: Electrical Accessories, URL: https://mccoymart.com/buy/electrical-accessories/
-Name: Door Bell, URL: https://mccoymart.com/buy/door-bell/
-Name: Extension Board, URL: https://mccoymart.com/buy/extension-board/
+    Name: Door Bell, URL: https://mccoymart.com/buy/door-bell/
+    Name: Extension Board, URL: https://mccoymart.com/buy/extension-board/
+
+    Done 
+
+Start
 Name: Hardware & Kitchen, URL: https://mccoymart.com/buy/hardware/
-Name: Aluminium Hardware, URL: https://mccoymart.com/buy/aluminum-hardware/
-Name: Aluminium Door Handle, URL: https://mccoymart.com/buy/aluminum-door-handle/
-Name: Aluminium Window Handles, URL: https://mccoymart.com/buy/aluminium-window-handle/
-Name: Aluminium Window Hinges, URL: https://mccoymart.com/buy/aluminum-window-hinges/
-Name: Aluminium Window Roller, URL: https://mccoymart.com/buy/aluminum-window-roller/
-Name: Aluminium Accessories, URL: https://mccoymart.com/buy/aluminium-accessories/
-Name: Glass & Glazing Hardware, URL: https://mccoymart.com/buy/glass-fittings-hardware/
-Name: Floor Spring, URL: https://mccoymart.com/buy/floor-spring/
-Name: Patch Fittings, URL: https://mccoymart.com/buy/patch-fittings/
-Name: Glass Door Handles, URL: https://mccoymart.com/buy/glass-door-handles/
-Name: Glass Door Hinge, URL: https://mccoymart.com/buy/glass-door-hinge/
-Name: Glass Door Locks, URL: https://mccoymart.com/buy/glass-door-locks/
-Name: Glass Door Rails, URL: https://mccoymart.com/buy/glass-door-rails/
-Name: Glass Spider Fittings, URL: https://mccoymart.com/buy/glass-spider-fittings/
-Name: Glass Connector, URL: https://mccoymart.com/buy/glass-connector/
-Name: Glass Door Roller, URL: https://mccoymart.com/buy/glass-door-roller/
-Name: Glass Brackets, URL: https://mccoymart.com/buy/glass-brackets/
-Name: Glass Sliding System, URL: https://mccoymart.com/buy/glass-sliding-system/
-Name: Shower Hinges, URL: https://mccoymart.com/buy/shower-hinges/
-Name: Shower Cubicle Handles, URL: https://mccoymart.com/buy/shower-cubicle-handles/
-Name: Shower Cubicle Fittings, URL: https://mccoymart.com/buy/shower-cubicle-fittings/
-Name: Glass Door Seal, URL: https://mccoymart.com/buy/glass-door-seal/
-Name: Canopy Fittings, URL: https://mccoymart.com/buy/canopy-fittings/
-Name: Glass Bolt, URL: https://mccoymart.com/buy/glass-bolt/
-Name: Glass Sliding Fitting, URL: https://mccoymart.com/buy/glass-sliding-fitting/
-Name: uPVC Hardware, URL: https://mccoymart.com/buy/upvc-hardware/
-Name: uPVC Door Handle, URL: https://mccoymart.com/buy/upvc-door-handle/
-Name: uPVC Window Handle, URL: https://mccoymart.com/buy/upvc-window-handle/
-Name: uPVC Door Hinges, URL: https://mccoymart.com/buy/upvc-door-hinges/
-Name: Espag, URL: https://mccoymart.com/buy/espag/
-Name: Friction Stay, URL: https://mccoymart.com/buy/friction-stay/
-Name: uPVC Rollers, URL: https://mccoymart.com/buy/upvc-rollers/
-Name: Furniture Hardware, URL: https://mccoymart.com/buy/cabinet-furniture-hardware/
-Name: Drawer Handles, URL: https://mccoymart.com/buy/drawer-handles/
-Name: Drawer Knobs, URL: https://mccoymart.com/buy/drawer-knobs/
-Name: Drawer Channel & Slides, URL: https://mccoymart.com/buy/drawer-slides/
-Name: Drawer Lock, URL: https://mccoymart.com/buy/drawer-lock/
-Name: Window Handle, URL: https://mccoymart.com/buy/window-handle/
-Name: Door Catches, URL: https://mccoymart.com/buy/door-catches/
-Name: Hinges, URL: https://mccoymart.com/buy/hinges/
-Name: Flap Stay, URL: https://mccoymart.com/buy/flap-stay/
-Name: Bed Lift up, URL: https://mccoymart.com/buy/bed-lift-up/
-Name: Gas Spring, URL: https://mccoymart.com/buy/gas-spring/
-Name: Cupboard Locks, URL: https://mccoymart.com/buy/wardrobe-locks/
-Name: Wardrobe Sliding Fittings, URL: https://mccoymart.com/buy/wardrobe-sliding-fittings/
-Name: Wardrobe Handles, URL: https://mccoymart.com/buy/wardrobe-handles/
-Name: Door Hardware, URL: https://mccoymart.com/buy/door-hardware/
-Name: Door Handle, URL: https://mccoymart.com/buy/door-handle/
-Name: Door Locks, URL: https://mccoymart.com/buy/door-locks/
-Name: Door Handlesets, URL: https://mccoymart.com/buy/door-handlesets/
-Name: Mortise Handle, URL: https://mccoymart.com/buy/mortise-handle/
-Name: Door Closer, URL: https://mccoymart.com/buy/door-closer/
-Name: Door Aldrop, URL: https://mccoymart.com/buy/door-aldrop/
-Name: Tower Bolts, URL: https://mccoymart.com/buy/tower-bolts/
-Name: Door Knobs, URL: https://mccoymart.com/buy/door-knobs/
-Name: Door Stoppers, URL: https://mccoymart.com/buy/door-stoppers/
-Name: Door Peephole, URL: https://mccoymart.com/buy/door-peephole/
-Name: Door Accessories, URL: https://mccoymart.com/buy/door-accessories/
-Name: Door Knockers, URL: https://mccoymart.com/buy/door-knockers/
-Name: Panic Bars, URL: https://mccoymart.com/buy/panic-bars/
-Name: Kitchen Appliances, URL: https://mccoymart.com/buy/kitchen/
-Name: Built-in Microwave, URL: https://mccoymart.com/buy/built-in-microwave/
-Name: Built-in Oven, URL: https://mccoymart.com/buy/built-in-oven/
-Name: Cooktops, URL: https://mccoymart.com/buy/cooktops/
-Name: Dishwasher, URL: https://mccoymart.com/buy/dishwasher/
-Name: Hobs, URL: https://mccoymart.com/buy/hobs/
-Name: Kitchen Chimney, URL: https://mccoymart.com/buy/kitchen-chimney/
-Name: Kitchen Sinks, URL: https://mccoymart.com/buy/kitchen-sinks/
-Name: Wine Cooler, URL: https://mccoymart.com/buy/wine-cooler/
-Name: Kitchen Hardware & Accessories, URL: https://mccoymart.com/buy/kitchen-fitting-hardware/
-Name: Drawer Systems, URL: https://mccoymart.com/buy/drawer-systems/
-Name: Kitchen Baskets, URL: https://mccoymart.com/buy/kitchen-baskets/
-Name: Kitchen Corner Units, URL: https://mccoymart.com/buy/kitchen-corner-units/
-Name: Tall Units, URL: https://mccoymart.com/buy/tall-units/
-Name: Kitchen lift up, URL: https://mccoymart.com/buy/kitchen-lift-up/
-Name: Drawer Organizer, URL: https://mccoymart.com/buy/drawer-organizer/
-Name: Kitchen Roller Shutters, URL: https://mccoymart.com/buy/kitchen-roller-shutters/
-Name: Fasteners, URL: https://mccoymart.com/buy/fasteners/
-Name: Clamps, URL: https://mccoymart.com/buy/clamps/
-Name: Nails & Pins, URL: https://mccoymart.com/buy/pins/
-Name: Nuts & Bolts, URL: https://mccoymart.com/buy/nuts-bolts/
-Name: Screws, URL: https://mccoymart.com/buy/screws/
-Name: Wall Plug, URL: https://mccoymart.com/buy/wall-plug/
+
+
+    Name: Aluminium Hardware, URL: https://mccoymart.com/buy/aluminum-hardware/
+        Name: Aluminium Door Handle, URL: https://mccoymart.com/buy/aluminum-door-handle/
+        Name: Aluminium Window Handles, URL: https://mccoymart.com/buy/aluminium-window-handle/
+        Name: Aluminium Window Hinges, URL: https://mccoymart.com/buy/aluminum-window-hinges/
+        Name: Aluminium Window Roller, URL: https://mccoymart.com/buy/aluminum-window-roller/
+        Name: Aluminium Accessories, URL: https://mccoymart.com/buy/aluminium-accessories/
+
+    Name: Glass & Glazing Hardware, URL: https://mccoymart.com/buy/glass-fittings-hardware/
+        Name: Floor Spring, URL: https://mccoymart.com/buy/floor-spring/
+        Name: Patch Fittings, URL: https://mccoymart.com/buy/patch-fittings/
+        Name: Glass Door Handles, URL: https://mccoymart.com/buy/glass-door-handles/
+        Name: Glass Door Hinge, URL: https://mccoymart.com/buy/glass-door-hinge/
+        Name: Glass Door Locks, URL: https://mccoymart.com/buy/glass-door-locks/
+        Name: Glass Door Rails, URL: https://mccoymart.com/buy/glass-door-rails/
+        Name: Glass Spider Fittings, URL: https://mccoymart.com/buy/glass-spider-fittings/
+        Name: Glass Connector, URL: https://mccoymart.com/buy/glass-connector/
+        Name: Glass Door Roller, URL: https://mccoymart.com/buy/glass-door-roller/
+        Name: Glass Brackets, URL: https://mccoymart.com/buy/glass-brackets/
+        Name: Glass Sliding System, URL: https://mccoymart.com/buy/glass-sliding-system/
+        Name: Shower Hinges, URL: https://mccoymart.com/buy/shower-hinges/
+        Name: Shower Cubicle Handles, URL: https://mccoymart.com/buy/shower-cubicle-handles/
+        Name: Shower Cubicle Fittings, URL: https://mccoymart.com/buy/shower-cubicle-fittings/
+        Name: Glass Door Seal, URL: https://mccoymart.com/buy/glass-door-seal/
+        Name: Canopy Fittings, URL: https://mccoymart.com/buy/canopy-fittings/
+        Name: Glass Bolt, URL: https://mccoymart.com/buy/glass-bolt/
+        Name: Glass Sliding Fitting, URL: https://mccoymart.com/buy/glass-sliding-fitting/
+
+    Name: uPVC Hardware, URL: https://mccoymart.com/buy/upvc-hardware/
+        Name: uPVC Door Handle, URL: https://mccoymart.com/buy/upvc-door-handle/
+        Name: uPVC Window Handle, URL: https://mccoymart.com/buy/upvc-window-handle/
+        Name: uPVC Door Hinges, URL: https://mccoymart.com/buy/upvc-door-hinges/
+        Name: Espag, URL: https://mccoymart.com/buy/espag/
+        Name: Friction Stay, URL: https://mccoymart.com/buy/friction-stay/
+        Name: uPVC Rollers, URL: https://mccoymart.com/buy/upvc-rollers/
+
+    Name: Furniture Hardware, URL: https://mccoymart.com/buy/cabinet-furniture-hardware/
+        Name: Drawer Handles, URL: https://mccoymart.com/buy/drawer-handles/
+        Name: Drawer Knobs, URL: https://mccoymart.com/buy/drawer-knobs/
+        Name: Drawer Channel & Slides, URL: https://mccoymart.com/buy/drawer-slides/
+        Name: Drawer Lock, URL: https://mccoymart.com/buy/drawer-lock/
+            Name: Window Handle, URL: https://mccoymart.com/buy/window-handle/
+        Name: Door Catches, URL: https://mccoymart.com/buy/door-catches/
+        Name: Hinges, URL: https://mccoymart.com/buy/hinges/
+        Name: Flap Stay, URL: https://mccoymart.com/buy/flap-stay/
+        Name: Bed Lift up, URL: https://mccoymart.com/buy/bed-lift-up/
+        Name: Gas Spring, URL: https://mccoymart.com/buy/gas-spring/
+        Name: Cupboard Locks, URL: https://mccoymart.com/buy/wardrobe-locks/
+        Name: Wardrobe Sliding Fittings, URL: https://mccoymart.com/buy/wardrobe-sliding-fittings/
+        Name: Wardrobe Handles, URL: https://mccoymart.com/buy/wardrobe-handles/
+
+    Name: Door Hardware, URL: https://mccoymart.com/buy/door-hardware/
+        Name: Door Handle, URL: https://mccoymart.com/buy/door-handle/
+        Name: Door Locks, URL: https://mccoymart.com/buy/door-locks/
+        Name: Door Handlesets, URL: https://mccoymart.com/buy/door-handlesets/
+        Name: Mortise Handle, URL: https://mccoymart.com/buy/mortise-handle/
+        Name: Door Closer, URL: https://mccoymart.com/buy/door-closer/
+        Name: Door Aldrop, URL: https://mccoymart.com/buy/door-aldrop/
+        Name: Tower Bolts, URL: https://mccoymart.com/buy/tower-bolts/
+        Name: Door Knobs, URL: https://mccoymart.com/buy/door-knobs/
+        Name: Door Stoppers, URL: https://mccoymart.com/buy/door-stoppers/
+        Name: Door Peephole, URL: https://mccoymart.com/buy/door-peephole/
+        Name: Door Accessories, URL: https://mccoymart.com/buy/door-accessories/
+        Name: Door Knockers, URL: https://mccoymart.com/buy/door-knockers/
+        Name: Panic Bars, URL: https://mccoymart.com/buy/panic-bars/
+
+    Name: Kitchen Appliances, URL: https://mccoymart.com/buy/kitchen/
+        Name: Built-in Microwave, URL: https://mccoymart.com/buy/built-in-microwave/
+        Name: Built-in Oven, URL: https://mccoymart.com/buy/built-in-oven/
+        Name: Cooktops, URL: https://mccoymart.com/buy/cooktops/
+        Name: Dishwasher, URL: https://mccoymart.com/buy/dishwasher/
+        Name: Hobs, URL: https://mccoymart.com/buy/hobs/
+        Name: Kitchen Chimney, URL: https://mccoymart.com/buy/kitchen-chimney/
+        Name: Kitchen Sinks, URL: https://mccoymart.com/buy/kitchen-sinks/
+        Name: Wine Cooler, URL: https://mccoymart.com/buy/wine-cooler/
+
+    Name: Kitchen Hardware & Accessories, URL: https://mccoymart.com/buy/kitchen-fitting-hardware/
+        Name: Drawer Systems, URL: https://mccoymart.com/buy/drawer-systems/
+        Name: Kitchen Baskets, URL: https://mccoymart.com/buy/kitchen-baskets/
+        Name: Kitchen Corner Units, URL: https://mccoymart.com/buy/kitchen-corner-units/
+        Name: Tall Units, URL: https://mccoymart.com/buy/tall-units/
+        Name: Kitchen lift up, URL: https://mccoymart.com/buy/kitchen-lift-up/
+        Name: Drawer Organizer, URL: https://mccoymart.com/buy/drawer-organizer/
+        Name: Kitchen Roller Shutters, URL: https://mccoymart.com/buy/kitchen-roller-shutters/
+
+
+    Name: Fasteners, URL: https://mccoymart.com/buy/fasteners/
+        Name: Clamps, URL: https://mccoymart.com/buy/clamps/
+        Name: Nails & Pins, URL: https://mccoymart.com/buy/pins/
+        Name: Nuts & Bolts, URL: https://mccoymart.com/buy/nuts-bolts/
+        Name: Screws, URL: https://mccoymart.com/buy/screws/
+        Name: Wall Plug, URL: https://mccoymart.com/buy/wall-plug/
+Done 
+START
+
 Name: Tiles & Flooring, URL: https://mccoymart.com/buy/tiles-flooring/
-Name: Ceramic Tiles, URL: https://mccoymart.com/buy/ceramic-tiles/
-Name: Tile Grout, URL: https://mccoymart.com/buy/tile-grout/
-Name: Tiles Adhesive, URL: https://mccoymart.com/buy/tile-adhesive/
+
+    Name: Ceramic Tiles, URL: https://mccoymart.com/buy/ceramic-tiles/ 8
+    Name: Tile Grout, URL: https://mccoymart.com/buy/tile-grout/ 56
+    Name: Tiles Adhesive, URL: https://mccoymart.com/buy/tile-adhesive/ 3
+
+
+
+
 Name: Sanitaryware & Bath Fittings, URL: https://mccoymart.com/buy/sanitaryware-bath-fittings/
-Name: Faucets & Showers, URL: https://mccoymart.com/buy/faucets-showers/
-Name: Angle Valve, URL: https://mccoymart.com/buy/angle-valve/
-Name: Bathroom Taps, URL: https://mccoymart.com/buy/bathroom-taps/
-Name: Diverters, URL: https://mccoymart.com/buy/diverters/
-Name: Handshower, URL: https://mccoymart.com/buy/handshower/
-Name: Health Faucets, URL: https://mccoymart.com/buy/health-faucets/
-Name: Sensor Taps, URL: https://mccoymart.com/buy/sensor-taps/
-Name: Shower Faucet, URL: https://mccoymart.com/buy/shower-faucet/
-Name: Wall Mixers, URL: https://mccoymart.com/buy/wall-mixers/
-Name: Wash Basin Taps, URL: https://mccoymart.com/buy/wash-basin-taps/
-Name: Stop Cocks, URL: https://mccoymart.com/buy/stop-cocks/
-Name: Angle Cocks, URL: https://mccoymart.com/buy/angle-cocks/
-Name: Kitchen Sink Taps (नल), URL: https://mccoymart.com/buy/kitchen-sink-taps/
-Name: Sanitaryware, URL: https://mccoymart.com/buy/sanitaryware/
-Name: Cisterns, URL: https://mccoymart.com/buy/flushing-cisterns/
-Name: Commodes, URL: https://mccoymart.com/buy/commodes/
-Name: Wash Basin, URL: https://mccoymart.com/buy/wash-basins/
-Name: Bathroom Fixtures, URL: https://mccoymart.com/buy/bathroom-fixtures/
-Name: Bathroom Shelves, URL: https://mccoymart.com/buy/bathroom-shelves/
-Name: Floor Drain, URL: https://mccoymart.com/buy/floor-drain/
-Name: Soap Holder, URL: https://mccoymart.com/buy/soap-holder/
-Name: Toilet Paper Holders, URL: https://mccoymart.com/buy/toilet-paper-holders/
-Name: Towel Rack, URL: https://mccoymart.com/buy/towel-rack/
-Name: Towel Ring, URL: https://mccoymart.com/buy/towel-ring/
-Name: Towel Rod, URL: https://mccoymart.com/buy/towel-rod/
-Name: Pipe Fittings, URL: https://mccoymart.com/buy/pipes-fittings/
-Name: Pipes & Accessories, URL: https://mccoymart.com/buy/pipes-accessories/
-Name: Cubicle, URL: https://mccoymart.com/buy/cubicle/
-Name: Toilet Cubicle, URL: https://mccoymart.com/buy/toilet-cubicle/
-Name: Urinal Partition, URL: https://mccoymart.com/buy/urinal-partition/
+    Name: Faucets & Showers, URL: https://mccoymart.com/buy/faucets-showers/ 918
+        Name: Angle Valve, URL: https://mccoymart.com/buy/angle-valve/ 
+        Name: Bathroom Taps, URL: https://mccoymart.com/buy/bathroom-taps/ 
+        Name: Diverters, URL: https://mccoymart.com/buy/diverters/
+        Name: Handshower, URL: https://mccoymart.com/buy/handshower/
+        Name: Health Faucets, URL: https://mccoymart.com/buy/health-faucets/
+        Name: Sensor Taps, URL: https://mccoymart.com/buy/sensor-taps/
+        Name: Shower Faucet, URL: https://mccoymart.com/buy/shower-faucet/
+        Name: Wall Mixers, URL: https://mccoymart.com/buy/wall-mixers/
+        Name: Wash Basin Taps, URL: https://mccoymart.com/buy/wash-basin-taps/
+        Name: Stop Cocks, URL: https://mccoymart.com/buy/stop-cocks/
+        Name: Angle Cocks, URL: https://mccoymart.com/buy/angle-cocks/
+        Name: Kitchen Sink Taps (नल), URL: https://mccoymart.com/buy/kitchen-sink-taps/
+        
+    Name: Sanitaryware, URL: https://mccoymart.com/buy/sanitaryware/
+        Name: Cisterns, URL: https://mccoymart.com/buy/flushing-cisterns/
+        Name: Commodes, URL: https://mccoymart.com/buy/commodes/
+        Name: Wash Basin, URL: https://mccoymart.com/buy/wash-basins/
+
+
+    Name: Bathroom Fixtures, URL: https://mccoymart.com/buy/bathroom-fixtures/
+        Name: Bathroom Shelves, URL: https://mccoymart.com/buy/bathroom-shelves/
+        Name: Floor Drain, URL: https://mccoymart.com/buy/floor-drain/
+        Name: Soap Holder, URL: https://mccoymart.com/buy/soap-holder/
+        Name: Toilet Paper Holders, URL: https://mccoymart.com/buy/toilet-paper-holders/
+        Name: Towel Rack, URL: https://mccoymart.com/buy/towel-rack/
+        Name: Towel Ring, URL: https://mccoymart.com/buy/towel-ring/
+        Name: Towel Rod, URL: https://mccoymart.com/buy/towel-rod/
+
+    Name: Pipe Fittings, URL: https://mccoymart.com/buy/pipes-fittings/
+        Name: Pipes & Accessories, URL: https://mccoymart.com/buy/pipes-accessories/
+
+    Name: Cubicle, URL: https://mccoymart.com/buy/cubicle/
+        Name: Toilet Cubicle, URL: https://mccoymart.com/buy/toilet-cubicle/
+        Name: Urinal Partition, URL: https://mccoymart.com/buy/urinal-partition/
+
+        
 Name: Smart Locks & Lockers, URL: https://mccoymart.com/buy/home-automation-security/
 Name: CCTV Camera, URL: https://mccoymart.com/buy/cctv-camera/
 Name: Safe Locker, URL: https://mccoymart.com/buy/security-locker/
