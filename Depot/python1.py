@@ -4,10 +4,10 @@ from bs4 import BeautifulSoup
 # URL to inspect
 url = "http://www.materialdepot.in/"
 
-# Define the proxy
+# Define the proxy list (Indian IPs)
 proxies = {
-    'http': 'http://59.89.148.104:8080',
-    'https': 'http://59.89.148.104:8080'
+    'http': 'http://103.78.171.10:83',  # HTTP proxy
+    # 'https': 'http://<IP>:<Port>'    # Uncomment and fill in if using an HTTPS proxy
 }
 
 # Send a GET request to the website using the proxy
