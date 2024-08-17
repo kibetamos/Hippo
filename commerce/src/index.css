@@ -4,31 +4,79 @@
   --primary: #12bca2;
   --secondary: #6d15df;
 }
-h1,h2,h3 {
-  margin: 0;
-}
 
 body {
   margin: 0;
   color: #333;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   background: #f2f2f2;
 }
+
 nav {
   background: var(--primary);
   padding: 10px 20px;
   text-align: center;
 }
+
 nav a {
   color: #f2f2f2;
   margin: 10px;
   display: inline-block;
 }
+
 nav h1 {
   color: #fff;
+  font-weight: 600;
+  font-size: 1.8em;
 }
+
 .page {
   max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Wider cards */
+  gap: 20px;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  position: relative; /* For positioning the badge */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card h3 {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.product-card p {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.product-card .discount {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: var(--secondary); /* Purple color */
+  color: #fff;
+  font-size: 1.2em;
+  padding: 5px 10px;
+  border-radius: 50%; /* Circular badge */
+  font-weight: bold;
 }
