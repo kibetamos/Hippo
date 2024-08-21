@@ -9,11 +9,12 @@ import time
 GECKODRIVER_PATH = '/usr/bin/geckodriver'  # Update this path
 
 def save_to_file(job_listings):
-    with open('job_listings.txt', 'w') as file:
+    with open('Ads.txt', 'w') as file:
         file.write(f'Number of job listings found: {len(job_listings)}\n\n')
-        for title, url in job_listings:
+        for title, url, date in job_listings:
             file.write(f'Job Title: {title.strip()}\n')
             file.write(f'Job URL: {url}\n')
+            file.write(f'Posted: {date}\n')  # Include the posting date
             file.write('---\n')
 
 def main():
@@ -27,7 +28,8 @@ def main():
 
     try:
         # Open the Upwork job search page
-        driver.get("https://www.upwork.com/nx/search/jobs/?hourly_rate=50-&q=google%20ads&sort=recency&t=0&page=1&per_page=50")
+        driver.get("https://www.upwork.com/nx/search/jobs/?hourly_rate=50-&nbs=1&payment_verified=1&q=google%20ads&sort=recency&t=0&user_location_match=1&page=1&per_page=50")
+
 
         # Wait for the page to fully load
         time.sleep(5)
@@ -40,7 +42,7 @@ def main():
             time.sleep(5)  # Wait to ensure content is fully loaded
 
         # Find all job listing elements
-        job_elements = driver.find_elements(By.CSS_SELECTOR, 'article[data-test="JobTile"] a.up-n-link')
+        job_elements = driver.find_elements(By.CSS_SELECTOR, 'article[data-test="JobTile"]')
 
         if not job_elements:
             print('No job listings found.')
@@ -49,21 +51,25 @@ def main():
 
         print(f'Found {len(job_elements)} job listings.')
 
-        # Extract job titles and URLs
+        # Extract job titles, URLs, and posting dates
         job_listings = []
-        for job in job_elements:
+        for job_element in job_elements:
             try:
-                # Safely get the text content and URL
-                title = job.text
-                url = job.get_attribute('href')
+                # Safely get the title, URL, and posting date
+                job_link = job_element.find_element(By.CSS_SELECTOR, 'a.up-n-link')
+                title = job_link.text
+                url = job_link.get_attribute('href')
+                
+                # Extract the posted date
+                posted_date = job_element.find_element(By.CSS_SELECTOR, 'small[data-test="job-pubilshed-date"]').text
 
                 # Ensure the URL is absolute
                 if url and not url.startswith('http'):
                     url = 'https://www.upwork.com' + url
 
-                # Check if title and URL are not None
-                if title and url:
-                    job_listings.append((title, url))
+                # Check if title, URL, and date are not None
+                if title and url and posted_date:
+                    job_listings.append((title, url, posted_date))
                 else:
                     print('Incomplete job listing details.')
 

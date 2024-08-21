@@ -20,7 +20,7 @@ def main():
 
     try:
         # Open the Upwork job search page
-        driver.get("https://www.upwork.com/nx/search/jobs/?hourly_rate=50-&q=google%20ads&sort=recency&t=0&page=1&per_page=50")
+        driver.get("https://www.upwork.com/nx/search/jobs/?hourly_rate=50-&nbs=1&payment_verified=1&q=google%20ads&sort=recency&t=0&user_location_match=1&page=1&per_page=50")
 
         # Wait for the page to fully load
         time.sleep(5)
