@@ -9,7 +9,7 @@ import time
 GECKODRIVER_PATH = '/usr/bin/geckodriver'  # Update this path
 
 def save_to_file(job_listings):
-    with open('Google_Ads.txt', 'w') as file:
+    with open('Google1.txt', 'w') as file:
         file.write(f'Number of job listings found: {len(job_listings)}\n\n')
         for title, url, date in job_listings:
             file.write(f'Job Title: {title.strip()}\n')
