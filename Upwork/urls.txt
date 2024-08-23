@@ -1,7 +1,7 @@
-driver.get("https://www.upwork.com/nx/search/jobs/?hourly_rate=50-&nbs=1&payment_verified=1&per_page=50&q=video%20editing&sort=recency&t=0&user_location_match=1&page=1")
+vedio editing - driver.get("https://www.upwork.com/nx/search/jobs/?hourly_rate=50-&nbs=1&payment_verified=1&per_page=50&q=video%20editing&sort=recency&t=0&user_location_match=1&page=1")
 
+vedio editing - driver.get("https://www.upwork.com/nx/search/jobs/?hourly_rate=40-&nbs=1&payment_verified=1&per_page=50&q=video%20editing&sort=recency&t=0&user_location_match=1&page=1")
+google ads -driver.get("https://www.upwork.com/nx/search/jobs/?hourly_rate=50-&nbs=1&payment_verified=1&q=google%20ads&sort=recency&t=0&user_location_match=1&page=1&per_page=50")
 
-        driver.get("https://www.upwork.com/nx/search/jobs/?hourly_rate=40-&nbs=1&payment_verified=1&per_page=50&q=video%20editing&sort=recency&t=0&user_location_match=1&page=1")
-        driver.get("https://www.upwork.com/nx/search/jobs/?hourly_rate=50-&nbs=1&payment_verified=1&q=google%20ads&sort=recency&t=0&user_location_match=1&page=1&per_page=50")
+ppc- https://www.upwork.com/nx/search/jobs/?nbs=1&payment_verified=1&q=ppc&sort=recency&user_location_match=1&page=1&per_page=50
 
-https://www.upwork.com/nx/search/jobs/?nbs=1&payment_verified=1&q=ppc&sort=recency&user_location_match=1&page=1&per_page=50
