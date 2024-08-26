@@ -9,7 +9,7 @@ import time
 GECKODRIVER_PATH = '/usr/bin/geckodriver'  # Update this path
 
 def save_to_file(job_listings):
-    with open('vedio_editing_3.txt', 'w') as file:
+    with open('vedio_ed.txt', 'w') as file:
         file.write(f'Number of job listings found: {len(job_listings)}\n\n')
         for title, url, date in job_listings:
             file.write(f'Job Title: {title.strip()}\n')
@@ -27,11 +27,8 @@ def main():
 
     try:
         # Open the Upwork job search page
-        # driver.get("https://www.upwork.com/nx/search/jobs/?hourly_rate=50-&nbs=1&payment_verified=1&q=google%20ads&sort=recency&t=0&user_location_match=1&page=1&per_page=50")
         driver.get("https://www.upwork.com/nx/search/jobs/?hourly_rate=40-&nbs=1&payment_verified=1&per_page=50&q=video%20editing&sort=recency&t=0&user_location_match=1&page=1")
-
-
-
+        # driver.get("https://www.upwork.com/nx/search/jobs/?location=Americas&q=google%20ads&sort=recency")
         # Wait for the page to fully load
         time.sleep(5)
         print('Waited for 5 seconds to ensure the page is fully loaded.')
