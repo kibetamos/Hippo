@@ -33,6 +33,7 @@ def main():
         time.sleep(5)
         print('Waited for 5 seconds to ensure the page is fully loaded.')
 
+
         # Scroll down to load more content (adjust as needed)
         body = driver.find_element(By.TAG_NAME, 'body')
         for _ in range(3):  # Adjust the range for more scrolling
