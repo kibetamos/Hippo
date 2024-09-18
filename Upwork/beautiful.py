@@ -3,7 +3,6 @@ from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.common.action_chains import ActionChains
 import time
 
 # Path to the geckodriver executable
@@ -20,9 +19,7 @@ def main():
 
     try:
         # Open the Upwork job search page
-        # driver.get("https://www.upwork.com/nx/search/jobs/?hourly_rate=50-&nbs=1&payment_verified=1&q=google%20ads&sort=recency&t=0&user_location_match=1&page=1&per_page=50")
-
-        driver.get("https://www.upwork.com/nx/search/jobs/?location=Americas&q=google%20ads&sort=recency")
+        driver.get("https://www.upwork.com/nx/search/jobs/?hourly_rate=30-&nbs=1&payment_verified=1&q=%22video%20editor%22%20%22tiktok%22%20%22Reels%22&sort=recency&t=0")
 
         # Wait for the page to fully load
         time.sleep(5)
@@ -35,7 +32,7 @@ def main():
             time.sleep(5)  # Wait to ensure content is fully loaded
 
         # Find all job listing elements
-        job_elements = driver.find_elements(By.CSS_SELECTOR, 'article[data-test="JobTile"] a.up-n-link')
+        job_elements = driver.find_elements(By.CSS_SELECTOR, 'article[data-test="JobTile"]')
 
         if not job_elements:
             print('No job listings found.')
@@ -43,21 +40,27 @@ def main():
 
         print(f'Found {len(job_elements)} job listings.')
 
-        # Extract and print job titles and URLs
+        # Extract and print job titles, URLs, and time posted
         for job in job_elements:
             try:
-                # Safely get the text content and URL
-                title = job.text
-                url = job.get_attribute('href')
+                # Extract job title and URL
+                title_element = job.find_element(By.CSS_SELECTOR, 'a.up-n-link')
+                title = title_element.text
+                url = title_element.get_attribute('href')
+
+                # Extract the "time posted" information
+                time_posted_element = job.find_element(By.CSS_SELECTOR, 'small[data-test="job-pubilshed-date"]')
+                time_posted = time_posted_element.text.replace("Posted ", "")  # Remove the "Posted" prefix
 
                 # Ensure the URL is absolute
                 if url and not url.startswith('http'):
                     url = 'https://www.upwork.com' + url
 
-                # Check if title and URL are not None
-                if title and url:
+                # Check if title, URL, and time posted are not None
+                if title and url and time_posted:
                     print(f'Job Title: {title.strip()}')
                     print(f'Job URL: {url}')
+                    print(f'Time Posted: {time_posted}')
                     print('---')
                 else:
                     print('Incomplete job listing details.')
@@ -75,7 +78,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-
