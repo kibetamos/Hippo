@@ -54,7 +54,7 @@ def main():
 
                 # Ensure the URL is absolute
                 if url and not url.startswith('http'):
-                    url = 'https://www.upwork.com' + url
+                    url = 'https://www.upwork.com/nx/search/jobs/?hourly_rate=30-&nbs=1&payment_verified=1&q=%22video%20editor%22%20%22tiktok%22%20%22Reels%22&sort=recency&t=0' + url
 
                 # Check if title, URL, and time posted are not None
                 if title and url and time_posted:
