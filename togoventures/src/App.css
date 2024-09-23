@@ -1,0 +1,40 @@
+.top-search-bar {
+    width: 600px;
+}
+
+.top-search-bar .form-control {
+    border-radius: 0px;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.top-search-bar .input-group-text {
+    border-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.header-right .header-profile img {
+    border-radius: 0% !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .top-search-bar {}
+}
+.raise_button{
+    /* margin-top: 5em; */
+    text-align: right;
+}
+.menu-button {
+    right: 0;
+}
+  .btn-primary:hover,.btn-primary:active,.btn-primary:focus,.btn-primary:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background-color: #162036;
+    border-color: #162036;
+}
+
+.col-xxl-5 {
+    /* flex: 0 0 41.6666666667%; */
+    /* max-width: 41.6666666667%; */
+}
