@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import Header from '../../_layouts/Headers/Headers';
 import Sidebar from '../../_layouts/Sidebar/Sidebar';
 import Footer from '../../_layouts/Footers/Footers';
-import styles from '/home/amos/Documents/projects/Hippo/togoventures/src/components/Pages/products/Home.module.css';
-import supabase from "../../config/supabaseClient";
+import styles from '/home/bench/Documents/projects/Python/Hippo/togoventures/src/components/Pages/products/Home.module.css';
+import supabase from "../../../config/supabaseClient";
 
 const capitalizeFirstLetter = (string) => {
   if (!string) return '';

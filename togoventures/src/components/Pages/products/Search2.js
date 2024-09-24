@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useMemo } from "react";
 import PropTypes from "prop-types";
-import supabase from "../../config/supabaseClient";
+import supabase from "../../../config/supabaseClient";
 import Header from "../../_layouts/Headers/Headers";
 import Sidebar from "../../_layouts/Sidebar/Sidebar";
 import Footer from "../../_layouts/Footers/Footers";
-import styles from "/home/amos/Documents/projects/Hippo/togoventures/src/components/Pages/products/Home.module.css";
+import styles from "/home/bench/Documents/projects/Python/Hippo/togoventures/src/components/Pages/products/Home.module.css";
 import { Modal, Button, Form } from "react-bootstrap";
 import { createClient } from "@supabase/supabase-js";
 import { v4 as uuidv4 } from "uuid";

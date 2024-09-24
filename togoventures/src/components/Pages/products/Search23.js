@@ -152,7 +152,7 @@
 
 import React, { useState, useEffect, useMemo } from "react";
 import PropTypes from 'prop-types';
-import supabase from "../../config/supabaseClient";
+import supabase from "../../../config/supabaseClient";
 import Header from '../../_layouts/Headers/Headers';
 import Sidebar from '../../_layouts/Sidebar/Sidebar';
 import Footer from '../../_layouts/Footers/Footers';

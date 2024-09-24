@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Header from '../_layouts/Headers/Headers';
-import Sidebar from '../_layouts/Sidebar/Sidebar';
-import Footers from '../_layouts/Footers/Footers';
+import Header from '../components/_layouts/Headers/Headers';
+import Sidebar from '../components/_layouts/Sidebar/Sidebar';
+import Footers from '../components/_layouts/Footers/Footers';
+// import supabase from '../../config/supabaseClient';
 import supabase from '../config/supabaseClient';
 
 const Profile = () => {
