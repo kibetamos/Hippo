@@ -1,2 +1,21 @@
 .Home {}
 .Summaries{}
+
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content-body {
+    flex: 1;
+    padding: 20px;
+    /* Optional: add styles for background, etc. */
+  }
+
+  .blur-content {
+    filter: blur(5px);
+    pointer-events: none; /* Prevent interactions with the blurred content */
+  }
+  

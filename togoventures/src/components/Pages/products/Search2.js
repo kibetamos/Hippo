@@ -6,7 +6,6 @@ import Sidebar from "../../_layouts/Sidebar/Sidebar";
 import Footer from "../../_layouts/Footers/Footers";
 import styles from "/home/bench/Documents/projects/Python/Hippo/togoventures/src/components/Pages/products/Home.module.css";
 import { Modal, Button, Form } from "react-bootstrap";
-import { createClient } from "@supabase/supabase-js";
 import { v4 as uuidv4 } from "uuid";
 
 const Search2 = () => {
@@ -110,18 +109,31 @@ const Search2 = () => {
     );
   }, [products, searchQuery]);
 
-  const handleCheckboxChange = (productId) => {
-    setSelectedProducts((prevSelectedProducts) =>
-      prevSelectedProducts.includes(productId)
-        ? prevSelectedProducts.filter((id) => id !== productId)
-        : [...prevSelectedProducts, productId]
-    );
-  };
-
-
+  // const handleButtonClick = (productId) => {
+  //   setSelectedProducts((prevSelectedProducts) =>
+  //     prevSelectedProducts.includes(productId)
+  //       ? prevSelectedProducts.filter((id) => id !== productId)
+  //       : [...prevSelectedProducts, productId]
+  //   );
+  // };
+  const handleButtonClick = (productId) => {
+    setSelectedProducts((prevSelectedProducts) => {
+      // If the product is already selected, remove it
+      if (prevSelectedProducts.includes(productId)) {
+        return prevSelectedProducts.filter((id) => id !== productId);
+      }
+      
+      // If the product is not selected and the limit is reached, show an alert
+      if (prevSelectedProducts.length >= 4) {
+        alert("You can only select up to 4 products."); // Alert the user
+        return prevSelectedProducts; // Do not add the new product
+      }
   
-
-
+      // Add the product to the selected products if below limit
+      return [...prevSelectedProducts, productId];
+    });
+  };
+  
   const handleShowSummary = () => {
     setShowModal(true);
   };
@@ -187,75 +199,70 @@ const Search2 = () => {
       <Sidebar />
 
       <div className="content-body">
-  <div className="container-fluid mt-5"> {/* Added margin-top to push down */}
-    <div className="mb-3">
-      <input
-        type="text"
-        className="form-control"
-        placeholder="Search by Name, Brand, Category, or Model..."
-        value={searchQuery}
-        onChange={(e) => setSearchQuery(e.target.value)}
-      />
-    </div>
+        <div className="container-fluid mt-5"> {/* Added margin-top to push down */}
+          <div className="mb-3">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Search by Name, Brand, Category, or Model..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+          </div>
 
-    <Button className="btn btn-primary mt-3" onClick={handleShowUploadModal}>
-      Upload File
-    </Button>
+          <Button className="btn btn-primary mt-3" onClick={handleShowUploadModal}>
+            Upload File
+          </Button>
 
-    {fetchError && <p className="text-danger">{fetchError}</p>}
+          {fetchError && <p className="text-danger">{fetchError}</p>}
 
-    {productsLoaded && searchQuery && (
-      <>
-        <table className="table table-striped">
-          <thead>
-            <tr>
-              <th>Select</th>
-              <th>Name</th>
-              {/* <th>Price</th> */}
-              <th>Brand</th>
-              <th>Category</th>
-            </tr>
-          </thead>
-          <tbody>
-            {filteredProducts.length > 0 ? (
-              filteredProducts.map((product) => (
-                <tr key={product.Id}>
-                  <td>
-                    <input
-                      type="checkbox"
-                      checked={selectedProducts.includes(product.Id)}
-                      onChange={() => handleCheckboxChange(product.Id)}
-                    />
-                  </td>
-                  <td>{truncateString(capitalizeFirstLetter(product.Name))}</td>
-                  <td>{product.Price}</td>
-                  <td>{product.Brand}</td>
-                  <td>{product["Category 1"]}</td>
-                </tr>
-              ))
-            ) : (
-              <tr>
-                <td colSpan="5">No products found</td>
-              </tr>
-            )}
-          </tbody>
-        </table>
+          {productsLoaded && searchQuery && (
+            <>
+              <table className="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Select</th>
+                    <th>Name</th>
+                    <th>Brand</th>
+                    <th>Category</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {filteredProducts.length > 0 ? (
+                    filteredProducts.map((product) => (
+                      <tr key={product.Id}>
+                        <td>
+                          <Button
+                            variant={selectedProducts.includes(product.Id) ? "success" : "outline-secondary"}
+                            onClick={() => handleButtonClick(product.Id)}
+                          >
+                            {selectedProducts.includes(product.Id) ? "Selected" : "Select"}
+                          </Button>
+                        </td>
+                        <td>{truncateString(capitalizeFirstLetter(product.Name))}</td>
+                        <td>{product.Brand}</td>
+                        <td>{product["Category 1"]}</td>
+                      </tr>
+                    ))
+                  ) : (
+                    <tr>
+                      <td colSpan="4">No products found</td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
 
-        <Button
-          className="btn btn-primary mt-3"
-          onClick={handleShowSummary}
-          disabled={selectedProducts.length === 0}
-        >
-          Show Summary
-        </Button>
-      </>
-    )}
-  </div>
-</div>
-
-
-
-
+              <Button
+                className="btn btn-primary mt-3"
+                onClick={handleShowSummary}
+                disabled={selectedProducts.length === 0}
+              >
+                Show Summary
+              </Button>
+            </>
+          )}
+        </div>
+      </div>
 
       {/* Modal for showing selected products */}
       <Modal show={showModal} onHide={handleCloseModal} size="lg">
@@ -263,55 +270,50 @@ const Search2 = () => {
           <Modal.Title>Selected Products Summary</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          {selectedProductDetails.length > 0 ? (
-            <>
-              <table className="table table-striped">
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Price</th>
-                    <th>Brand</th>
-                    <th>Category</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {selectedProductDetails.map((product) => (
-                    <tr key={product.Id}>
-                      <td>{truncateString(capitalizeFirstLetter(product.Name))}</td>
-                      <td>{product.Price}</td>
-                      <td>{product.Brand}</td>
-                      <td>{product["Category 1"]}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+  {selectedProductDetails.length > 0 ? (
+    <>
+      <table className="table table-striped">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Model Number</th>
+            <th>Average Price</th>
+            <th>Price Range</th> {/* New column for price range */}
+            {/* <th>Brand</th> */}
+            <th>Category</th>
+          </tr>
+        </thead>
+        <tbody>
+          {Object.keys(modelStats).map((model) => {
+            const firstProduct = selectedProductDetails.find(product => product.Model === model);
+            return (
+              <tr key={model}>
+                <td>{truncateString(capitalizeFirstLetter(firstProduct?.Name))}</td>
+                <td>{model}</td> {/* Display model number */}
+                <td>
+                  {modelStats[model]?.averagePrice
+                    ? modelStats[model].averagePrice.toFixed(2)
+                    : "N/A"} {/* Display average price */}
+                </td>
+                <td>
+                  {modelStats[model]?.minPrice !== Infinity && modelStats[model]?.maxPrice !== -Infinity
+                    ? `${modelStats[model].minPrice.toFixed(2)} - ${modelStats[model].maxPrice.toFixed(2)}`
+                    : "N/A"} {/* Display price range */}
+                </td>
+                {/* <td>{firstProduct?.Brand}</td> */}
+                <td>{firstProduct?.["Category 1"]}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+      <p>Selected Products Count: {selectedProducts.length}</p>
+    </>
+  ) : (
+    <p>No products selected.</p>
+  )}
+</Modal.Body>
 
-              <h3>Model Statistics:</h3>
-              <table className="table table-bordered">
-                <thead>
-                  <tr>
-                    <th>Model</th>
-                    <th>Average Price</th>
-                    <th>Price Range</th>
-                    {/* <th>Max Price</th> */}
-                  </tr>
-                </thead>
-                <tbody>
-                  {Object.entries(modelStats).map(([model, stats]) => (
-                    <tr key={model}>
-                      <td>{model}</td>
-                      <td>{stats.averagePrice.toFixed(2)}</td>
-                      <td>{stats.minPrice.toFixed(2)} - {stats.maxPrice.toFixed(2)}</td>
-                      {/* <td></td> */}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </>
-          ) : (
-            <p>No products selected</p>
-          )}
-        </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleCloseModal}>
             Close
@@ -325,16 +327,17 @@ const Search2 = () => {
           <Modal.Title>Upload File</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form.Group controlId="formFile" className="mb-3">
-            <Form.Label>Choose a file to upload</Form.Label>
-            <Form.Control type="file" onChange={handleFileChange} />
-          </Form.Group>
-
-          {uploadError && <p className="text-danger">{uploadError}</p>}
+          <Form>
+            <Form.Group controlId="formFile" className="mb-3">
+              <Form.Label>Select a file to upload</Form.Label>
+              <Form.Control type="file" onChange={handleFileChange} />
+            </Form.Group>
+            {uploadError && <p className="text-danger">{uploadError}</p>}
+          </Form>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleCloseUploadModal}>
-            Cancel
+            Close
           </Button>
           <Button variant="primary" onClick={handleFileUpload}>
             Upload
@@ -347,8 +350,6 @@ const Search2 = () => {
   );
 };
 
-Search2.propTypes = {
-  input: PropTypes.any,
-};
+Search2.propTypes = {};
 
 export default Search2;
