@@ -211,7 +211,7 @@ const Search2 = () => {
             <tr>
               <th>Select</th>
               <th>Name</th>
-              <th>Price</th>
+              {/* <th>Price</th> */}
               <th>Brand</th>
               <th>Category</th>
             </tr>
@@ -292,8 +292,8 @@ const Search2 = () => {
                   <tr>
                     <th>Model</th>
                     <th>Average Price</th>
-                    <th>Min Price</th>
-                    <th>Max Price</th>
+                    <th>Price Range</th>
+                    {/* <th>Max Price</th> */}
                   </tr>
                 </thead>
                 <tbody>
@@ -301,8 +301,8 @@ const Search2 = () => {
                     <tr key={model}>
                       <td>{model}</td>
                       <td>{stats.averagePrice.toFixed(2)}</td>
-                      <td>{stats.minPrice.toFixed(2)}</td>
-                      <td>{stats.maxPrice.toFixed(2)}</td>
+                      <td>{stats.minPrice.toFixed(2)} - {stats.maxPrice.toFixed(2)}</td>
+                      {/* <td></td> */}
                     </tr>
                   ))}
                 </tbody>
