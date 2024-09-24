@@ -4,7 +4,8 @@ import supabase from "../../../config/supabaseClient";
 import Header from '../../_layouts/Headers/Headers';
 import Sidebar from '../../_layouts/Sidebar/Sidebar';
 import Footer from '../../_layouts/Footers/Footers';
-import styles from '/home/bench/Documents/projects/Python/Hippo/togoventures/src/components/Pages/products/Home.module.css';
+import styles from "../../Pages/products/Home.module.css";
+
 
 const capitalizeFirstLetter = (string) => {
   if (!string) return '';
