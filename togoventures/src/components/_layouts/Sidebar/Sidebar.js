@@ -69,6 +69,13 @@ const Sidebar = () => (
               <span class="nav-text"> Search2</span>
             </a>
           </li>
+
+          <li >
+            <a href="/pop" class="ai-icon active" aria-expanded="false">
+              <i class="flaticon-381-notepad-1"></i>
+              <span class="nav-text"> pop</span>
+            </a>
+          </li>
           
         
           <li >

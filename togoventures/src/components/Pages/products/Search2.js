@@ -224,6 +224,7 @@ const Search2 = () => {
                     <th>Select</th>
                     <th>Name</th>
                     <th>Brand</th>
+                    <th>Model No</th>
                     <th>Category</th>
                   </tr>
                 </thead>
@@ -241,6 +242,7 @@ const Search2 = () => {
                         </td>
                         <td>{truncateString(capitalizeFirstLetter(product.Name))}</td>
                         <td>{product.Brand}</td>
+                        <td>{product.Model}</td>
                         <td>{product["Category 1"]}</td>
                       </tr>
                     ))

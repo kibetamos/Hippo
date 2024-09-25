@@ -8,8 +8,6 @@ import styles from './Headers.module.css';
 function Header(props) {
   const { title, subtitle } = props; 
   const [loading, setLoading] = useState(false);
-  const [query, setQuery] = useState("");
-  const [result, setResult] = useState([]);
   const [results, setResults] = useState([]);
   const [loggedIn, setLoggedIn] = useState(false);
   const [items, setItems] = useState([]);
