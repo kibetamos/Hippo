@@ -32,13 +32,13 @@ const Sidebar = () => (
       <div class="deznav-scroll">
       <a href="javascript:void(0)" class="add-menu-sidebar" data-toggle="modal"data-target="#addOrderModalside">+ ToGo</a>
         {/* <a href="javascript:void(0)" class="add-menu-sidebar" data-toggle="modal" id='sendMessageModalBtn' data-target="#sendMessageModal" > Send Message</a> */}
-        {/* <a href="javascript:void(0)" id='showGroupModalBtn' class="add-menu-sidebar d-none" data-toggle="modal" data-target="#addGroupModal" > Show Group Chooser</a>
+        <a href="javascript:void(0)" id='showGroupModalBtn' class="add-menu-sidebar d-none" data-toggle="modal" data-target="#addGroupModal" > Show Group Chooser</a>
         <a href="javascript:void(0)" id='chooseIndividualContactModalBtn' class="add-menu-sidebar d-none" data-toggle="modal" data-target="#chooseIndividualContactModal" > Show Group Chooser</a>
         <a href="javascript:void(0)" id='confirmDeleteGroupModalBtn' class="add-menu-sidebar d-none" data-toggle="modal" data-target="#confirmDeleteGroupModal" > Show Group Confirm Delete</a>
         <a href="javascript:void(0)" id='showDraftsModalBtn' class="add-menu-sidebar d-none" data-toggle="modal" data-target="#addDraftsModal" > Show draft modal </a>
         <a href="javascript:void(0)" id='showDeleteContactModalBtn' data-toggle="modal" data-target="#deleteContactModal" class="btn btn-danger shadow btn-xs sharp d-none"> Delete Single Contact </a>
         <a href="javascript:void(0)" data-toggle="modal" data-target="#editContactModalside"
-          class="btn btn-primary shadow btn-xs sharp mr-1 d-none" id="showEditContactModal"  > </a> */}
+          class="btn btn-primary shadow btn-xs sharp mr-1 d-none" id="showEditContactModal"  > </a>
 
         <ul class="metismenu" id="menu">
           <li > 
@@ -48,21 +48,21 @@ const Sidebar = () => (
             </a>
      
           </li>
-          <li >
+          {/* <li >
             <a href="/products" class="ai-icon active" aria-expanded="false">
               <i class="flaticon-381-notepad-1"></i>
               <span class="nav-text"> Products</span>
             </a>
 
-          </li>
-
+          </li> */}
+{/* 
           <li >
             <a href="/Search" class="ai-icon active" aria-expanded="false">
               <i class="flaticon-381-notepad-1"></i>
               <span class="nav-text"> Search</span>
             </a>
 
-          </li>
+          </li> */}
           <li >
             <a href="/Search2" class="ai-icon active" aria-expanded="false">
               <i class="flaticon-381-notepad-1"></i>
@@ -74,6 +74,13 @@ const Sidebar = () => (
             <a href="/pop" class="ai-icon active" aria-expanded="false">
               <i class="flaticon-381-notepad-1"></i>
               <span class="nav-text"> pop</span>
+            </a>
+          </li>
+
+          <li >
+            <a href="/order" class="ai-icon active" aria-expanded="false">
+              <i class="flaticon-381-notepad-1"></i>
+              <span class="nav-text"> MyOrders</span>
             </a>
           </li>
           

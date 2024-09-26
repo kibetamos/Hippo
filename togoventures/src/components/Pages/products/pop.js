@@ -8,18 +8,16 @@ import styles from "../../Pages/products/Home.module.css";
 import { Modal, Button, Form } from "react-bootstrap";
 import { v4 as uuidv4 } from 'uuid';
 
-
 const Search2 = () => {
   const [userId, setUserId] = React.useState("");
   const [media, setMedia] = React.useState([]);
-
-
   const [products, setProducts] = useState([]);
   const [fetchError, setFetchError] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedProducts, setSelectedProducts] = useState([]);
   const [showUploadModal, setShowUploadModal] = useState(false);
   const [showSummary, setShowSummary] = useState(false); // Control summary display
+  const [uploadedFileName, setUploadedFileName] = useState(''); // New state for file name
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -39,43 +37,44 @@ const Search2 = () => {
   }, []);
 
   const getUser = async () => {
-
     try {
-      const { data: { user } } = await supabase.auth.getUser()
+      const { data: { user } } = await supabase.auth.getUser();
       if (user !== null) {
         setUserId(user.id);
       } else {
         setUserId('');
       }
     } catch (e) {
+      console.error(e);
     }
   }
 
   async function uploadImage(e) {
     let file = e.target.files[0];
 
+    if (file) {
+      setUploadedFileName(file.name); // Update the file name state
+    }
 
     const { data, error } = await supabase
       .storage
       .from('test')
-      .upload(userId + "/" + uuidv4(), file)
+      .upload(userId + "/" + uuidv4(), file);
 
     if (data) {
       getMedia();
-
+      setUploadedFileName(''); // Clear file name after upload
     } else {
       console.log(error);
     }
   }
 
   async function getMedia() {
-
     const { data, error } = await supabase.storage.from('test').list(userId + '/', {
       limit: 10,
       offset: 0,
       sortBy: {
-        column: 'name', order:
-          'asc'
+        column: 'name', order: 'asc'
       }
     });
 
@@ -86,12 +85,10 @@ const Search2 = () => {
     }
   }
 
-
   useEffect(() => {
     getUser();
     getMedia();
-  }, [userId])
-
+  }, [userId]);
 
   const truncateString = (str, num = 50) => {
     return str?.length > num ? str.slice(0, num) + "..." : str;
@@ -273,7 +270,7 @@ const Search2 = () => {
                             ? "N/A"
                             : `${modelStats[model].minPrice.toFixed(2)} - ${modelStats[model].maxPrice.toFixed(2)}`}
                         </td>
-                        <td>{firstProduct?.["Category 1"]}</td>
+                        <td>{firstProduct?.["Category 1"] || "N/A"}</td>
                       </tr>
                     );
                   })}
@@ -284,19 +281,17 @@ const Search2 = () => {
         </div>
       </div>
 
-      <Footer />
-
-      {/* File Upload Modal */}
-          {/* File Upload Modal */}
-          <Modal show={showUploadModal} onHide={() => setShowUploadModal(false)}>
+      {/* Upload Modal */}
+      <Modal show={showUploadModal} onHide={() => setShowUploadModal(false)}>
         <Modal.Header closeButton>
           <Modal.Title>Upload File</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>
-            <Form.Group controlId="fileUpload">
-              <Form.Label>Select a file to upload</Form.Label>
-              <Form.Control type="file" onChange={(e) => uploadImage(e)} />
+            <Form.Group controlId="formFile">
+              <Form.Label>Choose a file to upload:</Form.Label>
+              <Form.Control type="file" onChange={uploadImage} />
+              {uploadedFileName && <p>Uploading: {uploadedFileName}</p>} {/* Display uploaded file name */}
             </Form.Group>
           </Form>
         </Modal.Body>
@@ -304,17 +299,19 @@ const Search2 = () => {
           <Button variant="secondary" onClick={() => setShowUploadModal(false)}>
             Close
           </Button>
-          <Button variant="primary" onClick={() => console.log('File uploaded')}>
+          <Button variant="primary" onClick={() => setShowUploadModal(false)}>
             Upload
           </Button>
         </Modal.Footer>
       </Modal>
+
+      <Footer />
     </div>
   );
 };
 
 Search2.propTypes = {
-  products: PropTypes.array,
+  title: PropTypes.string,
 };
 
 export default Search2;

@@ -13,6 +13,7 @@ import Products from './components/Pages/products/Products';
 import Search from './components/Pages/products/Search';
 import Search2 from './components/Pages/products/Search2';
 import Pop from './components/Pages/products/pop';
+import Order from './components/Pages/products/Orders';
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
@@ -25,6 +26,7 @@ ReactDOM.render(
       <Route path="/Search2" element={<Search2 />} />
       <Route exact path="/products" element={<Products />} />
       <Route exact path="/Pop" element={<Pop />} />
+      <Route exact path="/order" element={<Order />} />
 
 
   
