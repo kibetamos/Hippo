@@ -58,33 +58,26 @@ const Order = () => {
             <p>User ID: {user.id}</p>
           </div>
           <div className="row">
-            {media.length > 0 ? media.map((item) => (
-              <div className="col-xl-4 col-xxl-6 col-lg-4 col-sm-6" key={item.name}>
-                <div className="card mb-4"> {/* Added margin-bottom for spacing between cards */}
-                  <div className="card-body">
-                    <div className="d-flex flex-column align-items-center">
-                      <img 
-                        src={`https://ovlhvogwndcqxaskukrv.supabase.co/storage/v1/object/public/uploads/${userId}/${item.name}`} 
-                        alt={item.name} 
-                        style={{ maxWidth: '100%', height: 'auto', borderRadius: '5px' }} // Added border-radius for styling
-                      />
-                      {/* <p className="mt-2">{item.name}</p>  */}
-                      {/* Display the name of the media item */}
-                      <div className="d-flex align-items-end mt-3">
-                        {/* <div>
-                          <p className="fs-14 mb-1">Details</p>
-                          You can add more details if necessary
-                        </div> */}
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )) : (
-              <p>No media available</p>
-            )}
+  {media.length > 0 ? media.map((item, index) => (
+    <div className="col-xl-4 col-xxl-6 col-lg-4 col-sm-6" key={item.name}>
+      <div className="card mb-4"> {/* Added margin-bottom for spacing between cards */}
+        <div className="card-body">
+          <div className="d-flex flex-column align-items-center">
+            {/* <img 
+              src={`https://ovlhvogwndcqxaskukrv.supabase.co/storage/v1/object/public/uploads/${userId}/${item.name}`} 
+              alt={item.name} // Use item.name for alt text for better accessibility
+              style={{ maxWidth: '100%', height: 'auto', borderRadius: '5px' }} // Added border-radius for styling
+            /> */}
+            <p className="mt-2">{item.name}</p> {/* Displaying the actual file name */}
           </div>
+        </div>
+      </div>
+    </div>
+  )) : (
+    <p>No media available</p>
+  )}
+</div>
+
         </div>
       </div>
       <Footer></Footer>

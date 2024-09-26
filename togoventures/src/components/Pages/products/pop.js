@@ -17,7 +17,10 @@ const Search2 = () => {
   const [selectedProducts, setSelectedProducts] = useState([]);
   const [showUploadModal, setShowUploadModal] = useState(false);
   const [showSummary, setShowSummary] = useState(false); // Control summary display
-  const [uploadedFileName, setUploadedFileName] = useState(''); // New state for file name
+  const [file, setFile] = useState(null);
+  const [uploadedFileName, setUploadedFileName] = useState('');
+  const [customFileName, setCustomFileName] = useState('');
+
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -49,25 +52,36 @@ const Search2 = () => {
     }
   }
 
-  async function uploadImage(e) {
-    let file = e.target.files[0];
-
-    if (file) {
-      setUploadedFileName(file.name); // Update the file name state
+  const uploadImage = async () => {
+    if (!file) {
+      alert("Please choose a file to upload."); // Alert if no file is selected
+      return;
     }
 
+    if (!customFileName) {
+      alert("Please enter a custom file name."); // Alert if the name is not provided
+      return;
+    }
+
+    setUploadedFileName(file.name); // Update the file name state
+
+    // Use the custom file name for the upload
     const { data, error } = await supabase
       .storage
       .from('test')
-      .upload(userId + "/" + uuidv4(), file);
+      .upload(`${userId}/${customFileName}`, file);
 
     if (data) {
-      getMedia();
+      getMedia(); // Refresh media or update the UI as needed
       setUploadedFileName(''); // Clear file name after upload
+      setFile(null); // Clear the file state
+      setCustomFileName(''); // Clear the custom name input after upload
     } else {
-      console.log(error);
+      console.error(error);
     }
-  }
+  };
+  
+  
 
   async function getMedia() {
     const { data, error } = await supabase.storage.from('test').list(userId + '/', {
@@ -283,27 +297,43 @@ const Search2 = () => {
 
       {/* Upload Modal */}
       <Modal show={showUploadModal} onHide={() => setShowUploadModal(false)}>
-        <Modal.Header closeButton>
-          <Modal.Title>Upload File</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <Form>
-            <Form.Group controlId="formFile">
-              <Form.Label>Choose a file to upload:</Form.Label>
-              <Form.Control type="file" onChange={uploadImage} />
-              {uploadedFileName && <p>Uploading: {uploadedFileName}</p>} {/* Display uploaded file name */}
-            </Form.Group>
-          </Form>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={() => setShowUploadModal(false)}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={() => setShowUploadModal(false)}>
-            Upload
-          </Button>
-        </Modal.Footer>
-      </Modal>
+      <Modal.Header closeButton>
+        <Modal.Title>Upload File</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <Form>
+          <Form.Group controlId="formFile">
+            <Form.Label>Choose a file to upload:</Form.Label>
+            <Form.Control 
+              type="file" 
+              onChange={(e) => {
+                setFile(e.target.files[0]); // Set the selected file in state
+                setUploadedFileName(e.target.files[0]?.name || ''); // Update the file name state
+              }} 
+            />
+            {uploadedFileName && <p>Uploading: {uploadedFileName}</p>} {/* Display uploaded file name */}
+          </Form.Group>
+          <Form.Group controlId="formFileName">
+            <Form.Label>File Name:</Form.Label>
+            <Form.Control 
+              type="text" 
+              placeholder="Enter a custom name for the file" 
+              value={customFileName}
+              onChange={(e) => setCustomFileName(e.target.value)} // Set custom file name in state
+            />
+          </Form.Group>
+        </Form>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" onClick={() => setShowUploadModal(false)}>
+          Close
+        </Button>
+        <Button variant="primary" onClick={uploadImage}>
+          Upload
+        </Button>
+      </Modal.Footer>
+    </Modal>
+
 
       <Footer />
     </div>
