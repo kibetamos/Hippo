@@ -57,7 +57,7 @@ base_url = 'https://materialdepot.in/acrylic-laminates-for-kitchen?handle=acryli
 # Iterate through the first 5 pages and count products
 total_products = 0
 all_product_details = []
-for page in range(1, 3):  # Pages 1 to 5
+for page in range(1, 9):  # Pages 1 to 5
     url = base_url.format(page)
     page_products, product_details = count_products_and_extract_details(url)
     
