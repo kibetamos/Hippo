@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 
 # Function to extract product information
 def extract_product_info(product):
+    
     # Extract product name
     name = product.find('div', class_='product_card_text_ellipsis_two_line__RU0__')['data-bs-title']
     
