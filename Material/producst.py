@@ -71,5 +71,6 @@ print(f"Total number of products across 5 pages: {total_products}")
 # Print the details of all products
 for i, product in enumerate(all_product_details, 1):
     print(f"\nProduct {i}:")
+    
     for key, value in product.items():
         print(f"{key}: {value}")
