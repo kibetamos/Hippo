@@ -1,38 +1,67 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
+import csv
 
 # Set up the WebDriver for Firefox
 driver = webdriver.Firefox()
 
-# Base URL for the LoopNet brokers in Nashville
-base_url = "https://www.loopnet.com/commercial-real-estate-brokers/tn/nashville/"
+# Open the LoopNet brokers page (single page)
+url = "https://www.loopnet.com/commercial-real-estate-brokers/tn/nashville/"
+driver.get(url)
+time.sleep(5)  # Wait for the page to load completely
 
-total_broker_count = 0
+# Find all broker elements using the class name 'search-result-placard'
+broker_elements = driver.find_elements(By.CLASS_NAME, 'search-result-placard')
 
-# Loop through page numbers from 1 to 20
-for page_num in range(1, 3):  # Pages 1 to 20
-    # Construct the URL for each page
-    if page_num == 1:
-        url = base_url  # First page doesn't have the number
-    else:
-        url = f"{base_url}{page_num}/"  # Subsequent pages
-    
-    driver.get(url)  # Open the URL
-    time.sleep(5)  # Wait for the page to load completely
-    
-    # Find all broker elements using the common class name 'search-result-placard'
-    broker_elements = driver.find_elements(By.CLASS_NAME, 'search-result-placard')
-    
-    # Count the number of brokers on the current page
-    broker_count = len(broker_elements)
-    total_broker_count += broker_count
-    
-    # Print the result for the current page
-    print(f'There are {broker_count} brokers on page {page_num} ({url}).')
+# Open a CSV file to write the broker data
+with open('brokers_nashville.csv', mode='w', newline='') as file:
+    writer = csv.writer(file)
+    # Write header row
+    writer.writerow(['First Name', 'Last Name', 'Job Title', 'Company', 'Location', 'Phone Number', 'Email Available', 'Profile Link', 'Photo URL'])
 
-# Print the total broker count across all pages
-print(f'Total brokers across all pages: {total_broker_count}')
+    # Extract and write data for each broker
+    for broker_element in broker_elements:
+        # Name
+        name_element = broker_element.find_element(By.XPATH, './/h4/a')
+        full_name = name_element.text
+        first_name, last_name = full_name.split(' ', 1)
+
+        # Job Title
+        title_element = broker_element.find_element(By.XPATH, './/p[@class="broker-oneline"]')
+        job_title = title_element.text
+
+        # Company
+        company_element = broker_element.find_element(By.XPATH, './/span[@class="company"]')
+        company_name = company_element.text
+
+        # Location
+        location_element = broker_element.find_element(By.XPATH, './/span[@class="location"]')
+        location = location_element.text
+
+        # Phone Number
+        phone_element = broker_element.find_element(By.XPATH, './/p[@class="contact-number"]')
+        phone_number = phone_element.text.strip()
+
+        # Email (check if present)
+        email_exists = "No"
+        try:
+            email_element = broker_element.find_element(By.XPATH, './/a[@class="broker-email"]')
+            email_exists = "Yes"
+        except:
+            pass  # No email link available
+
+        # Profile Link
+        profile_link = name_element.get_attribute('href')
+
+        # Photo URL
+        photo_element = broker_element.find_element(By.XPATH, './/div[@class="broker-photo"]//img')
+        photo_url = photo_element.get_attribute('src')
+
+        # Write broker data to the CSV file
+        writer.writerow([first_name, last_name, job_title, company_name, location, phone_number, email_exists, profile_link, photo_url])
 
 # Close the browser
 driver.quit()
+
+print('Data saved to brokers_nashville.csv')
